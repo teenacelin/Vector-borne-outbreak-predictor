@@ -1,0 +1,73 @@
+# VectorPredict: Complete Technical Implementation Guide
+
+## 1. Project Overview
+VectorPredict is a sophisticated, multi-variate Early Warning System (EWS) designed to predict and visualize the outbreak risk of vector-borne diseases across Brazil. It shifts public health strategy from reactive to proactive by predicting outbreaks using climate and socio-economic data before they occur.
+
+## 2. Technology Stack & Tools Used
+- **Frontend / UI:** HTML5, CSS3, Vanilla JavaScript.
+- **Mapping & Visualization:** Leaflet.js (for rendering interactive geographic polygons) and Chart.js (for rendering analytical time-series graphs).
+- **Offline Capability:** Progressive Web App (PWA) architecture (manifest.json and service-worker.js) for full offline resiliency.
+- **Backend API:** PHP (lightweight, highly compatible server-side language to securely query the database).
+- **Database:** SQLite3 (A serverless relational database capable of handling massive spatial string data and 500,000+ climate rows efficiently).
+- **Data Engineering / Extraction:** Python (Pandas, GeoPandas, Rasterstats, Rasterio, NetCDF4) used to intersect satellite imagery with geometric country borders.
+- **Machine Learning:** XGBoost (Extreme Gradient Boosting) and Scikit-Learn.
+
+## 3. Data Ingestion & Extraction (The Pipeline)
+The project required fusing four vastly different datasets into a unified architecture.
+
+### A. Geographical Boundaries (Shapefiles)
+- **Source:** IBGE (Brazilian Institute of Geography and Statistics) / GADM.
+- **Implementation:** Python's geopandas library parsed massive .shp files containing the geographic borders of 5,572 municipalities. These polygons were converted into Well-Known Text (WKT) format and injected into the SQLite locations table.
+
+### B. High-Resolution Climate Data (NetCDF)
+- **Source:** CHIRPS (Rainfall) and ERA5 (Temperature) Satellite Data.
+- **Implementation:** These are multi-dimensional raster files (images from space where every pixel holds a climate value). The scripts update_climate_netcdf.py and ingest_temperature.py use the asterstats algorithm to drop the geographic borders of every Brazilian city over the raster images, calculating the exact mean temperature and rainfall that fell inside that city's borders for every month over a 6-year period. Over 500,000 intersections were calculated.
+
+### C. Socio-Economic Infrastructure
+- **Implementation:** The ingest_infrastructure.py script assigns demographic proxy data (Population, Urban Density, Sanitation Index) to municipalities based on their region (North, Northeast, South, etc.). This ensures the AI understands that poor sanitation significantly increases disease transmission rates.
+
+### D. Epidemiological Data
+- **Implementation:** Historical malaria logs were parsed via Pandas, aggregating raw daily hospital cases into monthly sums per municipality.
+
+## 4. Machine Learning & Feature Engineering
+Once the raw data is inside SQLite, the AI pipeline takes over.
+
+### A. Feature Engineering (eature_engineering.py)
+Machine Learning models cannot read dates or raw tables directly. This script:
+1. Performs SQL LEFT JOINs to fuse Climate, Infrastructure, and Disease cases.
+2. Calculates **Time Lags** (e.g., ainfall_1, malaria_lag_4). This is critical because standing water from rain takes weeks to breed mosquitoes.
+3. Imputes missing data using regional medians.
+4. Calculates Climate Anomalies (detecting extreme weather events).
+
+### B. Model Training (xgboost_model.py)
+- **Algorithm:** XGBoost Classifier. Chosen for its extreme speed and ability to handle non-linear environmental data.
+- **Implementation:** The engineered features are split sequentially (80% training, 20% testing). The model evaluates its accuracy using the ROC-AUC metric and Precision/Recall. The trained intelligence is then serialized and saved as xgboost_v1.pkl.
+
+### C. Live Predictions (generate_predictions.py)
+The Python script loads the .pkl model, feeds it the most recent climate and infrastructure data, and generates a probability score (0.0 to 1.0) indicating the likelihood of an outbreak for every municipality in the next 30 days.
+
+## 5. Frontend Dashboard & PWA Implementation
+
+### A. The Dashboard Architecture
+The frontend index.html makes asynchronous etch() requests to the pi/get_dashboard_data.php endpoint. 
+- The PHP script queries the SQLite database, returning a massive JSON payload containing the WKT map shapes, the ML predictions, and the historical statistics.
+- dashboard.js parses this JSON. It uses wicket to convert the WKT strings into GeoJSON format, which Leaflet.js then renders onto the screen as a color-coded Choropleth Map (Red = High Danger, Green = Safe).
+
+### B. Progressive Web App (PWA)
+To support field workers in the Amazon with zero internet, the dashboard is a certified PWA.
+- manifest.json provides the OS with icons and display rules, allowing the website to be "Installed" as a native desktop/mobile app.
+- service-worker.js intercepts all network requests. On the very first load, it secretly downloads all HTML, CSS, JS, and map tiles to the user's hard drive. If the user loses internet connection, the Service Worker immediately serves the entire application from the local cache without crashing.
+
+## 6. Step-by-Step Execution Sequence
+To rebuild the entire system from scratch, the pipeline is executed in this exact order:
+
+1. python scripts/setup_db.py (Wipes and creates the relational tables)
+2. python scripts/import_geography.py (Injects the map polygons)
+3. python scripts/import_malaria_data.py (Injects the disease history)
+4. python scripts/ingest_infrastructure.py (Injects the socio-economic data)
+5. python scripts/ingest_temperature.py (Extracts satellite heat data)
+6. python scripts/update_climate_netcdf.py (Extracts satellite rain data)
+7. python data_pipeline/cleaning/feature_engineering.py (Fuses everything into ML features)
+8. python ml/models/xgboost_model.py (Trains the AI)
+9. python scripts/generate_predictions.py (Generates the live early warnings)
+10. php -S localhost:8000 (Starts the backend server for the Dashboard)

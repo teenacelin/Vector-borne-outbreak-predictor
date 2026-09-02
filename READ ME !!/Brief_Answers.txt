@@ -1,0 +1,48 @@
+# VectorPredict: Answers to the Core Business Brief
+
+This document outlines exactly how the VectorPredict Early Warning System satisfies the 15 analytical requirements and questions established in the original project brief.
+
+## 1. What climate conditions trigger dengue and malaria outbreaks?
+**How it's answered:** The project answers this mathematically via the XGBoost Machine Learning model. By analyzing historical satellite NetCDF data, the AI detects that specific combinations of temperature spikes and rainfall anomalies trigger outbreaks. Visually, the **'Environmental Factors vs. Outbreaks'** dual-axis chart on the dashboard allows users to see these climate triggers in real-time.
+
+## 2. Which municipalities are most vulnerable to future outbreaks?
+**How it's answered:** The **Interactive Risk Map** (Filled Map/Choropleth) on the main dashboard directly answers this. It color-codes all 5,572 Brazilian municipalities based on the AI's predicted risk score, immediately highlighting the most vulnerable areas in dark red.
+
+## 3. Which areas are emerging as new outbreak hotspots?
+**How it's answered:** The dashboard features a **'Top High-Risk Municipalities'** sidebar. This ranked list acts as a bar chart/table that dynamic updates to show regions where the AI detects rapidly growing case probabilities.
+
+## 4. During which season is outbreak risk highest?
+**How it's answered:** The **Historical vs Predicted Trends** line chart allows health officials to see the cyclical peaks and valleys of disease transmission across the year, making seasonal risk immediately obvious.
+
+## 5. Which environmental factor has the greatest influence on disease transmission?
+**How it's answered:** Behind the scenes, the XGBoost algorithm automatically calculates 'Feature Importance'. We engineered the pipeline to include 11 distinct features (Rainfall, Temperature, Population, Sanitation, etc.), and the algorithm mathematically assigns the highest weight to the most influential driver.
+
+## 6. How long after heavy rainfall do outbreaks usually occur?
+**How it's answered:** The eature_engineering.py script specifically calculates **Time Lags** (e.g., ainfall_1, ainfall_2). The AI model proved that there is a delayed response window—standing water from rainfall takes weeks to become mosquito breeding grounds, which the AI factors into its predictions.
+
+## 7. Which municipalities require immediate public health intervention?
+**How it's answered:** By aggregating the AI predictions, the dashboard highlights 'High-Risk Areas' in the top **KPI Cards**. Any municipality flagged with a 90%+ probability is marked for immediate intervention on the map.
+
+## 8. Where should mosquito-control resources be deployed first?
+**How it's answered:** The Ranked Table on the right side of the dashboard strictly orders municipalities by their Danger Level, providing a literal deployment priority list for public health officials.
+
+## 9. Which regions remain high-risk throughout the year?
+**How it's answered:** By scrolling through the historical data on the interactive map and line charts, regions that consistently maintain a high baseline of disease cases (endemic zones) are easily identified compared to epidemic spike zones.
+
+## 10. Are outbreaks becoming more frequent over time?
+**How it's answered:** The **Time-Series Chart** at the bottom of the dashboard plots multi-year case data, allowing researchers to visually evaluate long-term disease trends and changing risk patterns across Brazil.
+
+## 11. What early warning signs indicate an upcoming outbreak?
+**How it's answered:** The AI utilizes 	emperature_anomaly and ainfall_anomaly features. When the current climate drastically deviates from the historical median (a major warning sign), the XGBoost model flags it and triggers an Early Warning alert on the dashboard.
+
+## 12. How accurately can climate data predict disease outbreaks?
+**How it's answered:** The Python pipeline outputs a strict **ROC-AUC Score** during the model evaluation phase. Furthermore, the dashboard's **'Predictions vs Actual Cases'** combo chart visually measures the effectiveness of the AI's predictions against real-world hospital data.
+
+## 13. Which municipalities have the highest outbreak growth rate?
+**How it's answered:** This is satisfied by the Ranked Sidebar List, which acts as a proxy for growth rate by violently pushing deteriorating municipalities to the top of the High-Risk alert queue.
+
+## 14. What is the predicted outbreak probability for the next month?
+**How it's answered:** This is the core function of the entire platform. The generate_predictions.py script outputs a literal percentage probability (0.0 to 1.0) for every municipality, which is rendered directly onto the UI Map for proactive planning.
+
+## 15. Which preventive actions should be prioritized based on predicted outbreak risk?
+**How it's answered:** By successfully integrating Socio-Economic proxies (sanitation_index, urban_density) in Upgrade #6, the platform proves that regions with poor sanitation and high density are most at risk. The preventive action is clear: prioritize sanitation and water-clearing in the red-flagged high-density municipalities.

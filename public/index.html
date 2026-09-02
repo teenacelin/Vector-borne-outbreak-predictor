@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VectorPredict | AI Early Warning System</title>
+    <!-- PWA Meta Tags -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#2563eb">
+    <link rel="apple-touch-icon" href="manifest.json">
+    
+    <!-- Dependencies -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Leaflet CSS & JS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Inter', 'sans-serif'] },
+                    colors: {
+                        brand: { 50: '#eff6ff', 100: '#dbeafe', 500: '#2563eb', 600: '#1d4ed8', 900: '#1e3a8a' },
+                        corporate: { 800: '#1e293b', 900: '#0f172a' }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Smooth transitions for interactive elements */
+        .card-hover { transition: all 0.3s ease; border: 1px solid #e2e8f0; }
+        .dark .card-hover { border-color: #334155; }
+        .card-hover:hover { transform: translateY(-2px); box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.01); border-color: #cbd5e1; }
+        .dark .card-hover:hover { box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3), 0 8px 10px -6px rgba(0, 0, 0, 0.2); border-color: #475569; }
+        
+        .nav-btn.active { background-color: #eff6ff; border-left: 4px solid #2563eb; color: #1e3a8a; font-weight: 600; }
+        .dark .nav-btn.active { background-color: #1e3a8a; color: #bfdbfe; }
+        .nav-btn.active i { color: #2563eb; }
+        .dark .nav-btn.active i { color: #60a5fa; }
+        .nav-btn { border-left: 4px solid transparent; transition: all 0.2s; color: #475569; }
+        .dark .nav-btn { color: #94a3b8; }
+        .nav-btn:hover:not(.active) { background-color: #f8fafc; color: #0f172a; }
+        .dark .nav-btn:hover:not(.active) { background-color: #334155; color: #f8fafc; }
+        
+        /* Custom scrollbar */
+        ::-webkit-scrollbar { width: 6px; height: 6px; }
+        ::-webkit-scrollbar-track { background: #f8fafc; }
+        .dark ::-webkit-scrollbar-track { background: #0f172a; }
+        ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 3px; }
+        .dark ::-webkit-scrollbar-thumb { background: #475569; }
+        ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+        .dark ::-webkit-scrollbar-thumb:hover { background: #64748b; }
+    </style>
+</head>
+<body class="bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-100 font-sans h-screen overflow-hidden flex selection:bg-brand-500 selection:text-white transition-colors duration-200">
+    
+    <!-- Sidebar -->
+    <aside class="w-64 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 flex flex-col shadow-md border-r border-gray-200 dark:border-gray-700 z-20 hidden md:flex transition-colors duration-200">
+        <div class="p-6 flex items-center space-x-3 border-b border-gray-200 dark:border-gray-700">
+            <div class="bg-brand-500 text-white p-2 rounded-lg shadow-sm">
+                <i class="fa-solid fa-chart-line text-xl"></i>
+            </div>
+            <h1 class="text-xl font-bold text-gray-900 dark:text-white tracking-tight">Vector<span class="text-brand-500">Predict</span></h1>
+        </div>
+        
+        <nav class="flex-1 px-3 py-6 space-y-1 overflow-y-auto">
+            <p class="px-4 text-xs font-bold text-gray-400 dark:text-gray-500 uppercase tracking-wider mb-3">Dashboards</p>
+            
+            <button onclick="showView('overview', this)" class="nav-btn active w-full text-left py-2.5 px-4 rounded-lg flex items-center group mb-1">
+                <i class="fa-solid fa-house w-6 text-gray-400 group-hover:text-brand-500 transition-colors"></i> Overview
+            </button>
+            <button onclick="showView('risk-map', this)" class="nav-btn w-full text-left py-2.5 px-4 rounded-lg flex items-center group mb-1">
+                <i class="fa-solid fa-map-location-dot w-6 text-gray-400 group-hover:text-brand-500 transition-colors"></i> Risk Map
+            </button>
+            <button onclick="showView('municipality-analysis', this)" class="nav-btn w-full text-left py-2.5 px-4 rounded-lg flex items-center group mb-1">
+                <i class="fa-solid fa-city w-6 text-gray-400 group-hover:text-brand-500 transition-colors"></i> Municipality Analysis
+            </button>
+            <button onclick="showView('disease-analysis', this)" class="nav-btn w-full text-left py-2.5 px-4 rounded-lg flex items-center group mb-1">
+                <i class="fa-solid fa-viruses w-6 text-gray-400 group-hover:text-brand-500 transition-colors"></i> Disease Analysis
+            </button>
+            <button onclick="showView('climate-analysis', this)" class="nav-btn w-full text-left py-2.5 px-4 rounded-lg flex items-center group mb-1">
+                <i class="fa-solid fa-cloud-sun-rain w-6 text-gray-400 group-hover:text-brand-500 transition-colors"></i> Climate Analysis
+            </button>
+            <button onclick="showView('all-brief-charts', this)" class="nav-btn w-full text-left py-2.5 px-4 rounded-lg flex items-center group mb-1">
+                <i class="fa-solid fa-chart-pie w-6 text-gray-400 group-hover:text-brand-500 transition-colors"></i> All Brief Charts
+            </button>
+            
+            <p class="px-4 text-xs font-bold text-gray-400 dark:text-gray-500 uppercase tracking-wider mt-8 mb-3">System</p>
+            <button onclick="showView('model-performance', this)" class="nav-btn w-full text-left py-2.5 px-4 rounded-lg flex items-center group mb-1">
+                <i class="fa-solid fa-microchip w-6 text-gray-400 group-hover:text-brand-500 transition-colors"></i> ML Performance
+            </button>
+        </nav>
+        
+        <div class="p-4 border-t border-gray-200 dark:border-gray-700">
+            <div class="bg-gray-50 dark:bg-gray-700 rounded-lg p-4 flex items-center space-x-3 border border-gray-200 dark:border-gray-600">
+                <div class="h-2.5 w-2.5 bg-green-500 rounded-full animate-pulse shadow-sm shadow-green-200 dark:shadow-none"></div>
+                <span class="text-sm font-medium text-gray-600 dark:text-gray-300">System Live</span>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="flex-1 flex flex-col h-screen overflow-hidden bg-slate-50 dark:bg-gray-900 relative transition-colors duration-200">
+        
+        <!-- Top Header -->
+        <header class="bg-white dark:bg-gray-800 h-16 border-b border-gray-200 dark:border-gray-700 flex items-center justify-between px-8 z-10 shadow-sm transition-colors duration-200">
+            <h2 id="header-title" class="text-xl font-semibold text-gray-800 dark:text-white">Overview & Early Warnings</h2>
+            <div class="flex items-center space-x-4">
+                <button id="theme-toggle" class="text-gray-400 hover:text-brand-600 dark:hover:text-brand-400 transition-colors">
+                    <i id="theme-toggle-icon" class="fa-solid fa-moon"></i>
+                </button>
+                <button class="text-gray-400 hover:text-brand-600 dark:hover:text-brand-400 transition-colors">
+                    <i class="fa-solid fa-bell"></i>
+                </button>
+                <div class="h-8 w-8 rounded-full bg-gradient-to-r from-brand-500 to-brand-700 text-white flex items-center justify-center font-bold shadow-md">
+                    LF
+                </div>
+            </div>
+        </header>
+
+        <!-- Scrollable View Area -->
+        <div class="flex-1 overflow-y-auto p-8">
+            
+            <!-- View: Overview -->
+            <div id="view-overview" class="view-section">
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+                    <!-- KPI Card 1 -->
+                    <div class="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 card-hover relative overflow-hidden transition-colors duration-200">
+                        <div class="absolute top-0 right-0 p-4 opacity-10 dark:opacity-20">
+                            <i class="fa-solid fa-city text-6xl text-brand-600 dark:text-brand-400"></i>
+                        </div>
+                        <h3 class="text-sm font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-2">Tracked Municipalities</h3>
+                        <div class="flex items-baseline space-x-2">
+                            <p id="kpi-tracked" class="text-4xl font-bold text-gray-800 dark:text-white">0</p>
+                            <span class="text-sm font-medium text-green-500 dark:text-green-400"><i class="fa-solid fa-arrow-trend-up"></i> Active</span>
+                        </div>
+                    </div>
+                    
+                    <!-- KPI Card 2 -->
+                    <div class="bg-gradient-to-br from-red-500 to-rose-600 p-6 rounded-2xl shadow-lg shadow-red-200 dark:shadow-none text-white card-hover relative overflow-hidden transition-colors duration-200">
+                        <div class="absolute top-0 right-0 p-4 opacity-20">
+                            <i class="fa-solid fa-triangle-exclamation text-6xl"></i>
+                        </div>
+                        <h3 class="text-sm font-semibold text-red-100 uppercase tracking-wider mb-2">High Risk Alerts</h3>
+                        <div class="flex items-baseline space-x-2">
+                            <p id="kpi-highrisk" class="text-4xl font-bold">0</p>
+                            <span class="text-sm font-medium text-red-100">Critical Zones</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 overflow-hidden transition-colors duration-200">
+                    <div class="px-6 py-5 border-b border-gray-100 dark:border-gray-700 flex justify-between items-center bg-gray-50/50 dark:bg-gray-800/50">
+                        <h3 class="text-lg font-semibold text-gray-800 dark:text-white">Recommended Interventions (Top 10 Risk)</h3>
+                        <span class="text-xs font-medium bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400 px-3 py-1 rounded-full">Requires Action</span>
+                    </div>
+                    <div class="overflow-x-auto">
+                        <table class="min-w-full text-sm text-left text-gray-800 dark:text-gray-300">
+                            <thead class="text-xs text-gray-500 dark:text-gray-400 uppercase bg-gray-50 dark:bg-gray-700/50">
+                                <tr>
+                                    <th class="px-6 py-4 font-semibold">Municipality</th>
+                                    <th class="px-6 py-4 font-semibold">Risk Level</th>
+                                    <th class="px-6 py-4 font-semibold">Probability</th>
+                                    <th class="px-6 py-4 font-semibold">Action Plan</th>
+                                </tr>
+                            </thead>
+                            <tbody id="actions-table-body" class="divide-y divide-gray-100 dark:divide-gray-700">
+                                <!-- Populated by JS -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- View: Risk Map -->
+            <div id="view-risk-map" class="view-section hidden">
+                <div class="bg-white dark:bg-gray-800 p-2 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 relative overflow-hidden transition-colors duration-200" style="min-height:600px">
+                    <div id="map" class="w-full rounded-xl z-0" style="height:580px"></div>
+                    
+                    <!-- Map Legend overlay -->
+                    <div class="absolute bottom-6 right-6 bg-white/90 dark:bg-gray-800/90 backdrop-blur p-4 rounded-xl shadow-lg border border-gray-200 dark:border-gray-600 z-10">
+                        <h4 class="text-xs font-bold uppercase text-gray-500 dark:text-gray-400 mb-2">Risk Legend</h4>
+                        <div class="space-y-2 text-sm text-gray-800 dark:text-gray-300">
+                            <div class="flex items-center"><span class="w-3 h-3 rounded-full bg-red-500 mr-2 shadow"></span> Very High / High</div>
+                            <div class="flex items-center"><span class="w-3 h-3 rounded-full bg-orange-500 mr-2 shadow"></span> Moderate</div>
+                            <div class="flex items-center"><span class="w-3 h-3 rounded-full bg-green-500 mr-2 shadow"></span> Low</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- View: Municipality Analysis -->
+            <div id="view-municipality-analysis" class="view-section hidden">
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 transition-colors duration-200">
+                    <div class="mb-6 border-b border-gray-100 dark:border-gray-700 pb-4">
+                        <h3 class="text-lg font-semibold text-gray-800 dark:text-white">Emerging Hotspots</h3>
+                        <p class="text-sm text-gray-500 dark:text-gray-400">Municipalities ranked by recent 4-week case volume</p>
+                    </div>
+                    <div class="h-[500px]">
+                        <canvas id="hotspotsChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <!-- View: Disease Analysis -->
+            <div id="view-disease-analysis" class="view-section hidden">
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 transition-colors duration-200">
+                    <div class="mb-6 border-b border-gray-100 dark:border-gray-700 pb-4">
+                        <h3 class="text-lg font-semibold text-gray-800 dark:text-white">Seasonal Risk Profile</h3>
+                        <p class="text-sm text-gray-500 dark:text-gray-400">Historical disease cases grouped by month to identify seasonal spikes</p>
+                    </div>
+                    <div class="h-[500px]">
+                        <canvas id="seasonalChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <!-- View: Climate Analysis -->
+            <div id="view-climate-analysis" class="view-section hidden">
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 transition-colors duration-200">
+                    <div class="mb-6 border-b border-gray-100 dark:border-gray-700 pb-4">
+                        <h3 class="text-lg font-semibold text-gray-800 dark:text-white">Climate vs. Disease Timeline</h3>
+                        <p class="text-sm text-gray-500 dark:text-gray-400">Comparing rainfall patterns against total disease cases over time</p>
+                    </div>
+                    <div class="h-[500px]">
+                        <canvas id="climateDiseaseChart"></canvas>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- View: All Brief Charts -->
+            <div id="view-all-brief-charts" class="view-section hidden">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                    
+                    <!-- Feature Importance (Bar Chart) -->
+                    <div class="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 transition-colors duration-200">
+                        <h3 class="text-lg font-semibold text-gray-800 dark:text-white mb-4">Feature Importance (Bar Chart)</h3>
+                        <div class="h-[300px]"><canvas id="chartFeatureImportance"></canvas></div>
+                    </div>
+                    
+                    <!-- Climate Scatter (Scatter Plot) -->
+                    <div class="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 transition-colors duration-200">
+                        <h3 class="text-lg font-semibold text-gray-800 dark:text-white mb-4">Climate Conditions vs Outbreaks (Scatter Plot)</h3>
+                        <div class="h-[300px]"><canvas id="chartScatterClimate"></canvas></div>
+                    </div>
+                    
+                    <!-- Time Lag Analysis (Line Chart) -->
+                    <div class="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 transition-colors duration-200">
+                        <h3 class="text-lg font-semibold text-gray-800 dark:text-white mb-4">Time Lag: Rainfall vs Cases (Line Chart)</h3>
+                        <div class="h-[300px]"><canvas id="chartTimeLag"></canvas></div>
+                    </div>
+                    
+                    <!-- Predicted vs Actual (Combo Chart) -->
+                    <div class="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 transition-colors duration-200">
+                        <h3 class="text-lg font-semibold text-gray-800 dark:text-white mb-4">Predicted vs Actual Cases (Combo Chart)</h3>
+                        <div class="h-[300px]"><canvas id="chartPredictedActual"></canvas></div>
+                    </div>
+
+                    <!-- Early Warning Signs (Bubble Chart) -->
+                    <div class="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 transition-colors duration-200">
+                        <h3 class="text-lg font-semibold text-gray-800 dark:text-white mb-4">Early Warning Signs (Bubble Chart)</h3>
+                        <div class="h-[300px]"><canvas id="chartBubbleWarning"></canvas></div>
+                    </div>
+
+                    <!-- Annual Outbreak Count (Time-Series) -->
+                    <div class="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 transition-colors duration-200">
+                        <h3 class="text-lg font-semibold text-gray-800 dark:text-white mb-4">Annual Outbreak Trends (Time-Series)</h3>
+                        <div class="h-[300px]"><canvas id="chartAnnualTrends"></canvas></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- View: Model Performance -->
+            <div id="view-model-performance" class="view-section hidden">
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 mb-8 transition-colors duration-200">
+                    <div class="flex items-center space-x-4 mb-4">
+                        <div class="h-12 w-12 rounded-full bg-indigo-100 dark:bg-indigo-900 text-indigo-600 dark:text-indigo-400 flex items-center justify-center text-xl">
+                            <i class="fa-solid fa-brain"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-bold text-gray-800 dark:text-white">XGBoost Decision Tree Ensembles</h3>
+                            <p class="text-sm text-gray-500 dark:text-gray-400">v1.0 Production Model Metrics</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-300 text-sm max-w-3xl">
+                        These metrics represent the model's ability to accurately forecast outbreak events (defined as the 90th percentile of historical cases). 
+                        Because outbreaks are rare, the model applies a calculated <code class="bg-gray-100 dark:bg-gray-700 px-1 py-0.5 rounded text-gray-800 dark:text-gray-200">scale_pos_weight</code> penalty to properly identify critical events despite class imbalance.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 text-center card-hover transition-colors duration-200">
+                        <h3 class="text-sm font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-2">Precision</h3>
+                        <p id="metric-precision" class="text-4xl font-bold text-indigo-600 dark:text-indigo-400">--</p>
+                        <p class="text-xs text-gray-400 mt-2">Accuracy of positive predictions</p>
+                    </div>
+                    <div class="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 text-center card-hover transition-colors duration-200">
+                        <h3 class="text-sm font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-2">Recall</h3>
+                        <p id="metric-recall" class="text-4xl font-bold text-blue-600 dark:text-blue-400">--</p>
+                        <p class="text-xs text-gray-400 mt-2">True outbreak capture rate</p>
+                    </div>
+                    <div class="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 text-center card-hover transition-colors duration-200">
+                        <h3 class="text-sm font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-2">F1 Score</h3>
+                        <p id="metric-f1" class="text-4xl font-bold text-emerald-600 dark:text-emerald-400">--</p>
+                        <p class="text-xs text-gray-400 mt-2">Harmonic mean of precision & recall</p>
+                    </div>
+                    <div class="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 text-center card-hover transition-colors duration-200">
+                        <h3 class="text-sm font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-2">ROC-AUC</h3>
+                        <p id="metric-prauc" class="text-4xl font-bold text-purple-600 dark:text-purple-400">--</p>
+                        <p class="text-xs text-gray-400 mt-2">Area under ROC curve</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    
+    <!-- View Switcher Script (Updating Active State & Titles) -->
+    <script>
+        // Override showView inside HTML to handle UI states before calling the external JS function
+        const originalShowView = window.showView;
+        window.showView = function(viewId, btnElement) {
+            // Update Navigation UI
+            if (btnElement) {
+                document.querySelectorAll('.nav-btn').forEach(btn => btn.classList.remove('active'));
+                btnElement.classList.add('active');
+                
+                // Update Header Title
+                const titleText = btnElement.innerText.trim();
+                document.getElementById('header-title').innerText = titleText;
+            }
+            
+            // Hide all, show target
+            document.querySelectorAll('.view-section').forEach(el => el.classList.add('hidden'));
+            document.getElementById(`view-${viewId}`).classList.remove('hidden');
+            
+            // Re-render map size if switching to map
+            if (viewId === 'risk-map' && typeof map !== 'undefined' && map !== null) {
+                setTimeout(() => map.invalidateSize(), 50);
+            }
+        };
+    </script>
+    <!-- PWA Service Worker Registration -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('./service-worker.js')
+                    .then(reg => console.log('PWA Service Worker registered:', reg.scope))
+                    .catch(err => console.log('Service Worker registration failed:', err));
+            });
+        }
+    </script>
+    <script>
+        // Theme Toggle Logic
+        const themeToggleBtn = document.getElementById('theme-toggle');
+        const themeToggleIcon = document.getElementById('theme-toggle-icon');
+        
+        // Check for saved theme preference or use system preference
+        if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark');
+            themeToggleIcon.classList.remove('fa-moon');
+            themeToggleIcon.classList.add('fa-sun');
+        } else {
+            document.documentElement.classList.remove('dark');
+        }
+
+        themeToggleBtn.addEventListener('click', function() {
+            // toggle icons
+            themeToggleIcon.classList.toggle('fa-moon');
+            themeToggleIcon.classList.toggle('fa-sun');
+
+            // if set via local storage previously
+            if (localStorage.getItem('color-theme')) {
+                if (localStorage.getItem('color-theme') === 'light') {
+                    document.documentElement.classList.add('dark');
+                    localStorage.setItem('color-theme', 'dark');
+                } else {
+                    document.documentElement.classList.remove('dark');
+                    localStorage.setItem('color-theme', 'light');
+                }
+            // if NOT set via local storage previously
+            } else {
+                if (document.documentElement.classList.contains('dark')) {
+                    document.documentElement.classList.remove('dark');
+                    localStorage.setItem('color-theme', 'light');
+                } else {
+                    document.documentElement.classList.add('dark');
+                    localStorage.setItem('color-theme', 'dark');
+                }
+            }
+            
+            // Re-render chart fonts if we want them to update colors
+            if (typeof Chart !== 'undefined') {
+                const isDark = document.documentElement.classList.contains('dark');
+                Chart.defaults.color = isDark ? '#9ca3af' : '#6b7280';
+                Chart.defaults.borderColor = isDark ? '#374151' : '#e5e7eb';
+                for (let id in chartInstances) {
+                    if (chartInstances[id]) {
+                        chartInstances[id].update();
+                    }
+                }
+            }
+        });
+    </script>
+    <script src="js/dashboard.js?v=3"></script>
+</body>
+</html>

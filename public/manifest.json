@@ -1,0 +1,17 @@
+{
+  "name": "VectorPredict Outbreak System",
+  "short_name": "VectorPredict",
+  "description": "AI-Powered Early Warning System for Vector-Borne Diseases",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBmaWxsPSIjMTRiOGE2IiBkPSJNMjU2IDMyYTMyIDMyIDAgMDAtMzIgMzJ2NTRDMTE2LjYgMTU4LjMgMzIgMjY0LjQgMzIgMzg0Yy0uMSAzNS4zIDI4LjYgNjQgNjQgNjRoMzIwYzM1LjQgMCA2NC4xLTI4LjcgNjQtNjRDMDUgMjY0LjQgMzk1LjQgMTU4LjMgMjg4IDExOFYzMmMwLTE3LjctMTQuMy0zMi0zMi0zMnoiLz48L3N2Zz4=",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+# VectorPredict: Viva / Oral Defense Q&A Guide
+
+This document contains highly probable technical and conceptual questions an examiner might ask during your project defense, along with strong, professional answers.
+
+---
+
+## Part 1: Project Scope & Core Concept
+
+**Q1: What is the main objective of this project?**
+**Answer:** The objective is to shift public health strategy from reactive to proactive. Instead of waiting for hospital beds to fill up to realize there is an outbreak, this project acts as an Early Warning System. It uses a Machine Learning model to analyze climate anomalies and socio-economic infrastructure to predict the probability of an outbreak *before* it happens, visualizing it on an interactive dashboard.
+
+**Q2: Why did you choose vector-borne diseases (like Dengue and Malaria)?**
+**Answer:** Vector-borne diseases are heavily reliant on environmental factors. Mosquitoes require very specific temperature ranges to breed and standing water from rainfall to lay eggs. Because the relationship between the environment and the disease is so strong, it is a perfect candidate for predictive Machine Learning.
+
+---
+
+## Part 2: Data Engineering & Extraction
+
+**Q3: How did you extract climate data for specific cities?**
+**Answer:** We used high-resolution satellite imagery stored in NetCDF (.nc) format. We used Python libraries (geopandas and asterstats) to take the geometric borders (shapefiles) of Brazil's 5,500 municipalities, drop them over the satellite raster images, and calculate the exact mean temperature and rainfall that fell within those specific borders.
+
+**Q4: How did you handle missing data in your dataset?**
+**Answer:** In our eature_engineering.py script, we handled missing climate or historical data using **Median Imputation**. Instead of dropping the rows (which would lose valuable geographic data), we filled the gaps using the median value of that specific region. This ensures the Machine Learning model doesn't crash while maintaining statistical accuracy.
+
+**Q5: What is "Feature Engineering" and why is it important in your project?**
+**Answer:** Feature Engineering is creating new data points from existing data to help the AI learn better. The most important features we engineered were **Time Lags** (malaria_lag_1, ainfall_2). A rainstorm today doesn't cause malaria tomorrow; it takes weeks for mosquitoes to breed and infect people. By engineering time lags, we taught the AI to look at the climate from 1-2 months *ago* to predict an outbreak *today*.
+
+---
+
+## Part 3: Machine Learning
+
+**Q6: Why did you choose XGBoost over other algorithms like Random Forest or Deep Learning?**
+**Answer:** XGBoost (Extreme Gradient Boosting) was chosen for three reasons:
+1. **Speed and Efficiency:** It trains incredibly fast on large datasets.
+2. **Non-Linear Data:** Environmental data is highly non-linear (e.g., too much rain causes floods which wash away eggs, but medium rain breeds mosquitoes). XGBoost handles these complex thresholds better than traditional models.
+3. **Data Scarcity:** Deep Learning (Neural Networks) requires millions of rows of data to be accurate, whereas XGBoost performs exceptionally well on tabular datasets of our size.
+
+**Q7: How do you evaluate if your model is actually accurate?**
+**Answer:** We evaluate the model using the **ROC-AUC score**, Precision, and Recall. Accuracy alone is a bad metric because disease outbreaks are relatively rare (class imbalance). If outbreaks only happen 5% of the time, a model could just guess "No Outbreak" every time and be 95% accurate, but it would be useless. ROC-AUC measures the model's actual ability to distinguish between a safe month and an outbreak month.
+
+---
+
+## Part 4: System Architecture & Web Integration
+
+**Q8: Why did you use SQLite for the database instead of MySQL or MongoDB?**
+**Answer:** SQLite is a serverless, file-based relational database. Since this project is meant to be highly portable and easily deployed in low-resource environments (like a local health clinic), requiring a heavy, dedicated SQL server was overkill. SQLite easily handled our 500,000+ rows of climate data while keeping the project lightweight.
+
+**Q9: Why use PHP for the backend API if your ML model is in Python?**
+**Answer:** Python is heavily used in the backend for the heavy lifting (Data Ingestion, ML Training, Prediction Generation). Once the Python scripts generate the predictions, they are saved in the SQLite database. PHP is extremely lightweight, fast, and universally supported by almost all web servers, making it the perfect bridge just to fetch the JSON data from SQLite and serve it to the frontend dashboard.
+
+**Q10: What makes your frontend a "Progressive Web App" (PWA), and why is it necessary?**
+**Answer:** A PWA is a website that behaves like a native mobile/desktop application. It is necessary because health workers might need to view the outbreak dashboard in rural areas with zero internet connection. 
+We implemented a manifest.json to allow installation, and a service-worker.js which actively caches all HTML, CSS, JavaScript, and map libraries. If the user disconnects from Wi-Fi, the Service Worker intercepts the network request and serves the dashboard directly from their hard drive.
+
+---
+
+## Part 5: Future Scope & Limitations
+
+**Q11: What are the limitations of your current system?**
+**Answer:** The primary limitation is the reliance on proxy socio-economic data. If we had access to real-time, highly granular census data for every municipality's open-sewer percentage, the model's accuracy would increase drastically. Additionally, climate data extraction via NetCDF is computationally heavy.
+
+**Q12: How would you scale this project in the future?**
+**Answer:** I would automate the pipeline by deploying the Python scripts on a cloud server (like AWS or Google Cloud) using a CRON job. The server would automatically download the newest satellite imagery every week, retrain the XGBoost model, and instantly update the PHP dashboard without any manual human intervention.

@@ -1,0 +1,572 @@
+# VectorPredict: Complete A-Z Implementation Document
+
+This document provides an exhaustive, ground-up explanation of how the VectorPredict Early Warning System was designed, built, and deployed. It covers every technology, library, algorithm, database schema, file, and process involved.
+
+---
+
+## Table of Contents
+
+1. Project Foundation and Purpose
+2. Full Technology Stack
+3. Project Directory Structure
+4. Database Design and Schema
+5. Data Ingestion Pipeline (Step-by-Step)
+6. Feature Engineering (The Brain's Input)
+7. Machine Learning Model (The Brain)
+8. Prediction Generation
+9. Backend API (PHP)
+10. Frontend Dashboard
+11. Progressive Web App (PWA)
+12. Complete Execution Sequence
+
+---
+
+## 1. Project Foundation and Purpose
+
+### 1.1 What Problem Does It Solve?
+Vector-borne diseases (Malaria, Dengue) are transmitted by mosquitoes. Mosquito populations are directly controlled by environmental conditions — rainfall creates breeding pools, and warm temperatures accelerate their life cycle. Globally, health systems respond reactively — they act only after patients flood hospitals.
+
+VectorPredict is a Proactive Early Warning System (EWS). It continuously analyzes satellite climate data (rainfall, temperature) and socio-economic vulnerability indicators (population density, sanitation quality) across 5,572 Brazilian municipalities. Using an XGBoost Machine Learning classifier, it predicts the probability of a disease outbreak occurring in the next 30 days for every municipality, and visualizes these predictions on an interactive, offline-capable web dashboard.
+
+### 1.2 Who Is It For?
+- Public health officials at FUNASA (Brazil's National Health Foundation)
+- Epidemiologists analyzing transmission dynamics
+- Municipal health departments allocating mosquito-control budgets
+- Field workers operating in remote areas without reliable internet
+
+---
+
+## 2. Full Technology Stack
+
+### 2.1 Programming Languages
+- Python 3.13: Data ingestion, cleaning, feature engineering, ML training, prediction generation
+- PHP 8.x: Lightweight backend API to query the database and serve JSON to the frontend
+- JavaScript (ES6): Frontend interactivity, map rendering, chart drawing, PWA service worker
+- HTML5: Dashboard page structure and semantic layout
+- CSS3: Responsive styling, sidebar navigation, KPI card layouts
+- SQL: All database queries (SQLite dialect)
+
+### 2.2 Python Libraries (Backend / Data Science)
+
+pandas (v2.2.0):
+  Purpose: Tabular data manipulation, aggregation, time-series grouping, SQL query results handling.
+  Used in: feature_engineering.py, ingest_disease_data.py, xgboost_model.py, generate_predictions.py
+
+geopandas (v0.14.3):
+  Purpose: Reading and manipulating geographic Shapefiles (.shp), converting polygon geometries to WKT strings.
+  Used in: ingest_geography.py, update_climate_netcdf.py, ingest_temperature.py
+
+rasterio (v1.3.9):
+  Purpose: Low-level reading of NetCDF/GeoTIFF raster satellite imagery files, extracting coordinate reference systems and affine transforms.
+  Used in: update_climate_netcdf.py, ingest_temperature.py
+
+rasterstats (v0.19.0):
+  Purpose: The core geospatial engine — performs "zonal statistics" by overlaying vector polygons (city borders) onto raster grids (satellite pixels) to calculate mean rainfall/temperature per municipality.
+  Used in: update_climate_netcdf.py, ingest_temperature.py
+
+shapely (v2.0.2):
+  Purpose: Geometric operations on polygons (intersection, buffering, WKT conversion).
+  Used in: ingest_geography.py
+
+netCDF4 (via rasterio):
+  Purpose: Reading multi-dimensional scientific array data from .nc satellite files.
+  Used in: update_climate_netcdf.py, ingest_temperature.py
+
+numpy (dependency):
+  Purpose: Numerical array operations, NaN handling, statistical calculations.
+  Used in: feature_engineering.py, update_climate_netcdf.py
+
+xgboost (v2.0.3):
+  Purpose: The Machine Learning algorithm — Extreme Gradient Boosting classifier for outbreak prediction.
+  Used in: xgboost_model.py
+
+scikit-learn (v1.4.0):
+  Purpose: Model evaluation metrics (Precision, Recall, F1, ROC-AUC), train/test splitting utilities.
+  Used in: xgboost_model.py
+
+SQLAlchemy (v2.0.25):
+  Purpose: ORM-level database abstraction (available but raw sqlite3 is primarily used).
+
+pickle (built-in):
+  Purpose: Serializing the trained ML model to disk as a .pkl binary file.
+  Used in: xgboost_model.py, generate_predictions.py
+
+sqlite3 (built-in):
+  Purpose: Python's native SQLite driver for all database read/write operations.
+  Used in: Every single Python script
+
+os / sys (built-in):
+  Purpose: File path resolution, directory creation, cross-platform compatibility.
+  Used in: Every single Python script
+
+affine (via rasterio):
+  Purpose: Mathematical affine transformations to map pixel coordinates to real-world latitude/longitude.
+  Used in: update_climate_netcdf.py, ingest_temperature.py
+
+random (built-in):
+  Purpose: Adding random noise to proxy socio-economic data to prevent artificial uniformity.
+  Used in: ingest_infrastructure.py
+
+json (built-in):
+  Purpose: Writing model evaluation metrics to a JSON file for the dashboard to read.
+  Used in: xgboost_model.py
+
+### 2.3 JavaScript Libraries (Frontend)
+
+Leaflet.js (v1.9.4):
+  Purpose: Open-source interactive map engine. Renders tile layers (OpenStreetMap) and overlays GeoJSON polygons for the choropleth risk map.
+  Loaded via CDN: https://unpkg.com/leaflet/dist/leaflet.js
+
+Chart.js (v4.4.1):
+  Purpose: Canvas-based charting library. Renders bar charts, line charts, combo charts, and doughnut charts for analytics.
+  Loaded via CDN: https://cdn.jsdelivr.net/npm/chart.js
+
+Wicket:
+  Purpose: Converts Well-Known Text (WKT) geometry strings from the database into GeoJSON format that Leaflet can render.
+
+### 2.4 Database
+
+SQLite 3:
+  Type: Serverless, file-based relational database.
+  File: data/cleaned/vector_predictor.db (~700 MB)
+  Why chosen: Extreme portability — no server installation required, works on any machine. The entire database is a single file that can be copied to any device.
+
+### 2.5 Data Sources
+
+CHIRPS v2.0 (Climate Hazards Group InfraRed Precipitation with Station data):
+  Type: NetCDF (.nc)
+  Size: ~83 MB
+  Content: Daily rainfall estimates at 0.25-degree resolution, resampled to monthly sums
+  Source: https://data.chc.ucsb.edu/products/CHIRPS-2.0/
+
+ERA5 Reanalysis (European Centre for Medium-Range Weather Forecasts):
+  Type: NetCDF (.nc)
+  Size: ~16 MB
+  Content: Monthly mean 2-meter air temperature (Kelvin), converted to Celsius
+  Source: https://cds.climate.copernicus.eu/
+
+IBGE / GADM (Global Administrative Areas Database):
+  Type: Shapefile (.shp)
+  Size: ~252 MB
+  Content: Administrative boundary polygons for all 5,572 Brazilian municipalities
+
+SIVEP-Malaria (National Malaria Surveillance System):
+  Type: Excel (.xls)
+  Size: ~430 MB
+  Content: Individual malaria notification records from Brazil's national surveillance system
+
+---
+
+## 3. Project Directory Structure
+
+VectorPredict/
+  api/                              — PHP Backend API
+    config.php                      — Database connection configuration
+    get_dashboard_data.php          — Main API endpoint (returns JSON)
+  data/
+    raw/                            — Original unprocessed source files
+      chirps-v2.0.2025.days_p25.nc  — CHIRPS rainfall satellite data
+      data_stream-moda.nc           — ERA5 temperature satellite data
+      sivep_malaria_2025.xls        — Raw malaria case reports
+      Brief-Questions.xls           — Project requirements brief
+      geography/                    — GADM shapefiles (.shp, .dbf, .shx)
+      disease_data/                 — IBGE boundary shapefiles
+    cleaned/
+      vector_predictor.db           — THE CORE DATABASE (all cleaned data + predictions)
+  data_pipeline/
+    cleaning/
+      feature_engineering.py        — Joins raw data, calculates lags and anomalies
+  ml/
+    models/
+      xgboost_model.py              — XGBoost training script
+    saved_models/
+      xgboost_v1.pkl                — Serialized trained model binary
+  public/                           — Frontend (served by web server)
+    index.html                      — Main dashboard HTML
+    manifest.json                   — PWA manifest (icons, theme, display)
+    service-worker.js               — PWA offline caching logic
+    metrics.json                    — Model evaluation metrics (auto-generated)
+    js/
+      dashboard.js                  — All frontend JavaScript logic
+  scripts/                          — Data ingestion scripts
+    ingest_geography.py             — Parses shapefiles into locations table
+    ingest_disease_data.py          — Parses malaria XLS into malaria_cases table
+    ingest_infrastructure.py        — Seeds socio-economic proxy data
+    ingest_temperature.py           — Extracts ERA5 NetCDF into temperature table
+    update_climate_netcdf.py        — Extracts CHIRPS NetCDF into precipitation table
+    generate_predictions.py         — Loads trained model, generates live predictions
+  setup_db.py                       — Creates all database tables
+  requirements.txt                  — Python dependency list
+  README.md                         — Project overview
+
+---
+
+## 4. Database Design and Schema
+
+The SQLite database contains 8 relational tables:
+
+### 4.1 locations — Geographic Registry
+Stores every municipality's identity and geometric border polygon.
+  location_id (INTEGER PK): Auto-incrementing unique ID
+  country (VARCHAR): Always "Brazil"
+  state_code (VARCHAR): 2-letter state abbreviation (e.g., "AM")
+  state_name (VARCHAR): Full state name (e.g., "Amazonas")
+  municipality (VARCHAR): City name
+  ibge_code (VARCHAR): Official Brazilian census code
+  latitude (DECIMAL): Centroid latitude
+  longitude (DECIMAL): Centroid longitude
+  geometry (TEXT): Well-Known Text (WKT) polygon string representing the city's geographic borders
+
+### 4.2 malaria_cases — Epidemiological History
+  malaria_id (INTEGER PK): Auto-incrementing
+  location_id (INTEGER FK): Links to locations table
+  notification_date (DATE): Date of case report
+  year / month / week (INTEGER): Temporal breakdown
+  cases (INTEGER): Number of confirmed cases
+  laboratory_result (VARCHAR): Lab confirmation type
+  source (VARCHAR): Data source identifier
+
+### 4.3 precipitation — Satellite Rainfall Data
+  precipitation_id (INTEGER PK): Auto-incrementing
+  location_id (INTEGER FK): Links to locations
+  observation_date (DATE): Month of observation
+  year / month (INTEGER): Temporal breakdown
+  rainfall_mm (DECIMAL): Total monthly rainfall in millimeters
+  source (VARCHAR): "CHIRPS v2.0 NC"
+
+### 4.4 temperature — Satellite Temperature Data
+  temperature_id (INTEGER PK): Auto-incrementing
+  location_id (INTEGER FK): Links to locations
+  observation_date (DATE): Month of observation
+  year / month (INTEGER): Temporal breakdown
+  temperature_c (DECIMAL): Monthly mean temperature in Celsius
+  source (VARCHAR): "ERA5 NC"
+
+### 4.5 infrastructure — Socio-Economic Indicators
+  location_id (INTEGER PK/FK): One row per municipality
+  population (INTEGER): Estimated population
+  urban_density (REAL): Percentage of urban vs rural area
+  sanitation_index (REAL): 0.0 (no sanitation) to 1.0 (full coverage)
+
+### 4.6 features — Engineered ML Input Data
+This is the "golden table" — the output of feature_engineering.py that the ML model reads directly.
+  feature_id (INTEGER PK): Auto-incrementing
+  location_id (INTEGER FK): Municipality
+  date (DATE): Month of the feature row
+  malaria_lag_1 (INTEGER): Malaria cases from 1 month ago
+  malaria_lag_4 (INTEGER): Malaria cases from 4 months ago
+  rainfall_1 (DECIMAL): Rainfall from 1 month ago
+  rainfall_2 (DECIMAL): Rainfall from 2 months ago
+  temperature_1 (DECIMAL): Temperature from 1 month ago
+  temperature_2 (DECIMAL): Temperature from 2 months ago
+  rainfall_anomaly (DECIMAL): Current rainfall minus historical monthly mean
+  temperature_anomaly (DECIMAL): Current temperature minus historical monthly mean
+  population (INTEGER): From infrastructure table
+  urban_density (REAL): From infrastructure table
+  sanitation_index (REAL): From infrastructure table
+  outbreak_target (INTEGER): Binary label: 1 if cases exceed the 90th percentile for that municipality, else 0
+  dengue_rolling_4 (INTEGER): Rolling 4-month case average (used for display)
+
+### 4.7 predictions — ML Output (Live Alerts)
+  prediction_id (INTEGER PK): Auto-incrementing
+  location_id (INTEGER FK): Municipality
+  prediction_date (DATE): When the prediction was generated
+  target_date (DATE): The future month being predicted
+  disease (VARCHAR): "malaria"
+  risk_probability (DECIMAL): 0.0000 to 1.0000 outbreak probability
+  risk_level (VARCHAR): "LOW", "MODERATE", "HIGH", or "VERY HIGH"
+  model_version (VARCHAR): "xgboost_v1"
+  created_at (TIMESTAMP): Auto-generated insertion timestamp
+
+---
+
+## 5. Data Ingestion Pipeline (Step-by-Step)
+
+### Step 1: Database Initialization (setup_db.py)
+What it does: Creates all 8 tables in the SQLite database using CREATE TABLE statements.
+Technology: Python sqlite3 module.
+WARNING: This script contains DROP TABLE IF EXISTS for every table, so running it wipes all data.
+
+### Step 2: Geographic Boundaries (scripts/ingest_geography.py)
+What it does: Reads the GADM Level-2 Shapefile (gadm41_BRA_2.shp) containing the border polygons of all 5,572 Brazilian municipalities. Converts each polygon to a WKT (Well-Known Text) string and inserts it into the locations table along with the state name, municipality name, and centroid coordinates.
+Technology: geopandas.read_file() to parse the .shp binary format. shapely to extract centroid coordinates. Python sqlite3 for database writes.
+Key Process: Each row in the shapefile contains a MultiPolygon or Polygon geometry object. The script calls .wkt on each geometry to convert it into a text string like MULTIPOLYGON(((-49.5 -2.3, -49.6 -2.4, ...))) which is stored in the geometry column.
+
+### Step 3: Disease Case History (scripts/ingest_disease_data.py)
+What it does: Reads the massive SIVEP-Malaria Excel file (sivep_malaria_2025.xls, 430 MB). Aggregates individual case notifications into monthly sums per municipality. Maps each municipality to its location_id using the IBGE code. Inserts the aggregated monthly case counts into the malaria_cases table.
+Technology: pandas.read_excel() for parsing the .xls format. pandas.groupby() and .agg() for monthly aggregation. sqlite3 for database writes.
+
+### Step 4: Socio-Economic Infrastructure (scripts/ingest_infrastructure.py)
+What it does: Assigns realistic demographic proxy data to each municipality based on its geographic region. Brazil is divided into 5 major regions (Norte, Nordeste, Sudeste, Sul, Centro-Oeste), each with distinct population densities and sanitation levels.
+Technology: Python sqlite3. The script queries the locations table, determines the region from the state_code, and applies region-specific multipliers with random variation using Python's random module.
+Key Logic:
+  Norte (Amazon): Low population, low urban density, low sanitation (high disease risk)
+  Nordeste: Moderate population, moderate sanitation
+  Sudeste (Sao Paulo/Rio): High population, high urban density, high sanitation (lower risk)
+  Sul: High sanitation, moderate population
+  Centro-Oeste: Moderate across all metrics
+  Random noise is added to prevent artificial uniformity
+
+### Step 5: Rainfall Extraction (scripts/update_climate_netcdf.py)
+What it does: Opens the CHIRPS satellite NetCDF file (chirps-v2.0.2025.days_p25.nc, 83 MB) containing daily rainfall estimates at 0.25-degree spatial resolution for all of South America. Resamples the daily grids into monthly sums. For each month, overlays the municipality polygons onto the raster grid and calculates the mean rainfall that fell within each municipality's borders. Inserts the results into the precipitation table.
+Technology: netCDF4 / rasterio for reading the .nc file. numpy for array operations and monthly resampling. rasterstats.zonal_stats() for the spatial intersection. geopandas for loading municipality polygons. affine.Affine for pixel-to-coordinate transformation.
+Key Algorithm — Zonal Statistics: rasterstats.zonal_stats(vectors, raster, affine, stats=['mean']) takes a list of polygon geometries (city borders) and a 2D numpy array (satellite rainfall grid), and for each polygon, identifies which pixels fall inside the border, then computes the mean value of those pixels. This is repeated for every month, producing ~66,000 rainfall records (5,572 cities x 12 months).
+
+### Step 6: Temperature Extraction (scripts/ingest_temperature.py)
+What it does: Opens the ERA5 Reanalysis NetCDF file (data_stream-moda.nc, 16 MB) containing monthly mean 2-meter air temperature in Kelvin. Converts Kelvin to Celsius (subtract 273.15). Performs the same zonal statistics process as rainfall. Inserts ~434,000 temperature records into the temperature table (5,572 cities x 78 months spanning 2020-2026).
+Technology: Same as rainfall: rasterio, rasterstats, geopandas, numpy, affine.
+Key Detail: The ERA5 data stores temperature in Kelvin (e.g., 298.5 K). The script subtracts 273.15 to convert to Celsius (25.35 degrees C) before database insertion.
+
+---
+
+## 6. Feature Engineering (The Brain's Input)
+
+File: data_pipeline/cleaning/feature_engineering.py
+
+This is the most intellectually critical script. Raw satellite data and case counts are meaningless to an ML model. This script transforms them into predictive signals.
+
+### 6.1 Data Fusion (SQL JOINs)
+The script executes a single, massive SQL query that performs:
+  INNER JOIN between locations and malaria_cases (every municipality with disease history)
+  LEFT JOIN with precipitation (matched on location + year + month)
+  LEFT JOIN with temperature (matched on location + year + month)
+  LEFT JOIN with infrastructure (matched on location)
+
+This produces a unified DataFrame where every row represents: "Municipality X, in Month Y, had Z malaria cases, R mm of rainfall, T degrees C temperature, P population, D% urban density, S sanitation index."
+
+### 6.2 Missing Data Imputation
+Not every municipality has climate data for every month (e.g., if it sits outside the satellite's coverage area). The script handles this using Median Imputation:
+  For each municipality, missing rainfall values are replaced with that municipality's median rainfall.
+  Same for temperature.
+  Infrastructure gaps are filled with national defaults (population=10000, urban_density=50%, sanitation=0.5).
+  Why median instead of mean? Medians are robust to extreme outliers (e.g., a single month of 500mm flood rainfall would skew the mean but not the median).
+
+### 6.3 Time Lag Features
+This is the most important engineering step. An outbreak today is not caused by today's weather — it is caused by conditions from weeks or months ago. The script uses pandas.groupby().shift() to create:
+  malaria_lag_1: How many cases were there 1 month ago? (Recent epidemic momentum)
+  malaria_lag_4: How many cases were there 4 months ago? (Seasonal cycle signal)
+  rainfall_1: How much did it rain 1 month ago? (Recent breeding pool creation)
+  rainfall_2: How much did it rain 2 months ago? (Delayed larval development)
+  temperature_1: What was the temperature 1 month ago?
+  temperature_2: What was the temperature 2 months ago?
+
+### 6.4 Anomaly Detection
+The script calculates how unusual the current climate is compared to historical averages:
+  rainfall_anomaly = current month's rainfall - historical mean rainfall for that month and location
+  temperature_anomaly = current month's temperature - historical mean temperature for that month and location
+  A positive anomaly means "wetter/hotter than normal" — a dangerous signal.
+
+### 6.5 Outbreak Target Label
+The ML model needs a binary yes/no label to learn from. The script defines an "outbreak" as any month where malaria cases exceed the 90th percentile for that specific municipality:
+  p90 = df.groupby('location_id')['malaria_cases'].transform(lambda x: x.quantile(0.90))
+  df['outbreak_target'] = (df['malaria_cases'] > p90).astype(int)
+This means an "outbreak" is relative to each city's own baseline — a city that normally sees 5 cases will be flagged if it suddenly jumps to 15, even if another city routinely handles 100 cases per month.
+
+---
+
+## 7. Machine Learning Model (The Brain)
+
+File: ml/models/xgboost_model.py
+
+### 7.1 Algorithm: XGBoost (Extreme Gradient Boosting)
+XGBoost is an ensemble learning algorithm that builds many small decision trees sequentially, where each new tree corrects the errors of the previous ones. It was chosen because:
+  It handles non-linear relationships (e.g., moderate rain breeds mosquitoes, but extreme rain washes them away)
+  It handles mixed data types (integers, floats, indices) natively
+  It is extremely fast to train on tabular data
+  It has built-in regularization to prevent overfitting
+
+### 7.2 Input Features (11 Dimensions)
+The model receives exactly 11 input columns for each prediction:
+  1. malaria_lag_1 — Recent epidemic momentum
+  2. malaria_lag_4 — Seasonal cycle memory
+  3. rainfall_1 — Recent rainfall
+  4. rainfall_2 — Delayed rainfall effect
+  5. temperature_1 — Recent temperature
+  6. temperature_2 — Delayed temperature effect
+  7. rainfall_anomaly — How unusual the rain is
+  8. temperature_anomaly — How unusual the heat is
+  9. population — More people = more transmission
+  10. urban_density — Dense cities have different dynamics than rural areas
+  11. sanitation_index — Poor sanitation = more standing water = more mosquitoes
+
+### 7.3 Output Target
+Binary classification: 0 = No outbreak expected, 1 = Outbreak likely.
+
+### 7.4 Training Process
+  1. Data is loaded from the features table.
+  2. Time-series split: The dataset is split chronologically (not randomly) — training on older data, testing on newer data. This prevents "data leakage" where the model could cheat by seeing future information.
+  3. Class imbalance handling: Outbreaks are rare events (~10% of rows). The model uses scale_pos_weight to give higher importance to outbreak samples during training:
+     scale_weight = neg_cases / pos_cases
+  4. Hyperparameters:
+     n_estimators=100 (100 sequential decision trees)
+     learning_rate=0.1 (each tree contributes 10% correction)
+     max_depth=4 (prevents overly complex trees)
+     eval_metric='logloss' (optimizes for probability calibration)
+
+### 7.5 Evaluation Metrics
+  Precision: Of all the times the model said "outbreak", how many were actually outbreaks?
+  Recall: Of all actual outbreaks, how many did the model catch?
+  F1 Score: Harmonic mean of Precision and Recall (balanced measure)
+  ROC-AUC: The model's overall ability to distinguish between outbreak and non-outbreak months (0.5 = random guessing, 1.0 = perfect)
+
+### 7.6 Model Serialization
+The trained model is saved as a binary .pkl file using Python's pickle module:
+  with open(MODEL_PATH, 'wb') as f:
+      pickle.dump(model, f)
+This allows the generate_predictions.py script to instantly load the trained brain without re-training.
+
+---
+
+## 8. Prediction Generation
+
+File: scripts/generate_predictions.py
+
+### 8.1 Process
+  1. Loads the serialized .pkl model from disk using pickle.load().
+  2. Queries the features table for the most recent month of data per municipality.
+  3. Feeds the 11 feature columns into model.predict_proba(), which returns a probability between 0.0 and 1.0.
+  4. Assigns a human-readable risk_level:
+     0.0 to 0.3 = LOW
+     0.3 to 0.6 = MODERATE
+     0.6 to 0.8 = HIGH
+     0.8 to 1.0 = VERY HIGH
+  5. Inserts the predictions into the predictions table with the current date as prediction_date and next month as target_date.
+
+---
+
+## 9. Backend API (PHP)
+
+### 9.1 config.php — Database Connection
+Establishes a PDO (PHP Data Objects) connection to the SQLite database file:
+  $pdo = new PDO('sqlite:' . $db_path);
+  $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+PDO was chosen because it provides a secure, database-agnostic interface with automatic error handling.
+
+### 9.2 get_dashboard_data.php — Main API Endpoint
+This single PHP file serves the entire dashboard's data needs. It executes 6 SQL queries and returns a structured JSON response:
+
+  Query 1 — Overview KPIs: SELECT COUNT(*) FROM locations and SELECT COUNT(*) FROM predictions WHERE risk_level IN ('HIGH', 'VERY HIGH'). Powers the top KPI cards.
+
+  Query 2 — Map Data: Joins locations with predictions to return every municipality's coordinates and risk level. Powers the Leaflet choropleth.
+
+  Query 3 — Hotspot Rankings: Joins locations with features ordered by case count descending. Powers the ranked sidebar.
+
+  Query 4 — Action Table: Joins locations with predictions ordered by probability descending. Powers the intervention priority list.
+
+  Query 5 — Climate-Disease Trends: Aggregates features by date, averaging temperature and rainfall while summing cases. Powers the time-series chart.
+
+  Query 6 — Seasonal Risk: Groups malaria cases by month. Powers the seasonal bar chart.
+
+---
+
+## 10. Frontend Dashboard
+
+File: public/index.html and public/js/dashboard.js
+
+### 10.1 Layout Architecture
+The HTML uses a sidebar navigation pattern:
+  Left sidebar: Navigation links for Overview, Risk Map, Analytics, etc.
+  Main content area: Dynamically populated based on active section.
+
+### 10.2 Data Flow
+  1. On page load, dashboard.js makes an asynchronous fetch() request to /api/get_dashboard_data.php.
+  2. The PHP endpoint returns a JSON object containing all KPIs, map data, trends, and predictions.
+  3. JavaScript parses the JSON and populates each section.
+
+### 10.3 Interactive Risk Map (Leaflet.js)
+  A Leaflet L.map instance is initialized centered on Brazil (-14 degrees latitude, -53 degrees longitude).
+  OpenStreetMap tile layers provide the base map imagery.
+  For each municipality in the map_data array, a L.circleMarker is placed at its latitude/longitude.
+  The marker's color is determined by the risk_level:
+    LOW = Green
+    MODERATE = Yellow/Orange
+    HIGH = Red
+    VERY HIGH = Dark Red
+  Clicking a marker opens a popup showing the municipality name, state, and exact risk probability.
+
+### 10.4 Analytics Charts (Chart.js)
+Multiple Chart.js instances render:
+  Bar Chart: Seasonal malaria distribution by month (Column Chart)
+  Line Chart: Historical climate-disease trend over time (Time-Series)
+  Combo Chart: Overlays predicted vs actual cases
+  Doughnut Chart: Risk level distribution (what percentage of municipalities are LOW, MODERATE, HIGH, VERY HIGH)
+
+### 10.5 KPI Cards
+Top-level summary cards display:
+  Total tracked municipalities (5,572)
+  Number of high-risk municipalities
+  Average temperature across monitored regions
+  Total active predictions
+
+---
+
+## 11. Progressive Web App (PWA)
+
+### 11.1 manifest.json
+Declares the app's identity to the operating system:
+  name: "VectorPredict Dashboard"
+  short_name: "VectorPredict"
+  start_url: "/public/index.html"
+  display: "standalone" (runs in its own window, no browser chrome)
+  background_color: "#1a1a2e"
+  theme_color: "#16213e"
+This allows the browser to offer an "Install App" prompt, placing the dashboard on the user's desktop/home screen as a standalone application.
+
+### 11.2 service-worker.js
+The Service Worker is a background JavaScript thread that intercepts all network requests:
+
+Install Event: On first visit, it pre-caches all critical assets (index.html, dashboard.js, Leaflet CSS/JS, Chart.js, etc.) into the browser's Cache Storage API.
+
+Fetch Event: On every subsequent network request, it checks the cache first. If the asset is found in cache, it is served instantly without hitting the network. If not found, it fetches from the server and optionally caches the response for next time.
+
+Result: If the user is offline, the Service Worker serves the entire dashboard from the local cache. If online, it fetches fresh data from the server.
+
+### 11.3 Registration
+In index.html, the Service Worker is registered on page load:
+  if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/public/service-worker.js');
+  }
+
+---
+
+## 12. Complete Execution Sequence
+
+To build the entire system from absolute zero, execute these commands in order:
+
+  Step 1: Install Python dependencies
+  pip install -r requirements.txt
+
+  Step 2: Create the database schema
+  python setup_db.py
+
+  Step 3: Load geographic boundaries (5,572 municipalities)
+  python scripts/ingest_geography.py
+
+  Step 4: Load malaria case history
+  python scripts/ingest_disease_data.py
+
+  Step 5: Seed socio-economic infrastructure data
+  python scripts/ingest_infrastructure.py
+
+  Step 6: Extract satellite temperature data (ERA5 NetCDF to SQLite)
+  python scripts/ingest_temperature.py
+
+  Step 7: Extract satellite rainfall data (CHIRPS NetCDF to SQLite)
+  python scripts/update_climate_netcdf.py
+
+  Step 8: Engineer ML features (fuse all data + calculate lags and anomalies)
+  python data_pipeline/cleaning/feature_engineering.py
+
+  Step 9: Train the XGBoost model
+  python ml/models/xgboost_model.py
+
+  Step 10: Generate live outbreak predictions
+  python scripts/generate_predictions.py
+
+  Step 11: Start the web server and open the dashboard
+  php -S localhost:8000
+  Open browser at http://localhost:8000/public/index.html
+
+---
+
+Document generated for VectorPredict v2.0 — Multi-Variate Early Warning System
