@@ -41,7 +41,7 @@ async function loadDashboardData() {
         
         const params = new URLSearchParams({ state, risk, start_date: start, end_date: end });
         
-        const response = await fetch(`../api/get_dashboard_data.php?${params.toString()}`);
+        const response = await fetch(`../api/get_dashboard_data.php?${params.toString()}&_cb=${new Date().getTime()}`);
         const data = await response.json();
         
         if (data.error) {
@@ -348,9 +348,9 @@ function renderAllBriefCharts(data) {
         });
         destroyChart('chartAnnualTrends');
         const ctxAnnual = document.getElementById('chartAnnualTrends').getContext('2d');
-        chartInstances['chartAnnualTrends'] = new Chart(ctxAnnual, {
-            type: 'line',
-            data: { labels: Object.keys(annual), datasets: [{ label: 'Total Cases per Year', data: Object.values(annual), borderColor: '#8b5cf6', backgroundColor: 'rgba(139, 92, 246, 0.2)', fill: true, tension: 0.3 }] },
+                chartInstances['chartAnnualTrends'] = new Chart(ctxAnnual, {
+            type: 'bar',
+            data: { labels: Object.keys(annual), datasets: [{ label: 'Total Cases per Year', data: Object.values(annual), backgroundColor: 'rgba(139, 92, 246, 0.6)' }] },
             options: chartDefaults
         });
     }
