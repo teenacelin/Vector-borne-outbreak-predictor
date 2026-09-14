@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.env
+data/raw/*.xls
+data/raw/*.nc
+data/raw/geography/*.shp
+data/raw/geography/*.shx
+data/raw/geography/*.dbf
+database/seed_data.sql

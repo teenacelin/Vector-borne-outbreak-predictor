@@ -1,0 +1,1973 @@
+malaria_id,location_id,notification_date,year,month,week,cases,laboratory_result,source,source_url,municipality,state_name
+1,2419,,2025,2,,3,,SIVEP-Malaria,,Abaetetuba,Pará
+2,2419,,2025,3,,1,,SIVEP-Malaria,,Abaetetuba,Pará
+3,2419,,2025,6,,1,,SIVEP-Malaria,,Abaetetuba,Pará
+4,2419,,2025,7,,3,,SIVEP-Malaria,,Abaetetuba,Pará
+5,2419,,2025,11,,3,,SIVEP-Malaria,,Abaetetuba,Pará
+6,2421,,2025,1,,2,,SIVEP-Malaria,,Acará,Pará
+7,2421,,2025,2,,1,,SIVEP-Malaria,,Acará,Pará
+8,2421,,2025,4,,3,,SIVEP-Malaria,,Acará,Pará
+9,2421,,2025,5,,1,,SIVEP-Malaria,,Acará,Pará
+10,2421,,2025,6,,2,,SIVEP-Malaria,,Acará,Pará
+11,2421,,2025,7,,1,,SIVEP-Malaria,,Acará,Pará
+12,2421,,2025,8,,1,,SIVEP-Malaria,,Acará,Pará
+13,2421,,2025,9,,1,,SIVEP-Malaria,,Acará,Pará
+14,2421,,2025,10,,1,,SIVEP-Malaria,,Acará,Pará
+15,2421,,2025,11,,2,,SIVEP-Malaria,,Acará,Pará
+16,1,,2025,1,,4,,SIVEP-Malaria,,Acrelândia,Acre
+17,1,,2025,2,,1,,SIVEP-Malaria,,Acrelândia,Acre
+18,1,,2025,7,,3,,SIVEP-Malaria,,Acrelândia,Acre
+19,1,,2025,8,,1,,SIVEP-Malaria,,Acrelândia,Acre
+20,1,,2025,9,,1,,SIVEP-Malaria,,Acrelândia,Acre
+21,1,,2025,11,,1,,SIVEP-Malaria,,Acrelândia,Acre
+22,2422,,2025,1,,27,,SIVEP-Malaria,,Afuá,Pará
+23,2422,,2025,2,,13,,SIVEP-Malaria,,Afuá,Pará
+24,2422,,2025,3,,9,,SIVEP-Malaria,,Afuá,Pará
+25,2422,,2025,4,,2,,SIVEP-Malaria,,Afuá,Pará
+26,2422,,2025,5,,3,,SIVEP-Malaria,,Afuá,Pará
+27,2422,,2025,6,,2,,SIVEP-Malaria,,Afuá,Pará
+28,2422,,2025,7,,14,,SIVEP-Malaria,,Afuá,Pará
+29,2422,,2025,8,,19,,SIVEP-Malaria,,Afuá,Pará
+30,2422,,2025,9,,10,,SIVEP-Malaria,,Afuá,Pará
+31,2422,,2025,10,,4,,SIVEP-Malaria,,Afuá,Pará
+32,2422,,2025,11,,3,,SIVEP-Malaria,,Afuá,Pará
+33,1132,,2025,2,,1,,SIVEP-Malaria,,Alcântara,Maranhão
+34,1132,,2025,4,,1,,SIVEP-Malaria,,Alcântara,Maranhão
+35,2424,,2024,12,,1,,SIVEP-Malaria,,Alenquer,Pará
+36,2424,,2025,1,,26,,SIVEP-Malaria,,Alenquer,Pará
+37,2424,,2025,2,,18,,SIVEP-Malaria,,Alenquer,Pará
+38,2424,,2025,3,,17,,SIVEP-Malaria,,Alenquer,Pará
+39,2424,,2025,4,,3,,SIVEP-Malaria,,Alenquer,Pará
+40,2424,,2025,5,,19,,SIVEP-Malaria,,Alenquer,Pará
+41,2424,,2025,6,,8,,SIVEP-Malaria,,Alenquer,Pará
+42,2424,,2025,7,,18,,SIVEP-Malaria,,Alenquer,Pará
+43,2424,,2025,8,,8,,SIVEP-Malaria,,Alenquer,Pará
+44,2424,,2025,9,,10,,SIVEP-Malaria,,Alenquer,Pará
+45,2424,,2025,10,,9,,SIVEP-Malaria,,Alenquer,Pará
+46,2424,,2025,11,,8,,SIVEP-Malaria,,Alenquer,Pará
+47,2424,,2025,12,,10,,SIVEP-Malaria,,Alenquer,Pará
+48,2425,,2024,12,,6,,SIVEP-Malaria,,Almeirim,Pará
+49,2425,,2025,1,,31,,SIVEP-Malaria,,Almeirim,Pará
+50,2425,,2025,2,,45,,SIVEP-Malaria,,Almeirim,Pará
+51,2425,,2025,3,,48,,SIVEP-Malaria,,Almeirim,Pará
+52,2425,,2025,4,,31,,SIVEP-Malaria,,Almeirim,Pará
+53,2425,,2025,5,,21,,SIVEP-Malaria,,Almeirim,Pará
+54,2425,,2025,6,,12,,SIVEP-Malaria,,Almeirim,Pará
+55,2425,,2025,7,,20,,SIVEP-Malaria,,Almeirim,Pará
+56,2425,,2025,8,,18,,SIVEP-Malaria,,Almeirim,Pará
+57,2425,,2025,9,,28,,SIVEP-Malaria,,Almeirim,Pará
+58,2425,,2025,10,,27,,SIVEP-Malaria,,Almeirim,Pará
+59,2425,,2025,11,,33,,SIVEP-Malaria,,Almeirim,Pará
+60,2425,,2025,12,,33,,SIVEP-Malaria,,Almeirim,Pará
+61,1348,,2025,1,,2,,SIVEP-Malaria,,Alta Floresta,Mato Grosso
+62,1348,,2025,2,,1,,SIVEP-Malaria,,Alta Floresta,Mato Grosso
+63,1348,,2025,4,,1,,SIVEP-Malaria,,Alta Floresta,Mato Grosso
+64,1348,,2025,5,,1,,SIVEP-Malaria,,Alta Floresta,Mato Grosso
+65,1348,,2025,6,,1,,SIVEP-Malaria,,Alta Floresta,Mato Grosso
+66,1348,,2025,7,,1,,SIVEP-Malaria,,Alta Floresta,Mato Grosso
+67,1348,,2025,8,,1,,SIVEP-Malaria,,Alta Floresta,Mato Grosso
+68,1348,,2025,9,,3,,SIVEP-Malaria,,Alta Floresta,Mato Grosso
+69,1348,,2025,10,,1,,SIVEP-Malaria,,Alta Floresta,Mato Grosso
+70,1348,,2025,11,,1,,SIVEP-Malaria,,Alta Floresta,Mato Grosso
+71,4352,,2025,10,,2,,SIVEP-Malaria,,Alta Floresta D'Oeste,Rondônia
+72,4352,,2025,11,,1,,SIVEP-Malaria,,Alta Floresta D'Oeste,Rondônia
+73,2426,,2024,12,,5,,SIVEP-Malaria,,Altamira,Pará
+74,2426,,2025,1,,85,,SIVEP-Malaria,,Altamira,Pará
+75,2426,,2025,2,,44,,SIVEP-Malaria,,Altamira,Pará
+76,2426,,2025,3,,56,,SIVEP-Malaria,,Altamira,Pará
+77,2426,,2025,4,,47,,SIVEP-Malaria,,Altamira,Pará
+78,2426,,2025,5,,64,,SIVEP-Malaria,,Altamira,Pará
+79,2426,,2025,6,,111,,SIVEP-Malaria,,Altamira,Pará
+80,2426,,2025,7,,122,,SIVEP-Malaria,,Altamira,Pará
+81,2426,,2025,8,,102,,SIVEP-Malaria,,Altamira,Pará
+82,2426,,2025,9,,78,,SIVEP-Malaria,,Altamira,Pará
+83,2426,,2025,10,,74,,SIVEP-Malaria,,Altamira,Pará
+84,2426,,2025,11,,47,,SIVEP-Malaria,,Altamira,Pará
+85,2426,,2025,12,,29,,SIVEP-Malaria,,Altamira,Pará
+86,4726,,2024,12,,18,,SIVEP-Malaria,,Alto Alegre,São Paulo
+87,4726,,2025,1,,804,,SIVEP-Malaria,,Alto Alegre,São Paulo
+88,4726,,2025,2,,393,,SIVEP-Malaria,,Alto Alegre,São Paulo
+89,4726,,2025,3,,474,,SIVEP-Malaria,,Alto Alegre,São Paulo
+90,4726,,2025,4,,516,,SIVEP-Malaria,,Alto Alegre,São Paulo
+91,4726,,2025,5,,540,,SIVEP-Malaria,,Alto Alegre,São Paulo
+92,4726,,2025,6,,423,,SIVEP-Malaria,,Alto Alegre,São Paulo
+93,4726,,2025,7,,380,,SIVEP-Malaria,,Alto Alegre,São Paulo
+94,4726,,2025,8,,395,,SIVEP-Malaria,,Alto Alegre,São Paulo
+95,4726,,2025,9,,383,,SIVEP-Malaria,,Alto Alegre,São Paulo
+96,4726,,2025,10,,443,,SIVEP-Malaria,,Alto Alegre,São Paulo
+97,4726,,2025,11,,565,,SIVEP-Malaria,,Alto Alegre,São Paulo
+98,4726,,2025,12,,450,,SIVEP-Malaria,,Alto Alegre,São Paulo
+99,141,,2024,8,,1,,SIVEP-Malaria,,Alvarães,Amazonas
+100,141,,2024,12,,8,,SIVEP-Malaria,,Alvarães,Amazonas
+101,141,,2025,1,,49,,SIVEP-Malaria,,Alvarães,Amazonas
+102,141,,2025,2,,53,,SIVEP-Malaria,,Alvarães,Amazonas
+103,141,,2025,3,,48,,SIVEP-Malaria,,Alvarães,Amazonas
+104,141,,2025,4,,53,,SIVEP-Malaria,,Alvarães,Amazonas
+105,141,,2025,5,,108,,SIVEP-Malaria,,Alvarães,Amazonas
+106,141,,2025,6,,150,,SIVEP-Malaria,,Alvarães,Amazonas
+107,141,,2025,7,,331,,SIVEP-Malaria,,Alvarães,Amazonas
+108,141,,2025,8,,330,,SIVEP-Malaria,,Alvarães,Amazonas
+109,141,,2025,9,,232,,SIVEP-Malaria,,Alvarães,Amazonas
+110,141,,2025,10,,184,,SIVEP-Malaria,,Alvarães,Amazonas
+111,141,,2025,11,,93,,SIVEP-Malaria,,Alvarães,Amazonas
+112,141,,2025,12,,47,,SIVEP-Malaria,,Alvarães,Amazonas
+113,4355,,2025,10,,1,,SIVEP-Malaria,,Alvorada D'Oeste,Rondônia
+114,4355,,2025,12,,2,,SIVEP-Malaria,,Alvorada D'Oeste,Rondônia
+115,4405,,2024,12,,4,,SIVEP-Malaria,,Amajari,Roraima
+116,4405,,2025,1,,379,,SIVEP-Malaria,,Amajari,Roraima
+117,4405,,2025,2,,386,,SIVEP-Malaria,,Amajari,Roraima
+118,4405,,2025,3,,466,,SIVEP-Malaria,,Amajari,Roraima
+119,4405,,2025,4,,514,,SIVEP-Malaria,,Amajari,Roraima
+120,4405,,2025,5,,450,,SIVEP-Malaria,,Amajari,Roraima
+121,4405,,2025,6,,391,,SIVEP-Malaria,,Amajari,Roraima
+122,4405,,2025,7,,355,,SIVEP-Malaria,,Amajari,Roraima
+123,4405,,2025,8,,299,,SIVEP-Malaria,,Amajari,Roraima
+124,4405,,2025,9,,399,,SIVEP-Malaria,,Amajari,Roraima
+125,4405,,2025,10,,540,,SIVEP-Malaria,,Amajari,Roraima
+126,4405,,2025,11,,385,,SIVEP-Malaria,,Amajari,Roraima
+127,4405,,2025,12,,302,,SIVEP-Malaria,,Amajari,Roraima
+128,125,,2025,1,,4,,SIVEP-Malaria,,Amapá,Amapá
+129,125,,2025,2,,1,,SIVEP-Malaria,,Amapá,Amapá
+130,125,,2025,3,,1,,SIVEP-Malaria,,Amapá,Amapá
+131,125,,2025,4,,1,,SIVEP-Malaria,,Amapá,Amapá
+132,125,,2025,5,,1,,SIVEP-Malaria,,Amapá,Amapá
+133,125,,2025,6,,2,,SIVEP-Malaria,,Amapá,Amapá
+134,125,,2025,7,,2,,SIVEP-Malaria,,Amapá,Amapá
+135,125,,2025,8,,4,,SIVEP-Malaria,,Amapá,Amapá
+136,125,,2025,9,,2,,SIVEP-Malaria,,Amapá,Amapá
+137,125,,2025,10,,2,,SIVEP-Malaria,,Amapá,Amapá
+138,125,,2025,11,,2,,SIVEP-Malaria,,Amapá,Amapá
+139,125,,2025,12,,5,,SIVEP-Malaria,,Amapá,Amapá
+140,1138,,2025,2,,1,,SIVEP-Malaria,,Amapá do Maranhão,Maranhão
+141,1138,,2025,12,,1,,SIVEP-Malaria,,Amapá do Maranhão,Maranhão
+142,1139,,2025,1,,5,,SIVEP-Malaria,,Amarante do Maranhão,Maranhão
+143,1139,,2025,2,,2,,SIVEP-Malaria,,Amarante do Maranhão,Maranhão
+144,1139,,2025,4,,1,,SIVEP-Malaria,,Amarante do Maranhão,Maranhão
+145,142,,2022,5,,1,,SIVEP-Malaria,,Amaturá,Amazonas
+146,142,,2025,1,,7,,SIVEP-Malaria,,Amaturá,Amazonas
+147,142,,2025,2,,58,,SIVEP-Malaria,,Amaturá,Amazonas
+148,142,,2025,3,,99,,SIVEP-Malaria,,Amaturá,Amazonas
+149,142,,2025,4,,206,,SIVEP-Malaria,,Amaturá,Amazonas
+150,142,,2025,5,,291,,SIVEP-Malaria,,Amaturá,Amazonas
+151,142,,2025,6,,334,,SIVEP-Malaria,,Amaturá,Amazonas
+152,142,,2025,7,,611,,SIVEP-Malaria,,Amaturá,Amazonas
+153,142,,2025,8,,558,,SIVEP-Malaria,,Amaturá,Amazonas
+154,142,,2025,9,,173,,SIVEP-Malaria,,Amaturá,Amazonas
+155,142,,2025,10,,105,,SIVEP-Malaria,,Amaturá,Amazonas
+156,142,,2025,11,,69,,SIVEP-Malaria,,Amaturá,Amazonas
+157,142,,2025,12,,98,,SIVEP-Malaria,,Amaturá,Amazonas
+158,2427,,2024,4,,1,,SIVEP-Malaria,,Anajás,Pará
+159,2427,,2024,12,,6,,SIVEP-Malaria,,Anajás,Pará
+160,2427,,2025,1,,216,,SIVEP-Malaria,,Anajás,Pará
+161,2427,,2025,2,,161,,SIVEP-Malaria,,Anajás,Pará
+162,2427,,2025,3,,95,,SIVEP-Malaria,,Anajás,Pará
+163,2427,,2025,4,,47,,SIVEP-Malaria,,Anajás,Pará
+164,2427,,2025,5,,45,,SIVEP-Malaria,,Anajás,Pará
+165,2427,,2025,6,,50,,SIVEP-Malaria,,Anajás,Pará
+166,2427,,2025,7,,38,,SIVEP-Malaria,,Anajás,Pará
+167,2427,,2025,8,,86,,SIVEP-Malaria,,Anajás,Pará
+168,2427,,2025,9,,99,,SIVEP-Malaria,,Anajás,Pará
+169,2427,,2025,10,,64,,SIVEP-Malaria,,Anajás,Pará
+170,2427,,2025,11,,59,,SIVEP-Malaria,,Anajás,Pará
+171,2427,,2025,12,,62,,SIVEP-Malaria,,Anajás,Pará
+172,143,,2025,5,,2,,SIVEP-Malaria,,Anamã,Amazonas
+173,143,,2025,7,,1,,SIVEP-Malaria,,Anamã,Amazonas
+174,143,,2025,11,,1,,SIVEP-Malaria,,Anamã,Amazonas
+175,2428,,2024,12,,1,,SIVEP-Malaria,,Ananindeua,Pará
+176,2428,,2025,1,,18,,SIVEP-Malaria,,Ananindeua,Pará
+177,2428,,2025,2,,9,,SIVEP-Malaria,,Ananindeua,Pará
+178,2428,,2025,3,,6,,SIVEP-Malaria,,Ananindeua,Pará
+179,2428,,2025,4,,4,,SIVEP-Malaria,,Ananindeua,Pará
+180,2428,,2025,5,,5,,SIVEP-Malaria,,Ananindeua,Pará
+181,2428,,2025,6,,6,,SIVEP-Malaria,,Ananindeua,Pará
+182,2428,,2025,7,,7,,SIVEP-Malaria,,Ananindeua,Pará
+183,2428,,2025,8,,4,,SIVEP-Malaria,,Ananindeua,Pará
+184,2428,,2025,9,,8,,SIVEP-Malaria,,Ananindeua,Pará
+185,2428,,2025,10,,7,,SIVEP-Malaria,,Ananindeua,Pará
+186,2428,,2025,11,,10,,SIVEP-Malaria,,Ananindeua,Pará
+187,2428,,2025,12,,21,,SIVEP-Malaria,,Ananindeua,Pará
+188,5439,,2025,8,,1,,SIVEP-Malaria,,Ananás,Tocantins
+189,2429,,2025,2,,1,,SIVEP-Malaria,,Anapu,Pará
+190,2429,,2025,3,,1,,SIVEP-Malaria,,Anapu,Pará
+191,2429,,2025,5,,1,,SIVEP-Malaria,,Anapu,Pará
+192,2429,,2025,8,,3,,SIVEP-Malaria,,Anapu,Pará
+193,144,,2025,7,,1,,SIVEP-Malaria,,Anori,Amazonas
+194,144,,2025,11,,1,,SIVEP-Malaria,,Anori,Amazonas
+195,144,,2025,12,,1,,SIVEP-Malaria,,Anori,Amazonas
+196,1354,,2025,1,,4,,SIVEP-Malaria,,Apiacás,Mato Grosso
+197,1354,,2025,2,,4,,SIVEP-Malaria,,Apiacás,Mato Grosso
+198,1354,,2025,3,,2,,SIVEP-Malaria,,Apiacás,Mato Grosso
+199,1354,,2025,4,,2,,SIVEP-Malaria,,Apiacás,Mato Grosso
+200,1354,,2025,5,,2,,SIVEP-Malaria,,Apiacás,Mato Grosso
+201,1354,,2025,6,,3,,SIVEP-Malaria,,Apiacás,Mato Grosso
+202,1354,,2025,8,,1,,SIVEP-Malaria,,Apiacás,Mato Grosso
+203,1354,,2025,9,,2,,SIVEP-Malaria,,Apiacás,Mato Grosso
+204,1354,,2025,10,,1,,SIVEP-Malaria,,Apiacás,Mato Grosso
+205,1354,,2025,11,,2,,SIVEP-Malaria,,Apiacás,Mato Grosso
+206,1354,,2025,12,,2,,SIVEP-Malaria,,Apiacás,Mato Grosso
+207,5447,,2025,1,,2,,SIVEP-Malaria,,Araguatins,Tocantins
+208,5447,,2025,4,,3,,SIVEP-Malaria,,Araguatins,Tocantins
+209,5447,,2025,5,,2,,SIVEP-Malaria,,Araguatins,Tocantins
+210,5447,,2025,6,,1,,SIVEP-Malaria,,Araguatins,Tocantins
+211,5447,,2025,7,,2,,SIVEP-Malaria,,Araguatins,Tocantins
+212,5447,,2025,8,,7,,SIVEP-Malaria,,Araguatins,Tocantins
+213,5447,,2025,9,,5,,SIVEP-Malaria,,Araguatins,Tocantins
+214,5447,,2025,10,,4,,SIVEP-Malaria,,Araguatins,Tocantins
+215,5447,,2025,11,,1,,SIVEP-Malaria,,Araguatins,Tocantins
+216,5447,,2025,12,,3,,SIVEP-Malaria,,Araguatins,Tocantins
+217,1496,,2025,5,,1,,SIVEP-Malaria,,Aral Moreira,Mato Grosso do Sul
+218,1145,,2025,5,,1,,SIVEP-Malaria,,Arame,Maranhão
+219,1359,,2025,1,,7,,SIVEP-Malaria,,Aripuanã,Mato Grosso
+220,1359,,2025,2,,12,,SIVEP-Malaria,,Aripuanã,Mato Grosso
+221,1359,,2025,3,,4,,SIVEP-Malaria,,Aripuanã,Mato Grosso
+222,1359,,2025,4,,6,,SIVEP-Malaria,,Aripuanã,Mato Grosso
+223,1359,,2025,5,,8,,SIVEP-Malaria,,Aripuanã,Mato Grosso
+224,1359,,2025,6,,5,,SIVEP-Malaria,,Aripuanã,Mato Grosso
+225,1359,,2025,7,,28,,SIVEP-Malaria,,Aripuanã,Mato Grosso
+226,1359,,2025,8,,59,,SIVEP-Malaria,,Aripuanã,Mato Grosso
+227,1359,,2025,9,,31,,SIVEP-Malaria,,Aripuanã,Mato Grosso
+228,1359,,2025,10,,51,,SIVEP-Malaria,,Aripuanã,Mato Grosso
+229,1359,,2025,11,,41,,SIVEP-Malaria,,Aripuanã,Mato Grosso
+230,1359,,2025,12,,48,,SIVEP-Malaria,,Aripuanã,Mato Grosso
+231,4356,,2025,1,,3,,SIVEP-Malaria,,Ariquemes,Rondônia
+232,4356,,2025,3,,3,,SIVEP-Malaria,,Ariquemes,Rondônia
+233,4356,,2025,4,,3,,SIVEP-Malaria,,Ariquemes,Rondônia
+234,4356,,2025,5,,6,,SIVEP-Malaria,,Ariquemes,Rondônia
+235,4356,,2025,6,,7,,SIVEP-Malaria,,Ariquemes,Rondônia
+236,4356,,2025,7,,7,,SIVEP-Malaria,,Ariquemes,Rondônia
+237,4356,,2025,8,,11,,SIVEP-Malaria,,Ariquemes,Rondônia
+238,4356,,2025,9,,9,,SIVEP-Malaria,,Ariquemes,Rondônia
+239,4356,,2025,10,,10,,SIVEP-Malaria,,Ariquemes,Rondônia
+240,4356,,2025,11,,15,,SIVEP-Malaria,,Ariquemes,Rondônia
+241,4356,,2025,12,,8,,SIVEP-Malaria,,Ariquemes,Rondônia
+242,146,,2024,11,,1,,SIVEP-Malaria,,Atalaia do Norte,Amazonas
+243,146,,2024,12,,3,,SIVEP-Malaria,,Atalaia do Norte,Amazonas
+244,146,,2025,1,,173,,SIVEP-Malaria,,Atalaia do Norte,Amazonas
+245,146,,2025,2,,84,,SIVEP-Malaria,,Atalaia do Norte,Amazonas
+246,146,,2025,3,,85,,SIVEP-Malaria,,Atalaia do Norte,Amazonas
+247,146,,2025,4,,134,,SIVEP-Malaria,,Atalaia do Norte,Amazonas
+248,146,,2025,5,,243,,SIVEP-Malaria,,Atalaia do Norte,Amazonas
+249,146,,2025,6,,202,,SIVEP-Malaria,,Atalaia do Norte,Amazonas
+250,146,,2025,7,,256,,SIVEP-Malaria,,Atalaia do Norte,Amazonas
+251,146,,2025,8,,233,,SIVEP-Malaria,,Atalaia do Norte,Amazonas
+252,146,,2025,9,,139,,SIVEP-Malaria,,Atalaia do Norte,Amazonas
+253,146,,2025,10,,105,,SIVEP-Malaria,,Atalaia do Norte,Amazonas
+254,146,,2025,11,,75,,SIVEP-Malaria,,Atalaia do Norte,Amazonas
+255,146,,2025,12,,48,,SIVEP-Malaria,,Atalaia do Norte,Amazonas
+256,147,,2024,12,,2,,SIVEP-Malaria,,Autazes,Amazonas
+257,147,,2025,1,,14,,SIVEP-Malaria,,Autazes,Amazonas
+258,147,,2025,2,,18,,SIVEP-Malaria,,Autazes,Amazonas
+259,147,,2025,3,,64,,SIVEP-Malaria,,Autazes,Amazonas
+260,147,,2025,4,,66,,SIVEP-Malaria,,Autazes,Amazonas
+261,147,,2025,5,,40,,SIVEP-Malaria,,Autazes,Amazonas
+262,147,,2025,6,,2,,SIVEP-Malaria,,Autazes,Amazonas
+263,147,,2025,7,,20,,SIVEP-Malaria,,Autazes,Amazonas
+264,147,,2025,8,,54,,SIVEP-Malaria,,Autazes,Amazonas
+265,147,,2025,9,,36,,SIVEP-Malaria,,Autazes,Amazonas
+266,147,,2025,10,,54,,SIVEP-Malaria,,Autazes,Amazonas
+267,147,,2025,11,,12,,SIVEP-Malaria,,Autazes,Amazonas
+268,147,,2025,12,,8,,SIVEP-Malaria,,Autazes,Amazonas
+269,2432,,2024,12,,1,,SIVEP-Malaria,,Aveiro,Pará
+270,2432,,2025,1,,2,,SIVEP-Malaria,,Aveiro,Pará
+271,2432,,2025,2,,1,,SIVEP-Malaria,,Aveiro,Pará
+272,2432,,2025,12,,1,,SIVEP-Malaria,,Aveiro,Pará
+273,1149,,2025,3,,1,,SIVEP-Malaria,,Bacabeira,Maranhão
+274,1150,,2025,2,,4,,SIVEP-Malaria,,Bacuri,Maranhão
+275,1150,,2025,3,,5,,SIVEP-Malaria,,Bacuri,Maranhão
+276,1150,,2025,4,,9,,SIVEP-Malaria,,Bacuri,Maranhão
+277,1150,,2025,5,,4,,SIVEP-Malaria,,Bacuri,Maranhão
+278,1150,,2025,6,,1,,SIVEP-Malaria,,Bacuri,Maranhão
+279,1150,,2025,7,,3,,SIVEP-Malaria,,Bacuri,Maranhão
+280,1150,,2025,9,,2,,SIVEP-Malaria,,Bacuri,Maranhão
+281,1150,,2025,10,,1,,SIVEP-Malaria,,Bacuri,Maranhão
+282,1150,,2025,11,,1,,SIVEP-Malaria,,Bacuri,Maranhão
+283,2433,,2024,12,,10,,SIVEP-Malaria,,Bagre,Pará
+284,2433,,2025,1,,254,,SIVEP-Malaria,,Bagre,Pará
+285,2433,,2025,2,,133,,SIVEP-Malaria,,Bagre,Pará
+286,2433,,2025,3,,83,,SIVEP-Malaria,,Bagre,Pará
+287,2433,,2025,4,,58,,SIVEP-Malaria,,Bagre,Pará
+288,2433,,2025,5,,26,,SIVEP-Malaria,,Bagre,Pará
+289,2433,,2025,6,,35,,SIVEP-Malaria,,Bagre,Pará
+290,2433,,2025,7,,89,,SIVEP-Malaria,,Bagre,Pará
+291,2433,,2025,8,,84,,SIVEP-Malaria,,Bagre,Pará
+292,2433,,2025,9,,72,,SIVEP-Malaria,,Bagre,Pará
+293,2433,,2025,10,,109,,SIVEP-Malaria,,Bagre,Pará
+294,2433,,2025,11,,79,,SIVEP-Malaria,,Bagre,Pará
+295,2433,,2025,12,,88,,SIVEP-Malaria,,Bagre,Pará
+296,2434,,2024,12,,3,,SIVEP-Malaria,,Baião,Pará
+297,2434,,2025,1,,5,,SIVEP-Malaria,,Baião,Pará
+298,2434,,2025,2,,1,,SIVEP-Malaria,,Baião,Pará
+299,2434,,2025,3,,1,,SIVEP-Malaria,,Baião,Pará
+300,2434,,2025,5,,2,,SIVEP-Malaria,,Baião,Pará
+301,2434,,2025,6,,3,,SIVEP-Malaria,,Baião,Pará
+302,2434,,2025,7,,6,,SIVEP-Malaria,,Baião,Pará
+303,2434,,2025,8,,5,,SIVEP-Malaria,,Baião,Pará
+304,2434,,2025,9,,2,,SIVEP-Malaria,,Baião,Pará
+305,2434,,2025,10,,3,,SIVEP-Malaria,,Baião,Pará
+306,2434,,2025,11,,1,,SIVEP-Malaria,,Baião,Pará
+307,2434,,2025,12,,1,,SIVEP-Malaria,,Baião,Pará
+308,1152,,2025,1,,1,,SIVEP-Malaria,,Balsas,Maranhão
+309,1152,,2025,2,,1,,SIVEP-Malaria,,Balsas,Maranhão
+310,2435,,2024,11,,1,,SIVEP-Malaria,,Bannach,Pará
+311,2435,,2025,2,,1,,SIVEP-Malaria,,Bannach,Pará
+312,2435,,2025,5,,1,,SIVEP-Malaria,,Bannach,Pará
+313,2435,,2025,8,,1,,SIVEP-Malaria,,Bannach,Pará
+314,2436,,2025,1,,6,,SIVEP-Malaria,,Barcarena,Pará
+315,2436,,2025,2,,1,,SIVEP-Malaria,,Barcarena,Pará
+316,2436,,2025,4,,1,,SIVEP-Malaria,,Barcarena,Pará
+317,2436,,2025,6,,1,,SIVEP-Malaria,,Barcarena,Pará
+318,2436,,2025,7,,4,,SIVEP-Malaria,,Barcarena,Pará
+319,2436,,2025,9,,1,,SIVEP-Malaria,,Barcarena,Pará
+320,2436,,2025,12,,1,,SIVEP-Malaria,,Barcarena,Pará
+321,148,,2024,2,,4,,SIVEP-Malaria,,Barcelos,Amazonas
+322,148,,2024,4,,1,,SIVEP-Malaria,,Barcelos,Amazonas
+323,148,,2024,12,,16,,SIVEP-Malaria,,Barcelos,Amazonas
+324,148,,2025,1,,421,,SIVEP-Malaria,,Barcelos,Amazonas
+325,148,,2025,2,,335,,SIVEP-Malaria,,Barcelos,Amazonas
+326,148,,2025,3,,420,,SIVEP-Malaria,,Barcelos,Amazonas
+327,148,,2025,4,,322,,SIVEP-Malaria,,Barcelos,Amazonas
+328,148,,2025,5,,580,,SIVEP-Malaria,,Barcelos,Amazonas
+329,148,,2025,6,,398,,SIVEP-Malaria,,Barcelos,Amazonas
+330,148,,2025,7,,480,,SIVEP-Malaria,,Barcelos,Amazonas
+331,148,,2025,8,,598,,SIVEP-Malaria,,Barcelos,Amazonas
+332,148,,2025,9,,519,,SIVEP-Malaria,,Barcelos,Amazonas
+333,148,,2025,10,,555,,SIVEP-Malaria,,Barcelos,Amazonas
+334,148,,2025,11,,402,,SIVEP-Malaria,,Barcelos,Amazonas
+335,148,,2025,12,,393,,SIVEP-Malaria,,Barcelos,Amazonas
+336,149,,2025,5,,1,,SIVEP-Malaria,,Barreirinha,Amazonas
+337,149,,2025,6,,1,,SIVEP-Malaria,,Barreirinha,Amazonas
+338,149,,2025,8,,1,,SIVEP-Malaria,,Barreirinha,Amazonas
+339,149,,2025,9,,3,,SIVEP-Malaria,,Barreirinha,Amazonas
+340,2438,,2025,1,,1,,SIVEP-Malaria,,Belterra,Pará
+341,2438,,2025,3,,1,,SIVEP-Malaria,,Belterra,Pará
+342,2438,,2025,5,,1,,SIVEP-Malaria,,Belterra,Pará
+343,2438,,2025,6,,1,,SIVEP-Malaria,,Belterra,Pará
+344,2438,,2025,9,,1,,SIVEP-Malaria,,Belterra,Pará
+345,2438,,2025,11,,2,,SIVEP-Malaria,,Belterra,Pará
+346,2438,,2025,12,,1,,SIVEP-Malaria,,Belterra,Pará
+347,2439,,2025,4,,1,,SIVEP-Malaria,,Benevides,Pará
+348,150,,2024,12,,3,,SIVEP-Malaria,,Benjamin Constant,Amazonas
+349,150,,2025,1,,28,,SIVEP-Malaria,,Benjamin Constant,Amazonas
+350,150,,2025,2,,21,,SIVEP-Malaria,,Benjamin Constant,Amazonas
+351,150,,2025,3,,11,,SIVEP-Malaria,,Benjamin Constant,Amazonas
+352,150,,2025,4,,16,,SIVEP-Malaria,,Benjamin Constant,Amazonas
+353,150,,2025,5,,25,,SIVEP-Malaria,,Benjamin Constant,Amazonas
+354,150,,2025,6,,18,,SIVEP-Malaria,,Benjamin Constant,Amazonas
+355,150,,2025,7,,29,,SIVEP-Malaria,,Benjamin Constant,Amazonas
+356,150,,2025,8,,32,,SIVEP-Malaria,,Benjamin Constant,Amazonas
+357,150,,2025,9,,15,,SIVEP-Malaria,,Benjamin Constant,Amazonas
+358,150,,2025,10,,6,,SIVEP-Malaria,,Benjamin Constant,Amazonas
+359,150,,2025,11,,2,,SIVEP-Malaria,,Benjamin Constant,Amazonas
+360,150,,2025,12,,8,,SIVEP-Malaria,,Benjamin Constant,Amazonas
+361,151,,2025,1,,1,,SIVEP-Malaria,,Beruri,Amazonas
+362,151,,2025,2,,1,,SIVEP-Malaria,,Beruri,Amazonas
+363,151,,2025,4,,2,,SIVEP-Malaria,,Beruri,Amazonas
+364,151,,2025,6,,1,,SIVEP-Malaria,,Beruri,Amazonas
+365,151,,2025,7,,7,,SIVEP-Malaria,,Beruri,Amazonas
+366,151,,2025,8,,26,,SIVEP-Malaria,,Beruri,Amazonas
+367,151,,2025,9,,10,,SIVEP-Malaria,,Beruri,Amazonas
+368,151,,2025,10,,3,,SIVEP-Malaria,,Beruri,Amazonas
+369,151,,2025,11,,2,,SIVEP-Malaria,,Beruri,Amazonas
+370,4406,,2025,1,,4,,SIVEP-Malaria,,Boa Vista,Roraima
+371,4406,,2025,2,,2,,SIVEP-Malaria,,Boa Vista,Roraima
+372,4406,,2025,3,,1,,SIVEP-Malaria,,Boa Vista,Roraima
+373,4406,,2025,4,,2,,SIVEP-Malaria,,Boa Vista,Roraima
+374,4406,,2025,5,,1,,SIVEP-Malaria,,Boa Vista,Roraima
+375,4406,,2025,6,,1,,SIVEP-Malaria,,Boa Vista,Roraima
+376,4406,,2025,7,,4,,SIVEP-Malaria,,Boa Vista,Roraima
+377,4406,,2025,8,,3,,SIVEP-Malaria,,Boa Vista,Roraima
+378,4406,,2025,9,,4,,SIVEP-Malaria,,Boa Vista,Roraima
+379,4406,,2025,10,,3,,SIVEP-Malaria,,Boa Vista,Roraima
+380,4406,,2025,11,,4,,SIVEP-Malaria,,Boa Vista,Roraima
+381,4406,,2025,12,,9,,SIVEP-Malaria,,Boa Vista,Roraima
+382,1161,,2025,1,,1,,SIVEP-Malaria,,Boa Vista do Gurupi,Maranhão
+383,152,,2025,7,,1,,SIVEP-Malaria,,Boa Vista do Ramos,Amazonas
+384,152,,2025,10,,2,,SIVEP-Malaria,,Boa Vista do Ramos,Amazonas
+385,153,,2024,12,,1,,SIVEP-Malaria,,Boca do Acre,Amazonas
+386,153,,2025,1,,13,,SIVEP-Malaria,,Boca do Acre,Amazonas
+387,153,,2025,2,,6,,SIVEP-Malaria,,Boca do Acre,Amazonas
+388,153,,2025,3,,13,,SIVEP-Malaria,,Boca do Acre,Amazonas
+389,153,,2025,4,,13,,SIVEP-Malaria,,Boca do Acre,Amazonas
+390,153,,2025,5,,13,,SIVEP-Malaria,,Boca do Acre,Amazonas
+391,153,,2025,6,,18,,SIVEP-Malaria,,Boca do Acre,Amazonas
+392,153,,2025,7,,10,,SIVEP-Malaria,,Boca do Acre,Amazonas
+393,153,,2025,8,,22,,SIVEP-Malaria,,Boca do Acre,Amazonas
+394,153,,2025,9,,19,,SIVEP-Malaria,,Boca do Acre,Amazonas
+395,153,,2025,10,,22,,SIVEP-Malaria,,Boca do Acre,Amazonas
+396,153,,2025,11,,26,,SIVEP-Malaria,,Boca do Acre,Amazonas
+397,153,,2025,12,,19,,SIVEP-Malaria,,Boca do Acre,Amazonas
+398,3603,,2025,1,,1,,SIVEP-Malaria,,Bom Jardim,Rio de Janeiro
+399,3603,,2025,4,,1,,SIVEP-Malaria,,Bom Jardim,Rio de Janeiro
+400,5458,,2025,1,,1,,SIVEP-Malaria,,Bom Jesus do Tocantins,Tocantins
+401,5458,,2025,7,,1,,SIVEP-Malaria,,Bom Jesus do Tocantins,Tocantins
+402,5458,,2025,10,,1,,SIVEP-Malaria,,Bom Jesus do Tocantins,Tocantins
+403,5458,,2025,12,,1,,SIVEP-Malaria,,Bom Jesus do Tocantins,Tocantins
+404,1164,,2025,4,,2,,SIVEP-Malaria,,Bom Lugar,Maranhão
+405,1164,,2025,5,,3,,SIVEP-Malaria,,Bom Lugar,Maranhão
+406,1164,,2025,9,,1,,SIVEP-Malaria,,Bom Lugar,Maranhão
+407,4407,,2024,12,,1,,SIVEP-Malaria,,Bonfim,Roraima
+408,4407,,2025,1,,1,,SIVEP-Malaria,,Bonfim,Roraima
+409,4407,,2025,2,,2,,SIVEP-Malaria,,Bonfim,Roraima
+410,4407,,2025,3,,6,,SIVEP-Malaria,,Bonfim,Roraima
+411,4407,,2025,4,,4,,SIVEP-Malaria,,Bonfim,Roraima
+412,4407,,2025,5,,4,,SIVEP-Malaria,,Bonfim,Roraima
+413,4407,,2025,6,,5,,SIVEP-Malaria,,Bonfim,Roraima
+414,4407,,2025,8,,2,,SIVEP-Malaria,,Bonfim,Roraima
+415,4407,,2025,9,,1,,SIVEP-Malaria,,Bonfim,Roraima
+416,4407,,2025,10,,3,,SIVEP-Malaria,,Bonfim,Roraima
+417,4407,,2025,11,,3,,SIVEP-Malaria,,Bonfim,Roraima
+418,4407,,2025,12,,10,,SIVEP-Malaria,,Bonfim,Roraima
+419,154,,2025,1,,2,,SIVEP-Malaria,,Borba,Amazonas
+420,154,,2025,2,,2,,SIVEP-Malaria,,Borba,Amazonas
+421,154,,2025,3,,9,,SIVEP-Malaria,,Borba,Amazonas
+422,154,,2025,4,,2,,SIVEP-Malaria,,Borba,Amazonas
+423,154,,2025,5,,6,,SIVEP-Malaria,,Borba,Amazonas
+424,154,,2025,6,,2,,SIVEP-Malaria,,Borba,Amazonas
+425,154,,2025,7,,6,,SIVEP-Malaria,,Borba,Amazonas
+426,154,,2025,8,,12,,SIVEP-Malaria,,Borba,Amazonas
+427,154,,2025,9,,14,,SIVEP-Malaria,,Borba,Amazonas
+428,154,,2025,10,,12,,SIVEP-Malaria,,Borba,Amazonas
+429,154,,2025,11,,5,,SIVEP-Malaria,,Borba,Amazonas
+430,154,,2025,12,,2,,SIVEP-Malaria,,Borba,Amazonas
+431,1364,,2025,10,,1,,SIVEP-Malaria,,Brasnorte,Mato Grosso
+432,1165,,2025,3,,1,,SIVEP-Malaria,,Brejo,Maranhão
+433,2445,,2025,5,,1,,SIVEP-Malaria,,Breu Branco,Pará
+434,2446,,2024,9,,1,,SIVEP-Malaria,,Breves,Pará
+435,2446,,2024,12,,10,,SIVEP-Malaria,,Breves,Pará
+436,2446,,2025,1,,120,,SIVEP-Malaria,,Breves,Pará
+437,2446,,2025,2,,101,,SIVEP-Malaria,,Breves,Pará
+438,2446,,2025,3,,64,,SIVEP-Malaria,,Breves,Pará
+439,2446,,2025,4,,32,,SIVEP-Malaria,,Breves,Pará
+440,2446,,2025,5,,84,,SIVEP-Malaria,,Breves,Pará
+441,2446,,2025,6,,73,,SIVEP-Malaria,,Breves,Pará
+442,2446,,2025,7,,71,,SIVEP-Malaria,,Breves,Pará
+443,2446,,2025,8,,73,,SIVEP-Malaria,,Breves,Pará
+444,2446,,2025,9,,77,,SIVEP-Malaria,,Breves,Pará
+445,2446,,2025,10,,70,,SIVEP-Malaria,,Breves,Pará
+446,2446,,2025,11,,67,,SIVEP-Malaria,,Breves,Pará
+447,2446,,2025,12,,51,,SIVEP-Malaria,,Breves,Pará
+448,4,,2025,2,,1,,SIVEP-Malaria,,Bujari,Acre
+449,2447,,2025,1,,3,,SIVEP-Malaria,,Bujaru,Pará
+450,2447,,2025,2,,1,,SIVEP-Malaria,,Bujaru,Pará
+451,2447,,2025,5,,1,,SIVEP-Malaria,,Bujaru,Pará
+452,1167,,2025,5,,1,,SIVEP-Malaria,,Buriti,Maranhão
+453,5461,,2025,7,,1,,SIVEP-Malaria,,Buriti do Tocantins,Tocantins
+454,155,,2025,5,,1,,SIVEP-Malaria,,Caapiranga,Amazonas
+455,4359,,2025,5,,3,,SIVEP-Malaria,,Cacaulândia,Rondônia
+456,2448,,2025,3,,1,,SIVEP-Malaria,,Cachoeira do Arari,Pará
+457,2448,,2025,6,,1,,SIVEP-Malaria,,Cachoeira do Arari,Pará
+458,2448,,2025,7,,1,,SIVEP-Malaria,,Cachoeira do Arari,Pará
+459,2448,,2025,10,,1,,SIVEP-Malaria,,Cachoeira do Arari,Pará
+460,2449,,2024,3,,1,,SIVEP-Malaria,,Cachoeira do Piriá,Pará
+461,2449,,2025,3,,13,,SIVEP-Malaria,,Cachoeira do Piriá,Pará
+462,2449,,2025,4,,15,,SIVEP-Malaria,,Cachoeira do Piriá,Pará
+463,2449,,2025,5,,19,,SIVEP-Malaria,,Cachoeira do Piriá,Pará
+464,2449,,2025,6,,24,,SIVEP-Malaria,,Cachoeira do Piriá,Pará
+465,2449,,2025,7,,17,,SIVEP-Malaria,,Cachoeira do Piriá,Pará
+466,2449,,2025,8,,17,,SIVEP-Malaria,,Cachoeira do Piriá,Pará
+467,2449,,2025,9,,19,,SIVEP-Malaria,,Cachoeira do Piriá,Pará
+468,2449,,2025,10,,14,,SIVEP-Malaria,,Cachoeira do Piriá,Pará
+469,2449,,2025,11,,20,,SIVEP-Malaria,,Cachoeira do Piriá,Pará
+470,2449,,2025,12,,15,,SIVEP-Malaria,,Cachoeira do Piriá,Pará
+471,4360,,2025,12,,1,,SIVEP-Malaria,,Cacoal,Rondônia
+472,1173,,2024,12,,1,,SIVEP-Malaria,,Cajari,Maranhão
+473,1173,,2025,8,,2,,SIVEP-Malaria,,Cajari,Maranhão
+474,2450,,2024,12,,5,,SIVEP-Malaria,,Cametá,Pará
+475,2450,,2025,1,,55,,SIVEP-Malaria,,Cametá,Pará
+476,2450,,2025,2,,38,,SIVEP-Malaria,,Cametá,Pará
+477,2450,,2025,3,,11,,SIVEP-Malaria,,Cametá,Pará
+478,2450,,2025,4,,8,,SIVEP-Malaria,,Cametá,Pará
+479,2450,,2025,5,,9,,SIVEP-Malaria,,Cametá,Pará
+480,2450,,2025,6,,21,,SIVEP-Malaria,,Cametá,Pará
+481,2450,,2025,7,,15,,SIVEP-Malaria,,Cametá,Pará
+482,2450,,2025,8,,13,,SIVEP-Malaria,,Cametá,Pará
+483,2450,,2025,9,,5,,SIVEP-Malaria,,Cametá,Pará
+484,2450,,2025,10,,3,,SIVEP-Malaria,,Cametá,Pará
+485,2450,,2025,11,,2,,SIVEP-Malaria,,Cametá,Pará
+486,2450,,2025,12,,1,,SIVEP-Malaria,,Cametá,Pará
+487,2451,,2025,4,,1,,SIVEP-Malaria,,Canaã dos Carajás,Pará
+488,2451,,2025,7,,2,,SIVEP-Malaria,,Canaã dos Carajás,Pará
+489,2451,,2025,10,,1,,SIVEP-Malaria,,Canaã dos Carajás,Pará
+490,2451,,2025,12,,1,,SIVEP-Malaria,,Canaã dos Carajás,Pará
+491,4362,,2024,12,,5,,SIVEP-Malaria,,Candeias do Jamari,Rondônia
+492,4362,,2025,1,,58,,SIVEP-Malaria,,Candeias do Jamari,Rondônia
+493,4362,,2025,2,,45,,SIVEP-Malaria,,Candeias do Jamari,Rondônia
+494,4362,,2025,3,,47,,SIVEP-Malaria,,Candeias do Jamari,Rondônia
+495,4362,,2025,4,,47,,SIVEP-Malaria,,Candeias do Jamari,Rondônia
+496,4362,,2025,5,,54,,SIVEP-Malaria,,Candeias do Jamari,Rondônia
+497,4362,,2025,6,,72,,SIVEP-Malaria,,Candeias do Jamari,Rondônia
+498,4362,,2025,7,,88,,SIVEP-Malaria,,Candeias do Jamari,Rondônia
+499,4362,,2025,8,,84,,SIVEP-Malaria,,Candeias do Jamari,Rondônia
+500,4362,,2025,9,,91,,SIVEP-Malaria,,Candeias do Jamari,Rondônia
+501,4362,,2025,10,,138,,SIVEP-Malaria,,Candeias do Jamari,Rondônia
+502,4362,,2025,11,,97,,SIVEP-Malaria,,Candeias do Jamari,Rondônia
+503,4362,,2025,12,,74,,SIVEP-Malaria,,Candeias do Jamari,Rondônia
+504,4408,,2025,1,,43,,SIVEP-Malaria,,Cantá,Roraima
+505,4408,,2025,2,,20,,SIVEP-Malaria,,Cantá,Roraima
+506,4408,,2025,3,,26,,SIVEP-Malaria,,Cantá,Roraima
+507,4408,,2025,4,,22,,SIVEP-Malaria,,Cantá,Roraima
+508,4408,,2025,5,,27,,SIVEP-Malaria,,Cantá,Roraima
+509,4408,,2025,6,,26,,SIVEP-Malaria,,Cantá,Roraima
+510,4408,,2025,7,,25,,SIVEP-Malaria,,Cantá,Roraima
+511,4408,,2025,8,,17,,SIVEP-Malaria,,Cantá,Roraima
+512,4408,,2025,9,,22,,SIVEP-Malaria,,Cantá,Roraima
+513,4408,,2025,10,,24,,SIVEP-Malaria,,Cantá,Roraima
+514,4408,,2025,11,,24,,SIVEP-Malaria,,Cantá,Roraima
+515,4408,,2025,12,,6,,SIVEP-Malaria,,Cantá,Roraima
+516,156,,2024,2,,1,,SIVEP-Malaria,,Canutama,Amazonas
+517,156,,2024,12,,9,,SIVEP-Malaria,,Canutama,Amazonas
+518,156,,2025,1,,81,,SIVEP-Malaria,,Canutama,Amazonas
+519,156,,2025,2,,64,,SIVEP-Malaria,,Canutama,Amazonas
+520,156,,2025,3,,62,,SIVEP-Malaria,,Canutama,Amazonas
+521,156,,2025,4,,54,,SIVEP-Malaria,,Canutama,Amazonas
+522,156,,2025,5,,62,,SIVEP-Malaria,,Canutama,Amazonas
+523,156,,2025,6,,102,,SIVEP-Malaria,,Canutama,Amazonas
+524,156,,2025,7,,111,,SIVEP-Malaria,,Canutama,Amazonas
+525,156,,2025,8,,142,,SIVEP-Malaria,,Canutama,Amazonas
+526,156,,2025,9,,109,,SIVEP-Malaria,,Canutama,Amazonas
+527,156,,2025,10,,144,,SIVEP-Malaria,,Canutama,Amazonas
+528,156,,2025,11,,144,,SIVEP-Malaria,,Canutama,Amazonas
+529,156,,2025,12,,128,,SIVEP-Malaria,,Canutama,Amazonas
+530,2851,,2024,12,,1,,SIVEP-Malaria,,Capanema,Paraná
+531,2851,,2025,5,,1,,SIVEP-Malaria,,Capanema,Paraná
+532,2851,,2025,8,,1,,SIVEP-Malaria,,Capanema,Paraná
+533,1177,,2025,3,,1,,SIVEP-Malaria,,Capinzal do Norte,Maranhão
+534,1177,,2025,5,,1,,SIVEP-Malaria,,Capinzal do Norte,Maranhão
+535,1177,,2025,6,,1,,SIVEP-Malaria,,Capinzal do Norte,Maranhão
+536,1177,,2025,10,,2,,SIVEP-Malaria,,Capinzal do Norte,Maranhão
+537,1177,,2025,11,,2,,SIVEP-Malaria,,Capinzal do Norte,Maranhão
+538,157,,2024,7,,1,,SIVEP-Malaria,,Carauari,Amazonas
+539,157,,2024,12,,20,,SIVEP-Malaria,,Carauari,Amazonas
+540,157,,2025,1,,164,,SIVEP-Malaria,,Carauari,Amazonas
+541,157,,2025,2,,141,,SIVEP-Malaria,,Carauari,Amazonas
+542,157,,2025,3,,144,,SIVEP-Malaria,,Carauari,Amazonas
+543,157,,2025,4,,186,,SIVEP-Malaria,,Carauari,Amazonas
+544,157,,2025,5,,249,,SIVEP-Malaria,,Carauari,Amazonas
+545,157,,2025,6,,306,,SIVEP-Malaria,,Carauari,Amazonas
+546,157,,2025,7,,181,,SIVEP-Malaria,,Carauari,Amazonas
+547,157,,2025,8,,138,,SIVEP-Malaria,,Carauari,Amazonas
+548,157,,2025,9,,136,,SIVEP-Malaria,,Carauari,Amazonas
+549,157,,2025,10,,118,,SIVEP-Malaria,,Carauari,Amazonas
+550,157,,2025,11,,89,,SIVEP-Malaria,,Carauari,Amazonas
+551,157,,2025,12,,79,,SIVEP-Malaria,,Carauari,Amazonas
+552,158,,2024,12,,3,,SIVEP-Malaria,,Careiro,Amazonas
+553,158,,2025,1,,5,,SIVEP-Malaria,,Careiro,Amazonas
+554,158,,2025,2,,6,,SIVEP-Malaria,,Careiro,Amazonas
+555,158,,2025,3,,4,,SIVEP-Malaria,,Careiro,Amazonas
+556,158,,2025,4,,3,,SIVEP-Malaria,,Careiro,Amazonas
+557,158,,2025,5,,3,,SIVEP-Malaria,,Careiro,Amazonas
+558,158,,2025,6,,4,,SIVEP-Malaria,,Careiro,Amazonas
+559,158,,2025,7,,14,,SIVEP-Malaria,,Careiro,Amazonas
+560,158,,2025,8,,8,,SIVEP-Malaria,,Careiro,Amazonas
+561,158,,2025,9,,19,,SIVEP-Malaria,,Careiro,Amazonas
+562,158,,2025,10,,21,,SIVEP-Malaria,,Careiro,Amazonas
+563,158,,2025,11,,18,,SIVEP-Malaria,,Careiro,Amazonas
+564,158,,2025,12,,5,,SIVEP-Malaria,,Careiro,Amazonas
+565,159,,2025,1,,2,,SIVEP-Malaria,,Careiro da Várzea,Amazonas
+566,159,,2025,3,,2,,SIVEP-Malaria,,Careiro da Várzea,Amazonas
+567,159,,2025,4,,4,,SIVEP-Malaria,,Careiro da Várzea,Amazonas
+568,159,,2025,5,,1,,SIVEP-Malaria,,Careiro da Várzea,Amazonas
+569,159,,2025,6,,3,,SIVEP-Malaria,,Careiro da Várzea,Amazonas
+570,159,,2025,7,,10,,SIVEP-Malaria,,Careiro da Várzea,Amazonas
+571,159,,2025,8,,17,,SIVEP-Malaria,,Careiro da Várzea,Amazonas
+572,159,,2025,9,,23,,SIVEP-Malaria,,Careiro da Várzea,Amazonas
+573,159,,2025,10,,19,,SIVEP-Malaria,,Careiro da Várzea,Amazonas
+574,159,,2025,11,,9,,SIVEP-Malaria,,Careiro da Várzea,Amazonas
+575,159,,2025,12,,2,,SIVEP-Malaria,,Careiro da Várzea,Amazonas
+576,1372,,2025,11,,1,,SIVEP-Malaria,,Carlinda,Mato Grosso
+577,4410,,2024,12,,1,,SIVEP-Malaria,,Caroebe,Roraima
+578,4410,,2025,1,,50,,SIVEP-Malaria,,Caroebe,Roraima
+579,4410,,2025,2,,19,,SIVEP-Malaria,,Caroebe,Roraima
+580,4410,,2025,3,,46,,SIVEP-Malaria,,Caroebe,Roraima
+581,4410,,2025,4,,47,,SIVEP-Malaria,,Caroebe,Roraima
+582,4410,,2025,5,,37,,SIVEP-Malaria,,Caroebe,Roraima
+583,4410,,2025,6,,29,,SIVEP-Malaria,,Caroebe,Roraima
+584,4410,,2025,7,,18,,SIVEP-Malaria,,Caroebe,Roraima
+585,4410,,2025,8,,10,,SIVEP-Malaria,,Caroebe,Roraima
+586,4410,,2025,9,,8,,SIVEP-Malaria,,Caroebe,Roraima
+587,4410,,2025,10,,11,,SIVEP-Malaria,,Caroebe,Roraima
+588,4410,,2025,11,,7,,SIVEP-Malaria,,Caroebe,Roraima
+589,4410,,2025,12,,6,,SIVEP-Malaria,,Caroebe,Roraima
+590,1178,,2025,4,,2,,SIVEP-Malaria,,Carolina,Maranhão
+591,2454,,2025,12,,1,,SIVEP-Malaria,,Castanhal,Pará
+592,1184,,2025,12,,1,,SIVEP-Malaria,,Centro Novo do Maranhão,Maranhão
+593,1185,,2025,4,,1,,SIVEP-Malaria,,Chapadinha,Maranhão
+594,1185,,2025,11,,2,,SIVEP-Malaria,,Chapadinha,Maranhão
+595,1185,,2025,12,,1,,SIVEP-Malaria,,Chapadinha,Maranhão
+596,2455,,2024,8,,1,,SIVEP-Malaria,,Chaves,Pará
+597,2455,,2024,12,,1,,SIVEP-Malaria,,Chaves,Pará
+598,2455,,2025,1,,15,,SIVEP-Malaria,,Chaves,Pará
+599,2455,,2025,2,,7,,SIVEP-Malaria,,Chaves,Pará
+600,2455,,2025,3,,12,,SIVEP-Malaria,,Chaves,Pará
+601,2455,,2025,4,,9,,SIVEP-Malaria,,Chaves,Pará
+602,2455,,2025,5,,5,,SIVEP-Malaria,,Chaves,Pará
+603,2455,,2025,6,,8,,SIVEP-Malaria,,Chaves,Pará
+604,2455,,2025,7,,21,,SIVEP-Malaria,,Chaves,Pará
+605,2455,,2025,8,,24,,SIVEP-Malaria,,Chaves,Pará
+606,2455,,2025,9,,10,,SIVEP-Malaria,,Chaves,Pará
+607,2455,,2025,10,,6,,SIVEP-Malaria,,Chaves,Pará
+608,2455,,2025,11,,3,,SIVEP-Malaria,,Chaves,Pará
+609,2455,,2025,12,,3,,SIVEP-Malaria,,Chaves,Pará
+610,160,,2022,9,,1,,SIVEP-Malaria,,Coari,Amazonas
+611,160,,2024,8,,1,,SIVEP-Malaria,,Coari,Amazonas
+612,160,,2024,12,,8,,SIVEP-Malaria,,Coari,Amazonas
+613,160,,2025,1,,76,,SIVEP-Malaria,,Coari,Amazonas
+614,160,,2025,2,,33,,SIVEP-Malaria,,Coari,Amazonas
+615,160,,2025,3,,30,,SIVEP-Malaria,,Coari,Amazonas
+616,160,,2025,4,,49,,SIVEP-Malaria,,Coari,Amazonas
+617,160,,2025,5,,46,,SIVEP-Malaria,,Coari,Amazonas
+618,160,,2025,6,,72,,SIVEP-Malaria,,Coari,Amazonas
+619,160,,2025,7,,118,,SIVEP-Malaria,,Coari,Amazonas
+620,160,,2025,8,,158,,SIVEP-Malaria,,Coari,Amazonas
+621,160,,2025,9,,167,,SIVEP-Malaria,,Coari,Amazonas
+622,160,,2025,10,,102,,SIVEP-Malaria,,Coari,Amazonas
+623,160,,2025,11,,52,,SIVEP-Malaria,,Coari,Amazonas
+624,160,,2025,12,,58,,SIVEP-Malaria,,Coari,Amazonas
+625,161,,2025,1,,1,,SIVEP-Malaria,,Codajás,Amazonas
+626,161,,2025,3,,1,,SIVEP-Malaria,,Codajás,Amazonas
+627,161,,2025,5,,1,,SIVEP-Malaria,,Codajás,Amazonas
+628,161,,2025,6,,1,,SIVEP-Malaria,,Codajás,Amazonas
+629,161,,2025,8,,1,,SIVEP-Malaria,,Codajás,Amazonas
+630,161,,2025,9,,1,,SIVEP-Malaria,,Codajás,Amazonas
+631,161,,2025,11,,1,,SIVEP-Malaria,,Codajás,Amazonas
+632,2456,,2025,7,,1,,SIVEP-Malaria,,Colares,Pará
+633,1378,,2025,1,,5,,SIVEP-Malaria,,Colniza,Mato Grosso
+634,1378,,2025,3,,1,,SIVEP-Malaria,,Colniza,Mato Grosso
+635,1378,,2025,4,,6,,SIVEP-Malaria,,Colniza,Mato Grosso
+636,1378,,2025,5,,5,,SIVEP-Malaria,,Colniza,Mato Grosso
+637,1378,,2025,6,,8,,SIVEP-Malaria,,Colniza,Mato Grosso
+638,1378,,2025,7,,24,,SIVEP-Malaria,,Colniza,Mato Grosso
+639,1378,,2025,8,,16,,SIVEP-Malaria,,Colniza,Mato Grosso
+640,1378,,2025,9,,36,,SIVEP-Malaria,,Colniza,Mato Grosso
+641,1378,,2025,10,,43,,SIVEP-Malaria,,Colniza,Mato Grosso
+642,1378,,2025,11,,66,,SIVEP-Malaria,,Colniza,Mato Grosso
+643,1378,,2025,12,,43,,SIVEP-Malaria,,Colniza,Mato Grosso
+644,1379,,2025,4,,1,,SIVEP-Malaria,,Comodoro,Mato Grosso
+645,1381,,2024,12,,5,,SIVEP-Malaria,,Conquista D'Oeste,Mato Grosso
+646,1381,,2025,1,,37,,SIVEP-Malaria,,Conquista D'Oeste,Mato Grosso
+647,1381,,2025,2,,29,,SIVEP-Malaria,,Conquista D'Oeste,Mato Grosso
+648,1381,,2025,3,,21,,SIVEP-Malaria,,Conquista D'Oeste,Mato Grosso
+649,1381,,2025,4,,5,,SIVEP-Malaria,,Conquista D'Oeste,Mato Grosso
+650,1381,,2025,5,,13,,SIVEP-Malaria,,Conquista D'Oeste,Mato Grosso
+651,1381,,2025,6,,6,,SIVEP-Malaria,,Conquista D'Oeste,Mato Grosso
+652,1381,,2025,7,,4,,SIVEP-Malaria,,Conquista D'Oeste,Mato Grosso
+653,1381,,2025,8,,10,,SIVEP-Malaria,,Conquista D'Oeste,Mato Grosso
+654,1381,,2025,9,,1,,SIVEP-Malaria,,Conquista D'Oeste,Mato Grosso
+655,1381,,2025,10,,8,,SIVEP-Malaria,,Conquista D'Oeste,Mato Grosso
+656,1381,,2025,11,,9,,SIVEP-Malaria,,Conquista D'Oeste,Mato Grosso
+657,1381,,2025,12,,10,,SIVEP-Malaria,,Conquista D'Oeste,Mato Grosso
+658,1191,,2025,10,,1,,SIVEP-Malaria,,Coroatá,Maranhão
+659,4368,,2025,4,,1,,SIVEP-Malaria,,Costa Marques,Rondônia
+660,4368,,2025,7,,1,,SIVEP-Malaria,,Costa Marques,Rondônia
+661,5475,,2025,5,,1,,SIVEP-Malaria,,Couto Magalhães,Tocantins
+662,1514,,2025,1,,1,,SIVEP-Malaria,,Coxim,Mato Grosso do Sul
+663,3979,,2024,2,,1,,SIVEP-Malaria,,Cruzeiro do Sul,Rio Grande do Sul
+664,3979,,2024,12,,48,,SIVEP-Malaria,,Cruzeiro do Sul,Rio Grande do Sul
+665,3979,,2025,1,,464,,SIVEP-Malaria,,Cruzeiro do Sul,Rio Grande do Sul
+666,3979,,2025,2,,300,,SIVEP-Malaria,,Cruzeiro do Sul,Rio Grande do Sul
+667,3979,,2025,3,,247,,SIVEP-Malaria,,Cruzeiro do Sul,Rio Grande do Sul
+668,3979,,2025,4,,211,,SIVEP-Malaria,,Cruzeiro do Sul,Rio Grande do Sul
+669,3979,,2025,5,,262,,SIVEP-Malaria,,Cruzeiro do Sul,Rio Grande do Sul
+670,3979,,2025,6,,198,,SIVEP-Malaria,,Cruzeiro do Sul,Rio Grande do Sul
+671,3979,,2025,7,,163,,SIVEP-Malaria,,Cruzeiro do Sul,Rio Grande do Sul
+672,3979,,2025,8,,161,,SIVEP-Malaria,,Cruzeiro do Sul,Rio Grande do Sul
+673,3979,,2025,9,,151,,SIVEP-Malaria,,Cruzeiro do Sul,Rio Grande do Sul
+674,3979,,2025,10,,191,,SIVEP-Malaria,,Cruzeiro do Sul,Rio Grande do Sul
+675,3979,,2025,11,,198,,SIVEP-Malaria,,Cruzeiro do Sul,Rio Grande do Sul
+676,3979,,2025,12,,131,,SIVEP-Malaria,,Cruzeiro do Sul,Rio Grande do Sul
+677,1383,,2025,3,,1,,SIVEP-Malaria,,Cuiabá,Mato Grosso
+678,1383,,2025,9,,1,,SIVEP-Malaria,,Cuiabá,Mato Grosso
+679,1383,,2025,11,,1,,SIVEP-Malaria,,Cuiabá,Mato Grosso
+680,4369,,2024,12,,1,,SIVEP-Malaria,,Cujubim,Rondônia
+681,4369,,2025,1,,3,,SIVEP-Malaria,,Cujubim,Rondônia
+682,4369,,2025,2,,3,,SIVEP-Malaria,,Cujubim,Rondônia
+683,4369,,2025,3,,3,,SIVEP-Malaria,,Cujubim,Rondônia
+684,4369,,2025,4,,2,,SIVEP-Malaria,,Cujubim,Rondônia
+685,4369,,2025,5,,7,,SIVEP-Malaria,,Cujubim,Rondônia
+686,4369,,2025,6,,10,,SIVEP-Malaria,,Cujubim,Rondônia
+687,4369,,2025,7,,28,,SIVEP-Malaria,,Cujubim,Rondônia
+688,4369,,2025,8,,43,,SIVEP-Malaria,,Cujubim,Rondônia
+689,4369,,2025,9,,50,,SIVEP-Malaria,,Cujubim,Rondônia
+690,4369,,2025,10,,59,,SIVEP-Malaria,,Cujubim,Rondônia
+691,4369,,2025,11,,34,,SIVEP-Malaria,,Cujubim,Rondônia
+692,4369,,2025,12,,17,,SIVEP-Malaria,,Cujubim,Rondônia
+693,2459,,2024,12,,1,,SIVEP-Malaria,,Cumaru do Norte,Pará
+694,2459,,2025,1,,12,,SIVEP-Malaria,,Cumaru do Norte,Pará
+695,2459,,2025,2,,16,,SIVEP-Malaria,,Cumaru do Norte,Pará
+696,2459,,2025,3,,4,,SIVEP-Malaria,,Cumaru do Norte,Pará
+697,2459,,2025,4,,7,,SIVEP-Malaria,,Cumaru do Norte,Pará
+698,2459,,2025,5,,8,,SIVEP-Malaria,,Cumaru do Norte,Pará
+699,2459,,2025,7,,3,,SIVEP-Malaria,,Cumaru do Norte,Pará
+700,2459,,2025,10,,1,,SIVEP-Malaria,,Cumaru do Norte,Pará
+701,2459,,2025,11,,1,,SIVEP-Malaria,,Cumaru do Norte,Pará
+702,2459,,2025,12,,1,,SIVEP-Malaria,,Cumaru do Norte,Pará
+703,2461,,2024,12,,1,,SIVEP-Malaria,,Curralinho,Pará
+704,2461,,2025,1,,16,,SIVEP-Malaria,,Curralinho,Pará
+705,2461,,2025,2,,9,,SIVEP-Malaria,,Curralinho,Pará
+706,2461,,2025,3,,16,,SIVEP-Malaria,,Curralinho,Pará
+707,2461,,2025,4,,6,,SIVEP-Malaria,,Curralinho,Pará
+708,2461,,2025,5,,14,,SIVEP-Malaria,,Curralinho,Pará
+709,2461,,2025,6,,2,,SIVEP-Malaria,,Curralinho,Pará
+710,2461,,2025,7,,12,,SIVEP-Malaria,,Curralinho,Pará
+711,2461,,2025,8,,9,,SIVEP-Malaria,,Curralinho,Pará
+712,2461,,2025,9,,6,,SIVEP-Malaria,,Curralinho,Pará
+713,2461,,2025,10,,6,,SIVEP-Malaria,,Curralinho,Pará
+714,2461,,2025,11,,4,,SIVEP-Malaria,,Curralinho,Pará
+715,2461,,2025,12,,7,,SIVEP-Malaria,,Curralinho,Pará
+716,2462,,2025,4,,1,,SIVEP-Malaria,,Curuá,Pará
+717,2462,,2025,5,,1,,SIVEP-Malaria,,Curuá,Pará
+718,2462,,2025,8,,1,,SIVEP-Malaria,,Curuá,Pará
+719,127,,2025,1,,1,,SIVEP-Malaria,,Cutias,Amapá
+720,1175,,2025,1,,2,,SIVEP-Malaria,,Cândido Mendes,Maranhão
+721,1194,,2025,2,,9,,SIVEP-Malaria,,Dom Pedro,Maranhão
+722,1194,,2025,3,,9,,SIVEP-Malaria,,Dom Pedro,Maranhão
+723,1194,,2025,4,,9,,SIVEP-Malaria,,Dom Pedro,Maranhão
+724,1194,,2025,5,,11,,SIVEP-Malaria,,Dom Pedro,Maranhão
+725,1194,,2025,6,,12,,SIVEP-Malaria,,Dom Pedro,Maranhão
+726,1194,,2025,7,,5,,SIVEP-Malaria,,Dom Pedro,Maranhão
+727,1194,,2025,8,,7,,SIVEP-Malaria,,Dom Pedro,Maranhão
+728,1194,,2025,9,,9,,SIVEP-Malaria,,Dom Pedro,Maranhão
+729,1194,,2025,10,,7,,SIVEP-Malaria,,Dom Pedro,Maranhão
+730,1194,,2025,11,,9,,SIVEP-Malaria,,Dom Pedro,Maranhão
+731,2465,,2025,5,,1,,SIVEP-Malaria,,Eldorado do Carajás,Pará
+732,163,,2025,2,,4,,SIVEP-Malaria,,Envira,Amazonas
+733,163,,2025,3,,2,,SIVEP-Malaria,,Envira,Amazonas
+734,163,,2025,4,,2,,SIVEP-Malaria,,Envira,Amazonas
+735,163,,2025,5,,4,,SIVEP-Malaria,,Envira,Amazonas
+736,163,,2025,6,,10,,SIVEP-Malaria,,Envira,Amazonas
+737,163,,2025,7,,5,,SIVEP-Malaria,,Envira,Amazonas
+738,163,,2025,8,,8,,SIVEP-Malaria,,Envira,Amazonas
+739,163,,2025,9,,2,,SIVEP-Malaria,,Envira,Amazonas
+740,163,,2025,10,,1,,SIVEP-Malaria,,Envira,Amazonas
+741,163,,2025,11,,3,,SIVEP-Malaria,,Envira,Amazonas
+742,163,,2025,12,,5,,SIVEP-Malaria,,Envira,Amazonas
+743,4370,,2025,1,,1,,SIVEP-Malaria,,Espigão D'Oeste,Rondônia
+744,4370,,2025,2,,3,,SIVEP-Malaria,,Espigão D'Oeste,Rondônia
+745,4370,,2025,3,,4,,SIVEP-Malaria,,Espigão D'Oeste,Rondônia
+746,4370,,2025,4,,1,,SIVEP-Malaria,,Espigão D'Oeste,Rondônia
+747,4370,,2025,5,,2,,SIVEP-Malaria,,Espigão D'Oeste,Rondônia
+748,4370,,2025,6,,2,,SIVEP-Malaria,,Espigão D'Oeste,Rondônia
+749,4370,,2025,7,,1,,SIVEP-Malaria,,Espigão D'Oeste,Rondônia
+750,4370,,2025,10,,1,,SIVEP-Malaria,,Espigão D'Oeste,Rondônia
+751,4370,,2025,11,,1,,SIVEP-Malaria,,Espigão D'Oeste,Rondônia
+752,4370,,2025,12,,3,,SIVEP-Malaria,,Espigão D'Oeste,Rondônia
+753,1197,,2024,12,,1,,SIVEP-Malaria,,Estreito,Maranhão
+754,2466,,2025,3,,2,,SIVEP-Malaria,,Faro,Pará
+755,2466,,2025,5,,1,,SIVEP-Malaria,,Faro,Pará
+756,2466,,2025,6,,6,,SIVEP-Malaria,,Faro,Pará
+757,2466,,2025,7,,2,,SIVEP-Malaria,,Faro,Pará
+758,2466,,2025,8,,3,,SIVEP-Malaria,,Faro,Pará
+759,2466,,2025,9,,2,,SIVEP-Malaria,,Faro,Pará
+760,2466,,2025,11,,3,,SIVEP-Malaria,,Faro,Pará
+761,128,,2024,12,,1,,SIVEP-Malaria,,Ferreira Gomes,Amapá
+762,128,,2025,1,,1,,SIVEP-Malaria,,Ferreira Gomes,Amapá
+763,128,,2025,2,,1,,SIVEP-Malaria,,Ferreira Gomes,Amapá
+764,128,,2025,3,,6,,SIVEP-Malaria,,Ferreira Gomes,Amapá
+765,128,,2025,4,,4,,SIVEP-Malaria,,Ferreira Gomes,Amapá
+766,128,,2025,5,,6,,SIVEP-Malaria,,Ferreira Gomes,Amapá
+767,128,,2025,6,,1,,SIVEP-Malaria,,Ferreira Gomes,Amapá
+768,128,,2025,7,,2,,SIVEP-Malaria,,Ferreira Gomes,Amapá
+769,128,,2025,8,,5,,SIVEP-Malaria,,Ferreira Gomes,Amapá
+770,128,,2025,9,,1,,SIVEP-Malaria,,Ferreira Gomes,Amapá
+771,128,,2025,10,,1,,SIVEP-Malaria,,Ferreira Gomes,Amapá
+772,128,,2025,11,,3,,SIVEP-Malaria,,Ferreira Gomes,Amapá
+773,128,,2025,12,,11,,SIVEP-Malaria,,Ferreira Gomes,Amapá
+774,2467,,2025,2,,1,,SIVEP-Malaria,,Floresta do Araguaia,Pará
+775,2467,,2025,11,,1,,SIVEP-Malaria,,Floresta do Araguaia,Pará
+776,164,,2024,12,,2,,SIVEP-Malaria,,Fonte Boa,Amazonas
+777,164,,2025,1,,5,,SIVEP-Malaria,,Fonte Boa,Amazonas
+778,164,,2025,2,,7,,SIVEP-Malaria,,Fonte Boa,Amazonas
+779,164,,2025,3,,2,,SIVEP-Malaria,,Fonte Boa,Amazonas
+780,164,,2025,4,,7,,SIVEP-Malaria,,Fonte Boa,Amazonas
+781,164,,2025,5,,1,,SIVEP-Malaria,,Fonte Boa,Amazonas
+782,164,,2025,6,,1,,SIVEP-Malaria,,Fonte Boa,Amazonas
+783,164,,2025,7,,5,,SIVEP-Malaria,,Fonte Boa,Amazonas
+784,164,,2025,8,,14,,SIVEP-Malaria,,Fonte Boa,Amazonas
+785,164,,2025,9,,4,,SIVEP-Malaria,,Fonte Boa,Amazonas
+786,164,,2025,10,,5,,SIVEP-Malaria,,Fonte Boa,Amazonas
+787,164,,2025,11,,10,,SIVEP-Malaria,,Fonte Boa,Amazonas
+788,164,,2025,12,,1,,SIVEP-Malaria,,Fonte Boa,Amazonas
+789,2468,,2025,5,,1,,SIVEP-Malaria,,Garrafão do Norte,Pará
+790,1210,,2025,2,,9,,SIVEP-Malaria,,Governador Nunes Freire,Maranhão
+791,1210,,2025,3,,34,,SIVEP-Malaria,,Governador Nunes Freire,Maranhão
+792,1210,,2025,4,,3,,SIVEP-Malaria,,Governador Nunes Freire,Maranhão
+793,1210,,2025,5,,11,,SIVEP-Malaria,,Governador Nunes Freire,Maranhão
+794,1210,,2025,6,,7,,SIVEP-Malaria,,Governador Nunes Freire,Maranhão
+795,1210,,2025,7,,10,,SIVEP-Malaria,,Governador Nunes Freire,Maranhão
+796,1210,,2025,8,,1,,SIVEP-Malaria,,Governador Nunes Freire,Maranhão
+797,165,,2024,12,,13,,SIVEP-Malaria,,Guajará,Amazonas
+798,165,,2025,1,,220,,SIVEP-Malaria,,Guajará,Amazonas
+799,165,,2025,2,,163,,SIVEP-Malaria,,Guajará,Amazonas
+800,165,,2025,3,,167,,SIVEP-Malaria,,Guajará,Amazonas
+801,165,,2025,4,,138,,SIVEP-Malaria,,Guajará,Amazonas
+802,165,,2025,5,,139,,SIVEP-Malaria,,Guajará,Amazonas
+803,165,,2025,6,,128,,SIVEP-Malaria,,Guajará,Amazonas
+804,165,,2025,7,,77,,SIVEP-Malaria,,Guajará,Amazonas
+805,165,,2025,8,,48,,SIVEP-Malaria,,Guajará,Amazonas
+806,165,,2025,9,,45,,SIVEP-Malaria,,Guajará,Amazonas
+807,165,,2025,10,,53,,SIVEP-Malaria,,Guajará,Amazonas
+808,165,,2025,11,,60,,SIVEP-Malaria,,Guajará,Amazonas
+809,165,,2025,12,,31,,SIVEP-Malaria,,Guajará,Amazonas
+810,4372,,2024,12,,4,,SIVEP-Malaria,,Guajará-Mirim,Rondônia
+811,4372,,2025,1,,39,,SIVEP-Malaria,,Guajará-Mirim,Rondônia
+812,4372,,2025,2,,46,,SIVEP-Malaria,,Guajará-Mirim,Rondônia
+813,4372,,2025,3,,47,,SIVEP-Malaria,,Guajará-Mirim,Rondônia
+814,4372,,2025,4,,62,,SIVEP-Malaria,,Guajará-Mirim,Rondônia
+815,4372,,2025,5,,48,,SIVEP-Malaria,,Guajará-Mirim,Rondônia
+816,4372,,2025,6,,46,,SIVEP-Malaria,,Guajará-Mirim,Rondônia
+817,4372,,2025,7,,35,,SIVEP-Malaria,,Guajará-Mirim,Rondônia
+818,4372,,2025,8,,47,,SIVEP-Malaria,,Guajará-Mirim,Rondônia
+819,4372,,2025,9,,49,,SIVEP-Malaria,,Guajará-Mirim,Rondônia
+820,4372,,2025,10,,61,,SIVEP-Malaria,,Guajará-Mirim,Rondônia
+821,4372,,2025,11,,59,,SIVEP-Malaria,,Guajará-Mirim,Rondônia
+822,4372,,2025,12,,62,,SIVEP-Malaria,,Guajará-Mirim,Rondônia
+823,1393,,2025,1,,2,,SIVEP-Malaria,,Guarantã do Norte,Mato Grosso
+824,1393,,2025,2,,7,,SIVEP-Malaria,,Guarantã do Norte,Mato Grosso
+825,2470,,2024,12,,3,,SIVEP-Malaria,,Gurupá,Pará
+826,2470,,2025,1,,3,,SIVEP-Malaria,,Gurupá,Pará
+827,2470,,2025,2,,2,,SIVEP-Malaria,,Gurupá,Pará
+828,2470,,2025,3,,1,,SIVEP-Malaria,,Gurupá,Pará
+829,2470,,2025,4,,1,,SIVEP-Malaria,,Gurupá,Pará
+830,2470,,2025,8,,1,,SIVEP-Malaria,,Gurupá,Pará
+831,2470,,2025,9,,1,,SIVEP-Malaria,,Gurupá,Pará
+832,2470,,2025,10,,1,,SIVEP-Malaria,,Gurupá,Pará
+833,4047,,2024,4,,2,,SIVEP-Malaria,,Humaitá,Rio Grande do Sul
+834,4047,,2024,8,,1,,SIVEP-Malaria,,Humaitá,Rio Grande do Sul
+835,4047,,2024,11,,3,,SIVEP-Malaria,,Humaitá,Rio Grande do Sul
+836,4047,,2024,12,,4,,SIVEP-Malaria,,Humaitá,Rio Grande do Sul
+837,4047,,2025,1,,89,,SIVEP-Malaria,,Humaitá,Rio Grande do Sul
+838,4047,,2025,2,,188,,SIVEP-Malaria,,Humaitá,Rio Grande do Sul
+839,4047,,2025,3,,432,,SIVEP-Malaria,,Humaitá,Rio Grande do Sul
+840,4047,,2025,4,,342,,SIVEP-Malaria,,Humaitá,Rio Grande do Sul
+841,4047,,2025,5,,362,,SIVEP-Malaria,,Humaitá,Rio Grande do Sul
+842,4047,,2025,6,,317,,SIVEP-Malaria,,Humaitá,Rio Grande do Sul
+843,4047,,2025,7,,286,,SIVEP-Malaria,,Humaitá,Rio Grande do Sul
+844,4047,,2025,8,,230,,SIVEP-Malaria,,Humaitá,Rio Grande do Sul
+845,4047,,2025,9,,179,,SIVEP-Malaria,,Humaitá,Rio Grande do Sul
+846,4047,,2025,10,,159,,SIVEP-Malaria,,Humaitá,Rio Grande do Sul
+847,4047,,2025,11,,98,,SIVEP-Malaria,,Humaitá,Rio Grande do Sul
+848,4047,,2025,12,,96,,SIVEP-Malaria,,Humaitá,Rio Grande do Sul
+849,1214,,2025,1,,1,,SIVEP-Malaria,,Humberto de Campos,Maranhão
+850,1214,,2025,2,,1,,SIVEP-Malaria,,Humberto de Campos,Maranhão
+851,1214,,2025,3,,1,,SIVEP-Malaria,,Humberto de Campos,Maranhão
+852,1215,,2025,9,,1,,SIVEP-Malaria,,Icatu,Maranhão
+853,1218,,2025,3,,4,,SIVEP-Malaria,,Imperatriz,Maranhão
+854,1218,,2025,11,,1,,SIVEP-Malaria,,Imperatriz,Maranhão
+855,2473,,2025,1,,10,,SIVEP-Malaria,,Inhangapi,Pará
+856,2473,,2025,2,,4,,SIVEP-Malaria,,Inhangapi,Pará
+857,167,,2024,12,,1,,SIVEP-Malaria,,Ipixuna,Amazonas
+858,167,,2025,1,,17,,SIVEP-Malaria,,Ipixuna,Amazonas
+859,167,,2025,2,,23,,SIVEP-Malaria,,Ipixuna,Amazonas
+860,167,,2025,3,,19,,SIVEP-Malaria,,Ipixuna,Amazonas
+861,167,,2025,4,,27,,SIVEP-Malaria,,Ipixuna,Amazonas
+862,167,,2025,5,,45,,SIVEP-Malaria,,Ipixuna,Amazonas
+863,167,,2025,6,,49,,SIVEP-Malaria,,Ipixuna,Amazonas
+864,167,,2025,7,,44,,SIVEP-Malaria,,Ipixuna,Amazonas
+865,167,,2025,8,,27,,SIVEP-Malaria,,Ipixuna,Amazonas
+866,167,,2025,9,,25,,SIVEP-Malaria,,Ipixuna,Amazonas
+867,167,,2025,10,,20,,SIVEP-Malaria,,Ipixuna,Amazonas
+868,167,,2025,11,,22,,SIVEP-Malaria,,Ipixuna,Amazonas
+869,167,,2025,12,,10,,SIVEP-Malaria,,Ipixuna,Amazonas
+870,2474,,2025,2,,1,,SIVEP-Malaria,,Ipixuna do Pará,Pará
+871,4411,,2024,12,,10,,SIVEP-Malaria,,Iracema,Roraima
+872,4411,,2025,1,,127,,SIVEP-Malaria,,Iracema,Roraima
+873,4411,,2025,2,,30,,SIVEP-Malaria,,Iracema,Roraima
+874,4411,,2025,3,,72,,SIVEP-Malaria,,Iracema,Roraima
+875,4411,,2025,4,,67,,SIVEP-Malaria,,Iracema,Roraima
+876,4411,,2025,5,,104,,SIVEP-Malaria,,Iracema,Roraima
+877,4411,,2025,6,,43,,SIVEP-Malaria,,Iracema,Roraima
+878,4411,,2025,7,,43,,SIVEP-Malaria,,Iracema,Roraima
+879,4411,,2025,8,,20,,SIVEP-Malaria,,Iracema,Roraima
+880,4411,,2025,9,,42,,SIVEP-Malaria,,Iracema,Roraima
+881,4411,,2025,10,,36,,SIVEP-Malaria,,Iracema,Roraima
+882,4411,,2025,11,,84,,SIVEP-Malaria,,Iracema,Roraima
+883,4411,,2025,12,,48,,SIVEP-Malaria,,Iracema,Roraima
+884,168,,2024,11,,1,,SIVEP-Malaria,,Iranduba,Amazonas
+885,168,,2024,12,,19,,SIVEP-Malaria,,Iranduba,Amazonas
+886,168,,2025,1,,113,,SIVEP-Malaria,,Iranduba,Amazonas
+887,168,,2025,2,,69,,SIVEP-Malaria,,Iranduba,Amazonas
+888,168,,2025,3,,69,,SIVEP-Malaria,,Iranduba,Amazonas
+889,168,,2025,4,,71,,SIVEP-Malaria,,Iranduba,Amazonas
+890,168,,2025,5,,71,,SIVEP-Malaria,,Iranduba,Amazonas
+891,168,,2025,6,,88,,SIVEP-Malaria,,Iranduba,Amazonas
+892,168,,2025,7,,284,,SIVEP-Malaria,,Iranduba,Amazonas
+893,168,,2025,8,,435,,SIVEP-Malaria,,Iranduba,Amazonas
+894,168,,2025,9,,313,,SIVEP-Malaria,,Iranduba,Amazonas
+895,168,,2025,10,,258,,SIVEP-Malaria,,Iranduba,Amazonas
+896,168,,2025,11,,197,,SIVEP-Malaria,,Iranduba,Amazonas
+897,168,,2025,12,,89,,SIVEP-Malaria,,Iranduba,Amazonas
+898,2475,,2025,3,,1,,SIVEP-Malaria,,Irituia,Pará
+899,169,,2025,1,,3,,SIVEP-Malaria,,Itacoatiara,Amazonas
+900,169,,2025,2,,3,,SIVEP-Malaria,,Itacoatiara,Amazonas
+901,169,,2025,3,,3,,SIVEP-Malaria,,Itacoatiara,Amazonas
+902,169,,2025,4,,4,,SIVEP-Malaria,,Itacoatiara,Amazonas
+903,169,,2025,5,,1,,SIVEP-Malaria,,Itacoatiara,Amazonas
+904,169,,2025,6,,4,,SIVEP-Malaria,,Itacoatiara,Amazonas
+905,169,,2025,7,,3,,SIVEP-Malaria,,Itacoatiara,Amazonas
+906,169,,2025,8,,12,,SIVEP-Malaria,,Itacoatiara,Amazonas
+907,169,,2025,9,,5,,SIVEP-Malaria,,Itacoatiara,Amazonas
+908,169,,2025,10,,4,,SIVEP-Malaria,,Itacoatiara,Amazonas
+909,169,,2025,11,,4,,SIVEP-Malaria,,Itacoatiara,Amazonas
+910,2476,,2024,5,,2,,SIVEP-Malaria,,Itaituba,Pará
+911,2476,,2024,7,,1,,SIVEP-Malaria,,Itaituba,Pará
+912,2476,,2024,8,,1,,SIVEP-Malaria,,Itaituba,Pará
+913,2476,,2024,9,,1,,SIVEP-Malaria,,Itaituba,Pará
+914,2476,,2024,11,,3,,SIVEP-Malaria,,Itaituba,Pará
+915,2476,,2024,12,,48,,SIVEP-Malaria,,Itaituba,Pará
+916,2476,,2025,1,,624,,SIVEP-Malaria,,Itaituba,Pará
+917,2476,,2025,2,,487,,SIVEP-Malaria,,Itaituba,Pará
+918,2476,,2025,3,,474,,SIVEP-Malaria,,Itaituba,Pará
+919,2476,,2025,4,,323,,SIVEP-Malaria,,Itaituba,Pará
+920,2476,,2025,5,,333,,SIVEP-Malaria,,Itaituba,Pará
+921,2476,,2025,6,,316,,SIVEP-Malaria,,Itaituba,Pará
+922,2476,,2025,7,,266,,SIVEP-Malaria,,Itaituba,Pará
+923,2476,,2025,8,,464,,SIVEP-Malaria,,Itaituba,Pará
+924,2476,,2025,9,,510,,SIVEP-Malaria,,Itaituba,Pará
+925,2476,,2025,10,,688,,SIVEP-Malaria,,Itaituba,Pará
+926,2476,,2025,11,,668,,SIVEP-Malaria,,Itaituba,Pará
+927,2476,,2025,12,,587,,SIVEP-Malaria,,Itaituba,Pará
+928,170,,2025,1,,43,,SIVEP-Malaria,,Itamarati,Amazonas
+929,170,,2025,2,,67,,SIVEP-Malaria,,Itamarati,Amazonas
+930,170,,2025,3,,70,,SIVEP-Malaria,,Itamarati,Amazonas
+931,170,,2025,4,,45,,SIVEP-Malaria,,Itamarati,Amazonas
+932,170,,2025,5,,76,,SIVEP-Malaria,,Itamarati,Amazonas
+933,170,,2025,6,,90,,SIVEP-Malaria,,Itamarati,Amazonas
+934,170,,2025,7,,111,,SIVEP-Malaria,,Itamarati,Amazonas
+935,170,,2025,8,,62,,SIVEP-Malaria,,Itamarati,Amazonas
+936,170,,2025,9,,61,,SIVEP-Malaria,,Itamarati,Amazonas
+937,170,,2025,10,,71,,SIVEP-Malaria,,Itamarati,Amazonas
+938,170,,2025,11,,45,,SIVEP-Malaria,,Itamarati,Amazonas
+939,170,,2025,12,,58,,SIVEP-Malaria,,Itamarati,Amazonas
+940,1220,,2025,5,,2,,SIVEP-Malaria,,Itapecuru Mirim,Maranhão
+941,1220,,2025,6,,1,,SIVEP-Malaria,,Itapecuru Mirim,Maranhão
+942,1220,,2025,7,,2,,SIVEP-Malaria,,Itapecuru Mirim,Maranhão
+943,1220,,2025,8,,3,,SIVEP-Malaria,,Itapecuru Mirim,Maranhão
+944,1220,,2025,9,,1,,SIVEP-Malaria,,Itapecuru Mirim,Maranhão
+945,1220,,2025,10,,4,,SIVEP-Malaria,,Itapecuru Mirim,Maranhão
+946,1220,,2025,11,,10,,SIVEP-Malaria,,Itapecuru Mirim,Maranhão
+947,4548,,2025,3,,1,,SIVEP-Malaria,,Itapiranga,Santa Catarina
+948,4548,,2025,4,,1,,SIVEP-Malaria,,Itapiranga,Santa Catarina
+949,4548,,2025,6,,1,,SIVEP-Malaria,,Itapiranga,Santa Catarina
+950,4548,,2025,7,,1,,SIVEP-Malaria,,Itapiranga,Santa Catarina
+951,4548,,2025,8,,2,,SIVEP-Malaria,,Itapiranga,Santa Catarina
+952,4548,,2025,10,,2,,SIVEP-Malaria,,Itapiranga,Santa Catarina
+953,4548,,2025,11,,2,,SIVEP-Malaria,,Itapiranga,Santa Catarina
+954,4373,,2024,12,,8,,SIVEP-Malaria,,Itapuã do Oeste,Rondônia
+955,4373,,2025,1,,20,,SIVEP-Malaria,,Itapuã do Oeste,Rondônia
+956,4373,,2025,2,,17,,SIVEP-Malaria,,Itapuã do Oeste,Rondônia
+957,4373,,2025,3,,28,,SIVEP-Malaria,,Itapuã do Oeste,Rondônia
+958,4373,,2025,4,,24,,SIVEP-Malaria,,Itapuã do Oeste,Rondônia
+959,4373,,2025,5,,51,,SIVEP-Malaria,,Itapuã do Oeste,Rondônia
+960,4373,,2025,6,,76,,SIVEP-Malaria,,Itapuã do Oeste,Rondônia
+961,4373,,2025,7,,100,,SIVEP-Malaria,,Itapuã do Oeste,Rondônia
+962,4373,,2025,8,,162,,SIVEP-Malaria,,Itapuã do Oeste,Rondônia
+963,4373,,2025,9,,127,,SIVEP-Malaria,,Itapuã do Oeste,Rondônia
+964,4373,,2025,10,,100,,SIVEP-Malaria,,Itapuã do Oeste,Rondônia
+965,4373,,2025,11,,70,,SIVEP-Malaria,,Itapuã do Oeste,Rondônia
+966,4373,,2025,12,,52,,SIVEP-Malaria,,Itapuã do Oeste,Rondônia
+967,129,,2025,10,,1,,SIVEP-Malaria,,Itaubal,Amapá
+968,2477,,2025,8,,1,,SIVEP-Malaria,,Itupiranga,Pará
+969,2478,,2024,1,,2,,SIVEP-Malaria,,Jacareacanga,Pará
+970,2478,,2024,4,,1,,SIVEP-Malaria,,Jacareacanga,Pará
+971,2478,,2024,10,,1,,SIVEP-Malaria,,Jacareacanga,Pará
+972,2478,,2024,12,,61,,SIVEP-Malaria,,Jacareacanga,Pará
+973,2478,,2025,1,,1514,,SIVEP-Malaria,,Jacareacanga,Pará
+974,2478,,2025,2,,996,,SIVEP-Malaria,,Jacareacanga,Pará
+975,2478,,2025,3,,970,,SIVEP-Malaria,,Jacareacanga,Pará
+976,2478,,2025,4,,944,,SIVEP-Malaria,,Jacareacanga,Pará
+977,2478,,2025,5,,1023,,SIVEP-Malaria,,Jacareacanga,Pará
+978,2478,,2025,6,,1138,,SIVEP-Malaria,,Jacareacanga,Pará
+979,2478,,2025,7,,907,,SIVEP-Malaria,,Jacareacanga,Pará
+980,2478,,2025,8,,1483,,SIVEP-Malaria,,Jacareacanga,Pará
+981,2478,,2025,9,,1681,,SIVEP-Malaria,,Jacareacanga,Pará
+982,2478,,2025,10,,1664,,SIVEP-Malaria,,Jacareacanga,Pará
+983,2478,,2025,11,,1331,,SIVEP-Malaria,,Jacareacanga,Pará
+984,2478,,2025,12,,1229,,SIVEP-Malaria,,Jacareacanga,Pará
+985,2479,,2025,8,,1,,SIVEP-Malaria,,Jacundá,Pará
+986,2960,,2024,12,,1,,SIVEP-Malaria,,Japurá,Paraná
+987,2960,,2025,1,,26,,SIVEP-Malaria,,Japurá,Paraná
+988,2960,,2025,2,,17,,SIVEP-Malaria,,Japurá,Paraná
+989,2960,,2025,3,,11,,SIVEP-Malaria,,Japurá,Paraná
+990,2960,,2025,4,,9,,SIVEP-Malaria,,Japurá,Paraná
+991,2960,,2025,5,,20,,SIVEP-Malaria,,Japurá,Paraná
+992,2960,,2025,6,,27,,SIVEP-Malaria,,Japurá,Paraná
+993,2960,,2025,7,,33,,SIVEP-Malaria,,Japurá,Paraná
+994,2960,,2025,8,,50,,SIVEP-Malaria,,Japurá,Paraná
+995,2960,,2025,9,,43,,SIVEP-Malaria,,Japurá,Paraná
+996,2960,,2025,10,,170,,SIVEP-Malaria,,Japurá,Paraná
+997,2960,,2025,11,,261,,SIVEP-Malaria,,Japurá,Paraná
+998,2960,,2025,12,,222,,SIVEP-Malaria,,Japurá,Paraná
+999,4374,,2025,1,,2,,SIVEP-Malaria,,Jaru,Rondônia
+1000,4374,,2025,2,,1,,SIVEP-Malaria,,Jaru,Rondônia
+1001,4374,,2025,7,,5,,SIVEP-Malaria,,Jaru,Rondônia
+1002,4374,,2025,8,,1,,SIVEP-Malaria,,Jaru,Rondônia
+1003,1223,,2025,5,,2,,SIVEP-Malaria,,Jenipapo dos Vieiras,Maranhão
+1004,4375,,2025,4,,1,,SIVEP-Malaria,,Ji-Paraná,Rondônia
+1005,4375,,2025,8,,1,,SIVEP-Malaria,,Ji-Paraná,Rondônia
+1006,1225,,2025,5,,1,,SIVEP-Malaria,,Joselândia,Maranhão
+1007,1225,,2025,7,,1,,SIVEP-Malaria,,Joselândia,Maranhão
+1008,1225,,2025,8,,1,,SIVEP-Malaria,,Joselândia,Maranhão
+1009,1225,,2025,10,,1,,SIVEP-Malaria,,Joselândia,Maranhão
+1010,1977,,2025,4,,1,,SIVEP-Malaria,,João Pinheiro,Minas Gerais
+1011,1403,,2025,3,,1,,SIVEP-Malaria,,Juara,Mato Grosso
+1012,1405,,2025,10,,2,,SIVEP-Malaria,,Juruena,Mato Grosso
+1013,1405,,2025,11,,1,,SIVEP-Malaria,,Juruena,Mato Grosso
+1014,2480,,2025,1,,1,,SIVEP-Malaria,,Juruti,Pará
+1015,2480,,2025,6,,1,,SIVEP-Malaria,,Juruti,Pará
+1016,2480,,2025,7,,1,,SIVEP-Malaria,,Juruti,Pará
+1017,2480,,2025,9,,1,,SIVEP-Malaria,,Juruti,Pará
+1018,2480,,2025,10,,1,,SIVEP-Malaria,,Juruti,Pará
+1019,2480,,2025,11,,1,,SIVEP-Malaria,,Juruti,Pará
+1020,2480,,2025,12,,1,,SIVEP-Malaria,,Juruti,Pará
+1021,173,,2025,1,,4,,SIVEP-Malaria,,Juruá,Amazonas
+1022,173,,2025,2,,3,,SIVEP-Malaria,,Juruá,Amazonas
+1023,173,,2025,3,,3,,SIVEP-Malaria,,Juruá,Amazonas
+1024,173,,2025,4,,6,,SIVEP-Malaria,,Juruá,Amazonas
+1025,173,,2025,5,,5,,SIVEP-Malaria,,Juruá,Amazonas
+1026,173,,2025,6,,9,,SIVEP-Malaria,,Juruá,Amazonas
+1027,173,,2025,7,,20,,SIVEP-Malaria,,Juruá,Amazonas
+1028,173,,2025,8,,24,,SIVEP-Malaria,,Juruá,Amazonas
+1029,173,,2025,9,,7,,SIVEP-Malaria,,Juruá,Amazonas
+1030,173,,2025,10,,6,,SIVEP-Malaria,,Juruá,Amazonas
+1031,173,,2025,11,,2,,SIVEP-Malaria,,Juruá,Amazonas
+1032,173,,2025,12,,4,,SIVEP-Malaria,,Juruá,Amazonas
+1033,1227,,2024,11,,1,,SIVEP-Malaria,,Lago da Pedra,Maranhão
+1034,5499,,2025,10,,1,,SIVEP-Malaria,,Lagoa da Confusão,Tocantins
+1035,5500,,2025,5,,1,,SIVEP-Malaria,,Lagoa do Tocantins,Tocantins
+1036,130,,2025,1,,4,,SIVEP-Malaria,,Laranjal do Jari,Amapá
+1037,130,,2025,2,,3,,SIVEP-Malaria,,Laranjal do Jari,Amapá
+1038,130,,2025,3,,2,,SIVEP-Malaria,,Laranjal do Jari,Amapá
+1039,130,,2025,5,,2,,SIVEP-Malaria,,Laranjal do Jari,Amapá
+1040,130,,2025,7,,1,,SIVEP-Malaria,,Laranjal do Jari,Amapá
+1041,130,,2025,8,,1,,SIVEP-Malaria,,Laranjal do Jari,Amapá
+1042,130,,2025,9,,3,,SIVEP-Malaria,,Laranjal do Jari,Amapá
+1043,130,,2025,11,,2,,SIVEP-Malaria,,Laranjal do Jari,Amapá
+1044,130,,2025,12,,2,,SIVEP-Malaria,,Laranjal do Jari,Amapá
+1045,1234,,2025,5,,1,,SIVEP-Malaria,,Lima Campos,Maranhão
+1046,2481,,2024,12,,2,,SIVEP-Malaria,,Limoeiro do Ajuru,Pará
+1047,2481,,2025,1,,5,,SIVEP-Malaria,,Limoeiro do Ajuru,Pará
+1048,2481,,2025,2,,2,,SIVEP-Malaria,,Limoeiro do Ajuru,Pará
+1049,2481,,2025,3,,5,,SIVEP-Malaria,,Limoeiro do Ajuru,Pará
+1050,2481,,2025,4,,1,,SIVEP-Malaria,,Limoeiro do Ajuru,Pará
+1051,2481,,2025,6,,3,,SIVEP-Malaria,,Limoeiro do Ajuru,Pará
+1052,2481,,2025,7,,1,,SIVEP-Malaria,,Limoeiro do Ajuru,Pará
+1053,2481,,2025,8,,3,,SIVEP-Malaria,,Limoeiro do Ajuru,Pará
+1054,2481,,2025,9,,8,,SIVEP-Malaria,,Limoeiro do Ajuru,Pará
+1055,2481,,2025,10,,6,,SIVEP-Malaria,,Limoeiro do Ajuru,Pará
+1056,2481,,2025,11,,4,,SIVEP-Malaria,,Limoeiro do Ajuru,Pará
+1057,2481,,2025,12,,4,,SIVEP-Malaria,,Limoeiro do Ajuru,Pará
+1058,1235,,2025,2,,1,,SIVEP-Malaria,,Loreto,Maranhão
+1059,1235,,2025,5,,4,,SIVEP-Malaria,,Loreto,Maranhão
+1060,1235,,2025,7,,7,,SIVEP-Malaria,,Loreto,Maranhão
+1061,1235,,2025,8,,18,,SIVEP-Malaria,,Loreto,Maranhão
+1062,1235,,2025,9,,27,,SIVEP-Malaria,,Loreto,Maranhão
+1063,1235,,2025,10,,9,,SIVEP-Malaria,,Loreto,Maranhão
+1064,1235,,2025,11,,30,,SIVEP-Malaria,,Loreto,Maranhão
+1065,1235,,2025,12,,10,,SIVEP-Malaria,,Loreto,Maranhão
+1066,175,,2024,12,,21,,SIVEP-Malaria,,Lábrea,Amazonas
+1067,175,,2025,1,,454,,SIVEP-Malaria,,Lábrea,Amazonas
+1068,175,,2025,2,,92,,SIVEP-Malaria,,Lábrea,Amazonas
+1069,175,,2025,3,,755,,SIVEP-Malaria,,Lábrea,Amazonas
+1070,175,,2025,4,,685,,SIVEP-Malaria,,Lábrea,Amazonas
+1071,175,,2025,5,,751,,SIVEP-Malaria,,Lábrea,Amazonas
+1072,175,,2025,6,,623,,SIVEP-Malaria,,Lábrea,Amazonas
+1073,175,,2025,7,,252,,SIVEP-Malaria,,Lábrea,Amazonas
+1074,175,,2025,8,,280,,SIVEP-Malaria,,Lábrea,Amazonas
+1075,175,,2025,9,,281,,SIVEP-Malaria,,Lábrea,Amazonas
+1076,175,,2025,10,,237,,SIVEP-Malaria,,Lábrea,Amazonas
+1077,175,,2025,11,,218,,SIVEP-Malaria,,Lábrea,Amazonas
+1078,175,,2025,12,,141,,SIVEP-Malaria,,Lábrea,Amazonas
+1079,131,,2024,12,,1,,SIVEP-Malaria,,Macapá,Amapá
+1080,131,,2025,1,,24,,SIVEP-Malaria,,Macapá,Amapá
+1081,131,,2025,2,,17,,SIVEP-Malaria,,Macapá,Amapá
+1082,131,,2025,3,,16,,SIVEP-Malaria,,Macapá,Amapá
+1083,131,,2025,4,,18,,SIVEP-Malaria,,Macapá,Amapá
+1084,131,,2025,5,,9,,SIVEP-Malaria,,Macapá,Amapá
+1085,131,,2025,6,,5,,SIVEP-Malaria,,Macapá,Amapá
+1086,131,,2025,7,,7,,SIVEP-Malaria,,Macapá,Amapá
+1087,131,,2025,8,,9,,SIVEP-Malaria,,Macapá,Amapá
+1088,131,,2025,9,,26,,SIVEP-Malaria,,Macapá,Amapá
+1089,131,,2025,10,,35,,SIVEP-Malaria,,Macapá,Amapá
+1090,131,,2025,11,,39,,SIVEP-Malaria,,Macapá,Amapá
+1091,131,,2025,12,,16,,SIVEP-Malaria,,Macapá,Amapá
+1092,4376,,2025,1,,12,,SIVEP-Malaria,,Machadinho D'Oeste,Rondônia
+1093,4376,,2025,2,,11,,SIVEP-Malaria,,Machadinho D'Oeste,Rondônia
+1094,4376,,2025,3,,7,,SIVEP-Malaria,,Machadinho D'Oeste,Rondônia
+1095,4376,,2025,4,,9,,SIVEP-Malaria,,Machadinho D'Oeste,Rondônia
+1096,4376,,2025,5,,11,,SIVEP-Malaria,,Machadinho D'Oeste,Rondônia
+1097,4376,,2025,6,,9,,SIVEP-Malaria,,Machadinho D'Oeste,Rondônia
+1098,4376,,2025,7,,14,,SIVEP-Malaria,,Machadinho D'Oeste,Rondônia
+1099,4376,,2025,8,,25,,SIVEP-Malaria,,Machadinho D'Oeste,Rondônia
+1100,4376,,2025,9,,36,,SIVEP-Malaria,,Machadinho D'Oeste,Rondônia
+1101,4376,,2025,10,,27,,SIVEP-Malaria,,Machadinho D'Oeste,Rondônia
+1102,4376,,2025,11,,26,,SIVEP-Malaria,,Machadinho D'Oeste,Rondônia
+1103,4376,,2025,12,,32,,SIVEP-Malaria,,Machadinho D'Oeste,Rondônia
+1104,176,,2024,12,,7,,SIVEP-Malaria,,Manacapuru,Amazonas
+1105,176,,2025,1,,12,,SIVEP-Malaria,,Manacapuru,Amazonas
+1106,176,,2025,2,,4,,SIVEP-Malaria,,Manacapuru,Amazonas
+1107,176,,2025,4,,15,,SIVEP-Malaria,,Manacapuru,Amazonas
+1108,176,,2025,5,,11,,SIVEP-Malaria,,Manacapuru,Amazonas
+1109,176,,2025,6,,12,,SIVEP-Malaria,,Manacapuru,Amazonas
+1110,176,,2025,7,,8,,SIVEP-Malaria,,Manacapuru,Amazonas
+1111,176,,2025,8,,5,,SIVEP-Malaria,,Manacapuru,Amazonas
+1112,176,,2025,9,,11,,SIVEP-Malaria,,Manacapuru,Amazonas
+1113,176,,2025,10,,7,,SIVEP-Malaria,,Manacapuru,Amazonas
+1114,176,,2025,11,,9,,SIVEP-Malaria,,Manacapuru,Amazonas
+1115,176,,2025,12,,3,,SIVEP-Malaria,,Manacapuru,Amazonas
+1116,177,,2025,1,,1,,SIVEP-Malaria,,Manaquiri,Amazonas
+1117,177,,2025,5,,1,,SIVEP-Malaria,,Manaquiri,Amazonas
+1118,177,,2025,7,,1,,SIVEP-Malaria,,Manaquiri,Amazonas
+1119,177,,2025,8,,2,,SIVEP-Malaria,,Manaquiri,Amazonas
+1120,177,,2025,10,,3,,SIVEP-Malaria,,Manaquiri,Amazonas
+1121,178,,2024,1,,2,,SIVEP-Malaria,,Manaus,Amazonas
+1122,178,,2024,2,,1,,SIVEP-Malaria,,Manaus,Amazonas
+1123,178,,2024,4,,2,,SIVEP-Malaria,,Manaus,Amazonas
+1124,178,,2024,11,,17,,SIVEP-Malaria,,Manaus,Amazonas
+1125,178,,2024,12,,213,,SIVEP-Malaria,,Manaus,Amazonas
+1126,178,,2025,1,,1978,,SIVEP-Malaria,,Manaus,Amazonas
+1127,178,,2025,2,,1546,,SIVEP-Malaria,,Manaus,Amazonas
+1128,178,,2025,3,,1560,,SIVEP-Malaria,,Manaus,Amazonas
+1129,178,,2025,4,,1655,,SIVEP-Malaria,,Manaus,Amazonas
+1130,178,,2025,5,,1415,,SIVEP-Malaria,,Manaus,Amazonas
+1131,178,,2025,6,,1375,,SIVEP-Malaria,,Manaus,Amazonas
+1132,178,,2025,7,,1404,,SIVEP-Malaria,,Manaus,Amazonas
+1133,178,,2025,8,,2559,,SIVEP-Malaria,,Manaus,Amazonas
+1134,178,,2025,9,,3482,,SIVEP-Malaria,,Manaus,Amazonas
+1135,178,,2025,10,,3162,,SIVEP-Malaria,,Manaus,Amazonas
+1136,178,,2025,11,,2849,,SIVEP-Malaria,,Manaus,Amazonas
+1137,178,,2025,12,,2437,,SIVEP-Malaria,,Manaus,Amazonas
+1138,2484,,2025,1,,1,,SIVEP-Malaria,,Marabá,Pará
+1139,2484,,2025,11,,2,,SIVEP-Malaria,,Marabá,Pará
+1140,2485,,2025,3,,1,,SIVEP-Malaria,,Maracanã,Pará
+1141,2485,,2025,4,,1,,SIVEP-Malaria,,Maracanã,Pará
+1142,2486,,2025,9,,1,,SIVEP-Malaria,,Marapanim,Pará
+1143,180,,2025,1,,8,,SIVEP-Malaria,,Maraã,Amazonas
+1144,180,,2025,2,,3,,SIVEP-Malaria,,Maraã,Amazonas
+1145,180,,2025,3,,3,,SIVEP-Malaria,,Maraã,Amazonas
+1146,180,,2025,4,,6,,SIVEP-Malaria,,Maraã,Amazonas
+1147,180,,2025,5,,5,,SIVEP-Malaria,,Maraã,Amazonas
+1148,180,,2025,6,,5,,SIVEP-Malaria,,Maraã,Amazonas
+1149,180,,2025,7,,3,,SIVEP-Malaria,,Maraã,Amazonas
+1150,180,,2025,8,,5,,SIVEP-Malaria,,Maraã,Amazonas
+1151,180,,2025,9,,3,,SIVEP-Malaria,,Maraã,Amazonas
+1152,180,,2025,10,,2,,SIVEP-Malaria,,Maraã,Amazonas
+1153,180,,2025,11,,2,,SIVEP-Malaria,,Maraã,Amazonas
+1154,180,,2025,12,,8,,SIVEP-Malaria,,Maraã,Amazonas
+1155,1410,,2025,5,,1,,SIVEP-Malaria,,Marcelândia,Mato Grosso
+1156,12,,2024,12,,6,,SIVEP-Malaria,,Marechal Thaumaturgo,Acre
+1157,12,,2025,1,,35,,SIVEP-Malaria,,Marechal Thaumaturgo,Acre
+1158,12,,2025,2,,19,,SIVEP-Malaria,,Marechal Thaumaturgo,Acre
+1159,12,,2025,3,,4,,SIVEP-Malaria,,Marechal Thaumaturgo,Acre
+1160,12,,2025,4,,5,,SIVEP-Malaria,,Marechal Thaumaturgo,Acre
+1161,12,,2025,5,,6,,SIVEP-Malaria,,Marechal Thaumaturgo,Acre
+1162,12,,2025,6,,4,,SIVEP-Malaria,,Marechal Thaumaturgo,Acre
+1163,12,,2025,7,,1,,SIVEP-Malaria,,Marechal Thaumaturgo,Acre
+1164,2487,,2025,1,,1,,SIVEP-Malaria,,Marituba,Pará
+1165,2487,,2025,2,,1,,SIVEP-Malaria,,Marituba,Pará
+1166,2487,,2025,4,,1,,SIVEP-Malaria,,Marituba,Pará
+1167,2487,,2025,5,,1,,SIVEP-Malaria,,Marituba,Pará
+1168,2487,,2025,9,,1,,SIVEP-Malaria,,Marituba,Pará
+1169,2487,,2025,10,,1,,SIVEP-Malaria,,Marituba,Pará
+1170,2487,,2025,12,,1,,SIVEP-Malaria,,Marituba,Pará
+1171,1242,,2025,6,,1,,SIVEP-Malaria,,Matinha,Maranhão
+1172,1411,,2025,10,,1,,SIVEP-Malaria,,Matupá,Mato Grosso
+1173,1411,,2025,11,,1,,SIVEP-Malaria,,Matupá,Mato Grosso
+1174,132,,2024,12,,3,,SIVEP-Malaria,,Mazagão,Amapá
+1175,132,,2025,1,,12,,SIVEP-Malaria,,Mazagão,Amapá
+1176,132,,2025,2,,7,,SIVEP-Malaria,,Mazagão,Amapá
+1177,132,,2025,3,,1,,SIVEP-Malaria,,Mazagão,Amapá
+1178,132,,2025,4,,4,,SIVEP-Malaria,,Mazagão,Amapá
+1179,132,,2025,5,,1,,SIVEP-Malaria,,Mazagão,Amapá
+1180,132,,2025,7,,1,,SIVEP-Malaria,,Mazagão,Amapá
+1181,132,,2025,8,,1,,SIVEP-Malaria,,Mazagão,Amapá
+1182,132,,2025,9,,2,,SIVEP-Malaria,,Mazagão,Amapá
+1183,132,,2025,10,,2,,SIVEP-Malaria,,Mazagão,Amapá
+1184,132,,2025,11,,1,,SIVEP-Malaria,,Mazagão,Amapá
+1185,132,,2025,12,,4,,SIVEP-Malaria,,Mazagão,Amapá
+1186,2488,,2025,11,,3,,SIVEP-Malaria,,Medicilândia,Pará
+1187,2488,,2025,12,,1,,SIVEP-Malaria,,Medicilândia,Pará
+1188,4378,,2025,7,,5,,SIVEP-Malaria,,Mirante da Serra,Rondônia
+1189,4378,,2025,12,,1,,SIVEP-Malaria,,Mirante da Serra,Rondônia
+1190,2490,,2025,1,,1,,SIVEP-Malaria,,Mocajuba,Pará
+1191,2490,,2025,2,,2,,SIVEP-Malaria,,Mocajuba,Pará
+1192,2490,,2025,3,,1,,SIVEP-Malaria,,Mocajuba,Pará
+1193,2490,,2025,4,,2,,SIVEP-Malaria,,Mocajuba,Pará
+1194,2490,,2025,6,,1,,SIVEP-Malaria,,Mocajuba,Pará
+1195,2490,,2025,7,,1,,SIVEP-Malaria,,Mocajuba,Pará
+1196,2490,,2025,8,,1,,SIVEP-Malaria,,Mocajuba,Pará
+1197,2490,,2025,9,,1,,SIVEP-Malaria,,Mocajuba,Pará
+1198,2490,,2025,10,,1,,SIVEP-Malaria,,Mocajuba,Pará
+1199,2490,,2025,12,,3,,SIVEP-Malaria,,Mocajuba,Pará
+1200,2491,,2024,12,,1,,SIVEP-Malaria,,Moju,Pará
+1201,2491,,2025,2,,3,,SIVEP-Malaria,,Moju,Pará
+1202,2491,,2025,3,,2,,SIVEP-Malaria,,Moju,Pará
+1203,2491,,2025,6,,1,,SIVEP-Malaria,,Moju,Pará
+1204,2491,,2025,7,,1,,SIVEP-Malaria,,Moju,Pará
+1205,3770,,2025,2,,1,,SIVEP-Malaria,,Monte Alegre,Rio Grande do Norte
+1206,3770,,2025,5,,1,,SIVEP-Malaria,,Monte Alegre,Rio Grande do Norte
+1207,3770,,2025,7,,1,,SIVEP-Malaria,,Monte Alegre,Rio Grande do Norte
+1208,3770,,2025,11,,1,,SIVEP-Malaria,,Monte Alegre,Rio Grande do Norte
+1209,3770,,2025,12,,1,,SIVEP-Malaria,,Monte Alegre,Rio Grande do Norte
+1210,4379,,2025,3,,1,,SIVEP-Malaria,,Monte Negro,Rondônia
+1211,4379,,2025,7,,1,,SIVEP-Malaria,,Monte Negro,Rondônia
+1212,4379,,2025,8,,1,,SIVEP-Malaria,,Monte Negro,Rondônia
+1213,4379,,2025,10,,1,,SIVEP-Malaria,,Monte Negro,Rondônia
+1214,4379,,2025,11,,2,,SIVEP-Malaria,,Monte Negro,Rondônia
+1215,4379,,2025,12,,2,,SIVEP-Malaria,,Monte Negro,Rondônia
+1216,1251,,2025,1,,1,,SIVEP-Malaria,,Morros,Maranhão
+1217,1251,,2025,2,,1,,SIVEP-Malaria,,Morros,Maranhão
+1218,1251,,2025,5,,1,,SIVEP-Malaria,,Morros,Maranhão
+1219,1251,,2025,6,,1,,SIVEP-Malaria,,Morros,Maranhão
+1220,1251,,2025,7,,1,,SIVEP-Malaria,,Morros,Maranhão
+1221,1251,,2025,8,,1,,SIVEP-Malaria,,Morros,Maranhão
+1222,1251,,2025,9,,1,,SIVEP-Malaria,,Morros,Maranhão
+1223,1251,,2025,10,,1,,SIVEP-Malaria,,Morros,Maranhão
+1224,1251,,2025,11,,3,,SIVEP-Malaria,,Morros,Maranhão
+1225,1251,,2025,12,,2,,SIVEP-Malaria,,Morros,Maranhão
+1226,2494,,2024,12,,1,,SIVEP-Malaria,,Muaná,Pará
+1227,2494,,2025,1,,8,,SIVEP-Malaria,,Muaná,Pará
+1228,2494,,2025,2,,2,,SIVEP-Malaria,,Muaná,Pará
+1229,2494,,2025,3,,1,,SIVEP-Malaria,,Muaná,Pará
+1230,2494,,2025,4,,2,,SIVEP-Malaria,,Muaná,Pará
+1231,2494,,2025,5,,3,,SIVEP-Malaria,,Muaná,Pará
+1232,2494,,2025,6,,1,,SIVEP-Malaria,,Muaná,Pará
+1233,2494,,2025,7,,3,,SIVEP-Malaria,,Muaná,Pará
+1234,2494,,2025,8,,5,,SIVEP-Malaria,,Muaná,Pará
+1235,2494,,2025,9,,1,,SIVEP-Malaria,,Muaná,Pará
+1236,2494,,2025,10,,2,,SIVEP-Malaria,,Muaná,Pará
+1237,2494,,2025,11,,3,,SIVEP-Malaria,,Muaná,Pará
+1238,5512,,2025,1,,2,,SIVEP-Malaria,,Muricilândia,Tocantins
+1239,5512,,2025,12,,1,,SIVEP-Malaria,,Muricilândia,Tocantins
+1240,10,,2024,12,,9,,SIVEP-Malaria,,Mâncio Lima,Acre
+1241,10,,2025,1,,90,,SIVEP-Malaria,,Mâncio Lima,Acre
+1242,10,,2025,2,,50,,SIVEP-Malaria,,Mâncio Lima,Acre
+1243,10,,2025,3,,41,,SIVEP-Malaria,,Mâncio Lima,Acre
+1244,10,,2025,4,,20,,SIVEP-Malaria,,Mâncio Lima,Acre
+1245,10,,2025,5,,12,,SIVEP-Malaria,,Mâncio Lima,Acre
+1246,10,,2025,6,,12,,SIVEP-Malaria,,Mâncio Lima,Acre
+1247,10,,2025,7,,3,,SIVEP-Malaria,,Mâncio Lima,Acre
+1248,10,,2025,8,,9,,SIVEP-Malaria,,Mâncio Lima,Acre
+1249,10,,2025,9,,12,,SIVEP-Malaria,,Mâncio Lima,Acre
+1250,10,,2025,10,,13,,SIVEP-Malaria,,Mâncio Lima,Acre
+1251,10,,2025,11,,20,,SIVEP-Malaria,,Mâncio Lima,Acre
+1252,10,,2025,12,,1,,SIVEP-Malaria,,Mâncio Lima,Acre
+1253,5513,,2025,3,,1,,SIVEP-Malaria,,Natividade,Tocantins
+1254,182,,2025,1,,1,,SIVEP-Malaria,,Nhamundá,Amazonas
+1255,182,,2025,6,,1,,SIVEP-Malaria,,Nhamundá,Amazonas
+1256,182,,2025,7,,3,,SIVEP-Malaria,,Nhamundá,Amazonas
+1257,182,,2025,8,,2,,SIVEP-Malaria,,Nhamundá,Amazonas
+1258,182,,2025,9,,3,,SIVEP-Malaria,,Nhamundá,Amazonas
+1259,4413,,2025,3,,4,,SIVEP-Malaria,,Normandia,Roraima
+1260,4413,,2025,8,,2,,SIVEP-Malaria,,Normandia,Roraima
+1261,4413,,2025,9,,1,,SIVEP-Malaria,,Normandia,Roraima
+1262,4413,,2025,11,,2,,SIVEP-Malaria,,Normandia,Roraima
+1263,4413,,2025,12,,4,,SIVEP-Malaria,,Normandia,Roraima
+1264,1416,,2024,12,,1,,SIVEP-Malaria,,Nova Bandeirantes,Mato Grosso
+1265,1416,,2025,1,,2,,SIVEP-Malaria,,Nova Bandeirantes,Mato Grosso
+1266,1416,,2025,2,,2,,SIVEP-Malaria,,Nova Bandeirantes,Mato Grosso
+1267,1416,,2025,3,,8,,SIVEP-Malaria,,Nova Bandeirantes,Mato Grosso
+1268,1416,,2025,4,,6,,SIVEP-Malaria,,Nova Bandeirantes,Mato Grosso
+1269,1416,,2025,5,,2,,SIVEP-Malaria,,Nova Bandeirantes,Mato Grosso
+1270,1416,,2025,7,,2,,SIVEP-Malaria,,Nova Bandeirantes,Mato Grosso
+1271,1416,,2025,8,,2,,SIVEP-Malaria,,Nova Bandeirantes,Mato Grosso
+1272,1416,,2025,9,,1,,SIVEP-Malaria,,Nova Bandeirantes,Mato Grosso
+1273,1416,,2025,10,,3,,SIVEP-Malaria,,Nova Bandeirantes,Mato Grosso
+1274,1416,,2025,11,,8,,SIVEP-Malaria,,Nova Bandeirantes,Mato Grosso
+1275,1416,,2025,12,,9,,SIVEP-Malaria,,Nova Bandeirantes,Mato Grosso
+1276,4380,,2025,10,,1,,SIVEP-Malaria,,Nova Brasilândia D'Oeste,Rondônia
+1277,4380,,2025,11,,2,,SIVEP-Malaria,,Nova Brasilândia D'Oeste,Rondônia
+1278,1418,,2025,9,,1,,SIVEP-Malaria,,Nova Canaã do Norte,Mato Grosso
+1279,1419,,2025,8,,1,,SIVEP-Malaria,,Nova Guarita,Mato Grosso
+1280,1419,,2025,10,,2,,SIVEP-Malaria,,Nova Guarita,Mato Grosso
+1281,1420,,2025,1,,1,,SIVEP-Malaria,,Nova Lacerda,Mato Grosso
+1282,1420,,2025,2,,2,,SIVEP-Malaria,,Nova Lacerda,Mato Grosso
+1283,1420,,2025,3,,1,,SIVEP-Malaria,,Nova Lacerda,Mato Grosso
+1284,1420,,2025,5,,1,,SIVEP-Malaria,,Nova Lacerda,Mato Grosso
+1285,1420,,2025,6,,1,,SIVEP-Malaria,,Nova Lacerda,Mato Grosso
+1286,1420,,2025,12,,2,,SIVEP-Malaria,,Nova Lacerda,Mato Grosso
+1287,1423,,2025,2,,1,,SIVEP-Malaria,,Nova Monte Verde,Mato Grosso
+1288,1424,,2025,3,,1,,SIVEP-Malaria,,Nova Mutum,Mato Grosso
+1289,1424,,2025,12,,1,,SIVEP-Malaria,,Nova Mutum,Mato Grosso
+1290,183,,2024,12,,2,,SIVEP-Malaria,,Nova Olinda do Norte,Amazonas
+1291,183,,2025,2,,2,,SIVEP-Malaria,,Nova Olinda do Norte,Amazonas
+1292,183,,2025,3,,1,,SIVEP-Malaria,,Nova Olinda do Norte,Amazonas
+1293,183,,2025,6,,2,,SIVEP-Malaria,,Nova Olinda do Norte,Amazonas
+1294,183,,2025,7,,1,,SIVEP-Malaria,,Nova Olinda do Norte,Amazonas
+1295,183,,2025,8,,2,,SIVEP-Malaria,,Nova Olinda do Norte,Amazonas
+1296,183,,2025,11,,1,,SIVEP-Malaria,,Nova Olinda do Norte,Amazonas
+1297,183,,2025,12,,1,,SIVEP-Malaria,,Nova Olinda do Norte,Amazonas
+1298,4382,,2025,8,,1,,SIVEP-Malaria,,Nova União,Rondônia
+1299,184,,2025,1,,1,,SIVEP-Malaria,,Novo Airão,Amazonas
+1300,184,,2025,2,,2,,SIVEP-Malaria,,Novo Airão,Amazonas
+1301,184,,2025,3,,1,,SIVEP-Malaria,,Novo Airão,Amazonas
+1302,184,,2025,4,,1,,SIVEP-Malaria,,Novo Airão,Amazonas
+1303,184,,2025,5,,3,,SIVEP-Malaria,,Novo Airão,Amazonas
+1304,184,,2025,6,,1,,SIVEP-Malaria,,Novo Airão,Amazonas
+1305,184,,2025,7,,3,,SIVEP-Malaria,,Novo Airão,Amazonas
+1306,184,,2025,8,,5,,SIVEP-Malaria,,Novo Airão,Amazonas
+1307,184,,2025,9,,6,,SIVEP-Malaria,,Novo Airão,Amazonas
+1308,184,,2025,10,,3,,SIVEP-Malaria,,Novo Airão,Amazonas
+1309,184,,2025,11,,5,,SIVEP-Malaria,,Novo Airão,Amazonas
+1310,184,,2025,12,,5,,SIVEP-Malaria,,Novo Airão,Amazonas
+1311,185,,2024,12,,1,,SIVEP-Malaria,,Novo Aripuanã,Amazonas
+1312,185,,2025,1,,15,,SIVEP-Malaria,,Novo Aripuanã,Amazonas
+1313,185,,2025,2,,25,,SIVEP-Malaria,,Novo Aripuanã,Amazonas
+1314,185,,2025,3,,36,,SIVEP-Malaria,,Novo Aripuanã,Amazonas
+1315,185,,2025,4,,21,,SIVEP-Malaria,,Novo Aripuanã,Amazonas
+1316,185,,2025,5,,24,,SIVEP-Malaria,,Novo Aripuanã,Amazonas
+1317,185,,2025,6,,60,,SIVEP-Malaria,,Novo Aripuanã,Amazonas
+1318,185,,2025,7,,73,,SIVEP-Malaria,,Novo Aripuanã,Amazonas
+1319,185,,2025,8,,52,,SIVEP-Malaria,,Novo Aripuanã,Amazonas
+1320,185,,2025,9,,71,,SIVEP-Malaria,,Novo Aripuanã,Amazonas
+1321,185,,2025,10,,83,,SIVEP-Malaria,,Novo Aripuanã,Amazonas
+1322,185,,2025,11,,46,,SIVEP-Malaria,,Novo Aripuanã,Amazonas
+1323,185,,2025,12,,35,,SIVEP-Malaria,,Novo Aripuanã,Amazonas
+1324,1431,,2025,10,,1,,SIVEP-Malaria,,Novo Mundo,Mato Grosso
+1325,1431,,2025,11,,1,,SIVEP-Malaria,,Novo Mundo,Mato Grosso
+1326,2498,,2025,1,,16,,SIVEP-Malaria,,Novo Progresso,Pará
+1327,2498,,2025,2,,12,,SIVEP-Malaria,,Novo Progresso,Pará
+1328,2498,,2025,3,,8,,SIVEP-Malaria,,Novo Progresso,Pará
+1329,2498,,2025,4,,5,,SIVEP-Malaria,,Novo Progresso,Pará
+1330,2498,,2025,5,,5,,SIVEP-Malaria,,Novo Progresso,Pará
+1331,2498,,2025,6,,11,,SIVEP-Malaria,,Novo Progresso,Pará
+1332,2498,,2025,7,,14,,SIVEP-Malaria,,Novo Progresso,Pará
+1333,2498,,2025,8,,7,,SIVEP-Malaria,,Novo Progresso,Pará
+1334,2498,,2025,9,,15,,SIVEP-Malaria,,Novo Progresso,Pará
+1335,2498,,2025,10,,20,,SIVEP-Malaria,,Novo Progresso,Pará
+1336,2498,,2025,11,,5,,SIVEP-Malaria,,Novo Progresso,Pará
+1337,2498,,2025,12,,14,,SIVEP-Malaria,,Novo Progresso,Pará
+1338,2499,,2025,4,,1,,SIVEP-Malaria,,Novo Repartimento,Pará
+1339,2499,,2025,5,,2,,SIVEP-Malaria,,Novo Repartimento,Pará
+1340,2499,,2025,9,,1,,SIVEP-Malaria,,Novo Repartimento,Pará
+1341,2499,,2025,10,,1,,SIVEP-Malaria,,Novo Repartimento,Pará
+1342,2499,,2025,11,,3,,SIVEP-Malaria,,Novo Repartimento,Pará
+1343,2501,,2024,1,,1,,SIVEP-Malaria,,Oeiras do Pará,Pará
+1344,2501,,2024,12,,60,,SIVEP-Malaria,,Oeiras do Pará,Pará
+1345,2501,,2025,1,,581,,SIVEP-Malaria,,Oeiras do Pará,Pará
+1346,2501,,2025,2,,266,,SIVEP-Malaria,,Oeiras do Pará,Pará
+1347,2501,,2025,3,,186,,SIVEP-Malaria,,Oeiras do Pará,Pará
+1348,2501,,2025,4,,138,,SIVEP-Malaria,,Oeiras do Pará,Pará
+1349,2501,,2025,5,,176,,SIVEP-Malaria,,Oeiras do Pará,Pará
+1350,2501,,2025,6,,289,,SIVEP-Malaria,,Oeiras do Pará,Pará
+1351,2501,,2025,7,,244,,SIVEP-Malaria,,Oeiras do Pará,Pará
+1352,2501,,2025,8,,209,,SIVEP-Malaria,,Oeiras do Pará,Pará
+1353,2501,,2025,9,,110,,SIVEP-Malaria,,Oeiras do Pará,Pará
+1354,2501,,2025,10,,74,,SIVEP-Malaria,,Oeiras do Pará,Pará
+1355,2501,,2025,11,,51,,SIVEP-Malaria,,Oeiras do Pará,Pará
+1356,2501,,2025,12,,18,,SIVEP-Malaria,,Oeiras do Pará,Pará
+1357,133,,2024,12,,19,,SIVEP-Malaria,,Oiapoque,Amapá
+1358,133,,2025,1,,127,,SIVEP-Malaria,,Oiapoque,Amapá
+1359,133,,2025,2,,128,,SIVEP-Malaria,,Oiapoque,Amapá
+1360,133,,2025,3,,114,,SIVEP-Malaria,,Oiapoque,Amapá
+1361,133,,2025,4,,116,,SIVEP-Malaria,,Oiapoque,Amapá
+1362,133,,2025,5,,113,,SIVEP-Malaria,,Oiapoque,Amapá
+1363,133,,2025,6,,102,,SIVEP-Malaria,,Oiapoque,Amapá
+1364,133,,2025,7,,101,,SIVEP-Malaria,,Oiapoque,Amapá
+1365,133,,2025,8,,98,,SIVEP-Malaria,,Oiapoque,Amapá
+1366,133,,2025,9,,130,,SIVEP-Malaria,,Oiapoque,Amapá
+1367,133,,2025,10,,173,,SIVEP-Malaria,,Oiapoque,Amapá
+1368,133,,2025,11,,163,,SIVEP-Malaria,,Oiapoque,Amapá
+1369,133,,2025,12,,129,,SIVEP-Malaria,,Oiapoque,Amapá
+1370,2502,,2024,12,,1,,SIVEP-Malaria,,Oriximiná,Pará
+1371,2502,,2025,1,,25,,SIVEP-Malaria,,Oriximiná,Pará
+1372,2502,,2025,2,,17,,SIVEP-Malaria,,Oriximiná,Pará
+1373,2502,,2025,3,,17,,SIVEP-Malaria,,Oriximiná,Pará
+1374,2502,,2025,4,,15,,SIVEP-Malaria,,Oriximiná,Pará
+1375,2502,,2025,5,,13,,SIVEP-Malaria,,Oriximiná,Pará
+1376,2502,,2025,6,,11,,SIVEP-Malaria,,Oriximiná,Pará
+1377,2502,,2025,7,,9,,SIVEP-Malaria,,Oriximiná,Pará
+1378,2502,,2025,8,,7,,SIVEP-Malaria,,Oriximiná,Pará
+1379,2502,,2025,9,,12,,SIVEP-Malaria,,Oriximiná,Pará
+1380,2502,,2025,10,,7,,SIVEP-Malaria,,Oriximiná,Pará
+1381,2502,,2025,11,,15,,SIVEP-Malaria,,Oriximiná,Pará
+1382,2502,,2025,12,,7,,SIVEP-Malaria,,Oriximiná,Pará
+1383,2504,,2024,12,,2,,SIVEP-Malaria,,Ourilândia do Norte,Pará
+1384,2504,,2025,1,,9,,SIVEP-Malaria,,Ourilândia do Norte,Pará
+1385,2504,,2025,2,,6,,SIVEP-Malaria,,Ourilândia do Norte,Pará
+1386,2504,,2025,3,,5,,SIVEP-Malaria,,Ourilândia do Norte,Pará
+1387,2504,,2025,4,,3,,SIVEP-Malaria,,Ourilândia do Norte,Pará
+1388,2504,,2025,5,,4,,SIVEP-Malaria,,Ourilândia do Norte,Pará
+1389,2504,,2025,6,,1,,SIVEP-Malaria,,Ourilândia do Norte,Pará
+1390,2504,,2025,7,,1,,SIVEP-Malaria,,Ourilândia do Norte,Pará
+1391,2504,,2025,8,,2,,SIVEP-Malaria,,Ourilândia do Norte,Pará
+1392,2504,,2025,9,,1,,SIVEP-Malaria,,Ourilândia do Norte,Pará
+1393,2504,,2025,12,,1,,SIVEP-Malaria,,Ourilândia do Norte,Pará
+1394,4384,,2025,2,,1,,SIVEP-Malaria,,Ouro Preto do Oeste,Rondônia
+1395,4384,,2025,6,,1,,SIVEP-Malaria,,Ouro Preto do Oeste,Rondônia
+1396,4384,,2025,8,,1,,SIVEP-Malaria,,Ouro Preto do Oeste,Rondônia
+1397,4384,,2025,10,,1,,SIVEP-Malaria,,Ouro Preto do Oeste,Rondônia
+1398,4384,,2025,11,,2,,SIVEP-Malaria,,Ouro Preto do Oeste,Rondônia
+1399,4384,,2025,12,,1,,SIVEP-Malaria,,Ouro Preto do Oeste,Rondônia
+1400,2505,,2025,2,,2,,SIVEP-Malaria,,Pacajá,Pará
+1401,2505,,2025,3,,2,,SIVEP-Malaria,,Pacajá,Pará
+1402,2505,,2025,4,,1,,SIVEP-Malaria,,Pacajá,Pará
+1403,2505,,2025,5,,3,,SIVEP-Malaria,,Pacajá,Pará
+1404,2505,,2025,6,,1,,SIVEP-Malaria,,Pacajá,Pará
+1405,2505,,2025,7,,6,,SIVEP-Malaria,,Pacajá,Pará
+1406,2505,,2025,8,,3,,SIVEP-Malaria,,Pacajá,Pará
+1407,2505,,2025,9,,1,,SIVEP-Malaria,,Pacajá,Pará
+1408,2505,,2025,11,,2,,SIVEP-Malaria,,Pacajá,Pará
+1409,2505,,2025,12,,1,,SIVEP-Malaria,,Pacajá,Pará
+1410,4414,,2024,12,,5,,SIVEP-Malaria,,Pacaraima,Roraima
+1411,4414,,2025,1,,48,,SIVEP-Malaria,,Pacaraima,Roraima
+1412,4414,,2025,2,,44,,SIVEP-Malaria,,Pacaraima,Roraima
+1413,4414,,2025,3,,34,,SIVEP-Malaria,,Pacaraima,Roraima
+1414,4414,,2025,4,,69,,SIVEP-Malaria,,Pacaraima,Roraima
+1415,4414,,2025,5,,35,,SIVEP-Malaria,,Pacaraima,Roraima
+1416,4414,,2025,6,,21,,SIVEP-Malaria,,Pacaraima,Roraima
+1417,4414,,2025,7,,20,,SIVEP-Malaria,,Pacaraima,Roraima
+1418,4414,,2025,8,,7,,SIVEP-Malaria,,Pacaraima,Roraima
+1419,4414,,2025,9,,11,,SIVEP-Malaria,,Pacaraima,Roraima
+1420,4414,,2025,10,,9,,SIVEP-Malaria,,Pacaraima,Roraima
+1421,4414,,2025,11,,3,,SIVEP-Malaria,,Pacaraima,Roraima
+1422,4414,,2025,12,,4,,SIVEP-Malaria,,Pacaraima,Roraima
+1423,2506,,2025,12,,1,,SIVEP-Malaria,,Palestina do Pará,Pará
+1424,5521,,2025,4,,1,,SIVEP-Malaria,,Palmas,Tocantins
+1425,5521,,2025,7,,1,,SIVEP-Malaria,,Palmas,Tocantins
+1426,5521,,2025,10,,2,,SIVEP-Malaria,,Palmas,Tocantins
+1427,2507,,2025,7,,1,,SIVEP-Malaria,,Paragominas,Pará
+1428,3646,,2025,4,,1,,SIVEP-Malaria,,Paraty,Rio de Janeiro
+1429,2508,,2024,12,,6,,SIVEP-Malaria,,Parauapebas,Pará
+1430,2508,,2025,1,,18,,SIVEP-Malaria,,Parauapebas,Pará
+1431,2508,,2025,2,,2,,SIVEP-Malaria,,Parauapebas,Pará
+1432,2508,,2025,3,,4,,SIVEP-Malaria,,Parauapebas,Pará
+1433,2508,,2025,4,,1,,SIVEP-Malaria,,Parauapebas,Pará
+1434,2508,,2025,5,,2,,SIVEP-Malaria,,Parauapebas,Pará
+1435,2508,,2025,6,,1,,SIVEP-Malaria,,Parauapebas,Pará
+1436,2508,,2025,12,,1,,SIVEP-Malaria,,Parauapebas,Pará
+1437,186,,2025,3,,1,,SIVEP-Malaria,,Parintins,Amazonas
+1438,186,,2025,5,,1,,SIVEP-Malaria,,Parintins,Amazonas
+1439,186,,2025,6,,1,,SIVEP-Malaria,,Parintins,Amazonas
+1440,186,,2025,7,,4,,SIVEP-Malaria,,Parintins,Amazonas
+1441,186,,2025,8,,3,,SIVEP-Malaria,,Parintins,Amazonas
+1442,186,,2025,9,,1,,SIVEP-Malaria,,Parintins,Amazonas
+1443,186,,2025,11,,2,,SIVEP-Malaria,,Parintins,Amazonas
+1444,5527,,2025,6,,1,,SIVEP-Malaria,,Pau D'Arco,Tocantins
+1445,5527,,2025,7,,1,,SIVEP-Malaria,,Pau D'Arco,Tocantins
+1446,5527,,2025,10,,1,,SIVEP-Malaria,,Pau D'Arco,Tocantins
+1447,187,,2025,1,,4,,SIVEP-Malaria,,Pauini,Amazonas
+1448,187,,2025,2,,15,,SIVEP-Malaria,,Pauini,Amazonas
+1449,187,,2025,3,,19,,SIVEP-Malaria,,Pauini,Amazonas
+1450,187,,2025,4,,53,,SIVEP-Malaria,,Pauini,Amazonas
+1451,187,,2025,5,,66,,SIVEP-Malaria,,Pauini,Amazonas
+1452,187,,2025,6,,28,,SIVEP-Malaria,,Pauini,Amazonas
+1453,187,,2025,7,,22,,SIVEP-Malaria,,Pauini,Amazonas
+1454,187,,2025,8,,9,,SIVEP-Malaria,,Pauini,Amazonas
+1455,187,,2025,9,,19,,SIVEP-Malaria,,Pauini,Amazonas
+1456,187,,2025,10,,31,,SIVEP-Malaria,,Pauini,Amazonas
+1457,187,,2025,11,,9,,SIVEP-Malaria,,Pauini,Amazonas
+1458,187,,2025,12,,11,,SIVEP-Malaria,,Pauini,Amazonas
+1459,1264,,2025,11,,1,,SIVEP-Malaria,,Paulino Neves,Maranhão
+1460,1265,,2025,12,,1,,SIVEP-Malaria,,Paulo Ramos,Maranhão
+1461,2699,,2025,5,,1,,SIVEP-Malaria,,Pedra Branca,Paraíba
+1462,134,,2024,12,,4,,SIVEP-Malaria,,Pedra Branca do Amapari,Amapá
+1463,134,,2025,1,,15,,SIVEP-Malaria,,Pedra Branca do Amapari,Amapá
+1464,134,,2025,2,,6,,SIVEP-Malaria,,Pedra Branca do Amapari,Amapá
+1465,134,,2025,3,,12,,SIVEP-Malaria,,Pedra Branca do Amapari,Amapá
+1466,134,,2025,4,,21,,SIVEP-Malaria,,Pedra Branca do Amapari,Amapá
+1467,134,,2025,5,,16,,SIVEP-Malaria,,Pedra Branca do Amapari,Amapá
+1468,134,,2025,6,,8,,SIVEP-Malaria,,Pedra Branca do Amapari,Amapá
+1469,134,,2025,7,,21,,SIVEP-Malaria,,Pedra Branca do Amapari,Amapá
+1470,134,,2025,8,,37,,SIVEP-Malaria,,Pedra Branca do Amapari,Amapá
+1471,134,,2025,9,,44,,SIVEP-Malaria,,Pedra Branca do Amapari,Amapá
+1472,134,,2025,10,,52,,SIVEP-Malaria,,Pedra Branca do Amapari,Amapá
+1473,134,,2025,11,,56,,SIVEP-Malaria,,Pedra Branca do Amapari,Amapá
+1474,134,,2025,12,,53,,SIVEP-Malaria,,Pedra Branca do Amapari,Amapá
+1475,1266,,2025,2,,1,,SIVEP-Malaria,,Pedreiras,Maranhão
+1476,1267,,2025,7,,1,,SIVEP-Malaria,,Pedro do Rosário,Maranhão
+1477,2510,,2025,2,,1,,SIVEP-Malaria,,Peixe-Boi,Pará
+1478,1437,,2025,1,,22,,SIVEP-Malaria,,Peixoto de Azevedo,Mato Grosso
+1479,1437,,2025,2,,7,,SIVEP-Malaria,,Peixoto de Azevedo,Mato Grosso
+1480,1437,,2025,3,,3,,SIVEP-Malaria,,Peixoto de Azevedo,Mato Grosso
+1481,1437,,2025,4,,2,,SIVEP-Malaria,,Peixoto de Azevedo,Mato Grosso
+1482,1437,,2025,5,,15,,SIVEP-Malaria,,Peixoto de Azevedo,Mato Grosso
+1483,1437,,2025,6,,9,,SIVEP-Malaria,,Peixoto de Azevedo,Mato Grosso
+1484,1437,,2025,7,,5,,SIVEP-Malaria,,Peixoto de Azevedo,Mato Grosso
+1485,1437,,2025,8,,4,,SIVEP-Malaria,,Peixoto de Azevedo,Mato Grosso
+1486,1437,,2025,9,,3,,SIVEP-Malaria,,Peixoto de Azevedo,Mato Grosso
+1487,1437,,2025,10,,2,,SIVEP-Malaria,,Peixoto de Azevedo,Mato Grosso
+1488,1437,,2025,11,,3,,SIVEP-Malaria,,Peixoto de Azevedo,Mato Grosso
+1489,1437,,2025,12,,2,,SIVEP-Malaria,,Peixoto de Azevedo,Mato Grosso
+1490,1268,,2025,12,,1,,SIVEP-Malaria,,Penalva,Maranhão
+1491,3052,,2025,12,,1,,SIVEP-Malaria,,Pinhais,Paraná
+1492,1272,,2025,3,,1,,SIVEP-Malaria,,Pinheiro,Maranhão
+1493,1272,,2025,5,,4,,SIVEP-Malaria,,Pinheiro,Maranhão
+1494,1274,,2025,10,,1,,SIVEP-Malaria,,Pirapemas,Maranhão
+1495,2512,,2025,1,,1,,SIVEP-Malaria,,Placas,Pará
+1496,2512,,2025,3,,1,,SIVEP-Malaria,,Placas,Pará
+1497,2512,,2025,5,,1,,SIVEP-Malaria,,Placas,Pará
+1498,2512,,2025,6,,1,,SIVEP-Malaria,,Placas,Pará
+1499,2512,,2025,7,,1,,SIVEP-Malaria,,Placas,Pará
+1500,2512,,2025,12,,2,,SIVEP-Malaria,,Placas,Pará
+1501,13,,2024,12,,8,,SIVEP-Malaria,,Plácido de Castro,Acre
+1502,13,,2025,1,,148,,SIVEP-Malaria,,Plácido de Castro,Acre
+1503,13,,2025,2,,97,,SIVEP-Malaria,,Plácido de Castro,Acre
+1504,13,,2025,3,,55,,SIVEP-Malaria,,Plácido de Castro,Acre
+1505,13,,2025,4,,27,,SIVEP-Malaria,,Plácido de Castro,Acre
+1506,13,,2025,5,,40,,SIVEP-Malaria,,Plácido de Castro,Acre
+1507,13,,2025,6,,22,,SIVEP-Malaria,,Plácido de Castro,Acre
+1508,13,,2025,7,,21,,SIVEP-Malaria,,Plácido de Castro,Acre
+1509,13,,2025,8,,21,,SIVEP-Malaria,,Plácido de Castro,Acre
+1510,13,,2025,9,,34,,SIVEP-Malaria,,Plácido de Castro,Acre
+1511,13,,2025,10,,51,,SIVEP-Malaria,,Plácido de Castro,Acre
+1512,13,,2025,11,,27,,SIVEP-Malaria,,Plácido de Castro,Acre
+1513,13,,2025,12,,19,,SIVEP-Malaria,,Plácido de Castro,Acre
+1514,2513,,2025,1,,1,,SIVEP-Malaria,,Ponta de Pedras,Pará
+1515,2513,,2025,2,,1,,SIVEP-Malaria,,Ponta de Pedras,Pará
+1516,2513,,2025,4,,1,,SIVEP-Malaria,,Ponta de Pedras,Pará
+1517,2513,,2025,10,,1,,SIVEP-Malaria,,Ponta de Pedras,Pará
+1518,1442,,2025,1,,2,,SIVEP-Malaria,,Pontes e Lacerda,Mato Grosso
+1519,1442,,2025,2,,4,,SIVEP-Malaria,,Pontes e Lacerda,Mato Grosso
+1520,1442,,2025,3,,2,,SIVEP-Malaria,,Pontes e Lacerda,Mato Grosso
+1521,1442,,2025,4,,6,,SIVEP-Malaria,,Pontes e Lacerda,Mato Grosso
+1522,1442,,2025,6,,2,,SIVEP-Malaria,,Pontes e Lacerda,Mato Grosso
+1523,1442,,2025,7,,7,,SIVEP-Malaria,,Pontes e Lacerda,Mato Grosso
+1524,1442,,2025,8,,7,,SIVEP-Malaria,,Pontes e Lacerda,Mato Grosso
+1525,1442,,2025,9,,1,,SIVEP-Malaria,,Pontes e Lacerda,Mato Grosso
+1526,1442,,2025,10,,1,,SIVEP-Malaria,,Pontes e Lacerda,Mato Grosso
+1527,1442,,2025,11,,2,,SIVEP-Malaria,,Pontes e Lacerda,Mato Grosso
+1528,1442,,2025,12,,5,,SIVEP-Malaria,,Pontes e Lacerda,Mato Grosso
+1529,2514,,2024,12,,2,,SIVEP-Malaria,,Portel,Pará
+1530,2514,,2025,1,,4,,SIVEP-Malaria,,Portel,Pará
+1531,2514,,2025,2,,5,,SIVEP-Malaria,,Portel,Pará
+1532,2514,,2025,3,,1,,SIVEP-Malaria,,Portel,Pará
+1533,2514,,2025,4,,4,,SIVEP-Malaria,,Portel,Pará
+1534,2514,,2025,5,,6,,SIVEP-Malaria,,Portel,Pará
+1535,2514,,2025,6,,11,,SIVEP-Malaria,,Portel,Pará
+1536,2514,,2025,7,,7,,SIVEP-Malaria,,Portel,Pará
+1537,2514,,2025,8,,18,,SIVEP-Malaria,,Portel,Pará
+1538,2514,,2025,9,,5,,SIVEP-Malaria,,Portel,Pará
+1539,2514,,2025,10,,6,,SIVEP-Malaria,,Portel,Pará
+1540,2514,,2025,11,,6,,SIVEP-Malaria,,Portel,Pará
+1541,2514,,2025,12,,3,,SIVEP-Malaria,,Portel,Pará
+1542,14,,2025,10,,1,,SIVEP-Malaria,,Porto Acre,Acre
+1543,1445,,2025,4,,1,,SIVEP-Malaria,,Porto Esperidião,Mato Grosso
+1544,1446,,2025,5,,1,,SIVEP-Malaria,,Porto Estrela,Mato Grosso
+1545,135,,2025,1,,3,,SIVEP-Malaria,,Porto Grande,Amapá
+1546,135,,2025,2,,3,,SIVEP-Malaria,,Porto Grande,Amapá
+1547,135,,2025,3,,5,,SIVEP-Malaria,,Porto Grande,Amapá
+1548,135,,2025,4,,3,,SIVEP-Malaria,,Porto Grande,Amapá
+1549,135,,2025,5,,7,,SIVEP-Malaria,,Porto Grande,Amapá
+1550,135,,2025,6,,19,,SIVEP-Malaria,,Porto Grande,Amapá
+1551,135,,2025,7,,9,,SIVEP-Malaria,,Porto Grande,Amapá
+1552,135,,2025,8,,14,,SIVEP-Malaria,,Porto Grande,Amapá
+1553,135,,2025,9,,28,,SIVEP-Malaria,,Porto Grande,Amapá
+1554,135,,2025,10,,54,,SIVEP-Malaria,,Porto Grande,Amapá
+1555,135,,2025,11,,91,,SIVEP-Malaria,,Porto Grande,Amapá
+1556,135,,2025,12,,57,,SIVEP-Malaria,,Porto Grande,Amapá
+1557,3067,,2025,1,,1,,SIVEP-Malaria,,Porto Rico,Paraná
+1558,4388,,2024,1,,1,,SIVEP-Malaria,,Porto Velho,Rondônia
+1559,4388,,2024,2,,1,,SIVEP-Malaria,,Porto Velho,Rondônia
+1560,4388,,2024,10,,1,,SIVEP-Malaria,,Porto Velho,Rondônia
+1561,4388,,2024,11,,1,,SIVEP-Malaria,,Porto Velho,Rondônia
+1562,4388,,2024,12,,29,,SIVEP-Malaria,,Porto Velho,Rondônia
+1563,4388,,2025,1,,327,,SIVEP-Malaria,,Porto Velho,Rondônia
+1564,4388,,2025,2,,227,,SIVEP-Malaria,,Porto Velho,Rondônia
+1565,4388,,2025,3,,263,,SIVEP-Malaria,,Porto Velho,Rondônia
+1566,4388,,2025,4,,299,,SIVEP-Malaria,,Porto Velho,Rondônia
+1567,4388,,2025,5,,300,,SIVEP-Malaria,,Porto Velho,Rondônia
+1568,4388,,2025,6,,377,,SIVEP-Malaria,,Porto Velho,Rondônia
+1569,4388,,2025,7,,536,,SIVEP-Malaria,,Porto Velho,Rondônia
+1570,4388,,2025,8,,574,,SIVEP-Malaria,,Porto Velho,Rondônia
+1571,4388,,2025,9,,514,,SIVEP-Malaria,,Porto Velho,Rondônia
+1572,4388,,2025,10,,552,,SIVEP-Malaria,,Porto Velho,Rondônia
+1573,4388,,2025,11,,590,,SIVEP-Malaria,,Porto Velho,Rondônia
+1574,4388,,2025,12,,389,,SIVEP-Malaria,,Porto Velho,Rondônia
+1575,15,,2025,1,,1,,SIVEP-Malaria,,Porto Walter,Acre
+1576,15,,2025,3,,1,,SIVEP-Malaria,,Porto Walter,Acre
+1577,15,,2025,4,,1,,SIVEP-Malaria,,Porto Walter,Acre
+1578,15,,2025,5,,2,,SIVEP-Malaria,,Porto Walter,Acre
+1579,15,,2025,6,,2,,SIVEP-Malaria,,Porto Walter,Acre
+1580,15,,2025,7,,1,,SIVEP-Malaria,,Porto Walter,Acre
+1581,15,,2025,8,,2,,SIVEP-Malaria,,Porto Walter,Acre
+1582,15,,2025,10,,2,,SIVEP-Malaria,,Porto Walter,Acre
+1583,15,,2025,11,,3,,SIVEP-Malaria,,Porto Walter,Acre
+1584,15,,2025,12,,10,,SIVEP-Malaria,,Porto Walter,Acre
+1585,2516,,2025,1,,1,,SIVEP-Malaria,,Prainha,Pará
+1586,2516,,2025,2,,4,,SIVEP-Malaria,,Prainha,Pará
+1587,2516,,2025,4,,3,,SIVEP-Malaria,,Prainha,Pará
+1588,2516,,2025,5,,2,,SIVEP-Malaria,,Prainha,Pará
+1589,2516,,2025,6,,1,,SIVEP-Malaria,,Prainha,Pará
+1590,2516,,2025,7,,1,,SIVEP-Malaria,,Prainha,Pará
+1591,2516,,2025,8,,3,,SIVEP-Malaria,,Prainha,Pará
+1592,2516,,2025,10,,1,,SIVEP-Malaria,,Prainha,Pará
+1593,2516,,2025,11,,4,,SIVEP-Malaria,,Prainha,Pará
+1594,188,,2024,12,,3,,SIVEP-Malaria,,Presidente Figueiredo,Amazonas
+1595,188,,2025,1,,7,,SIVEP-Malaria,,Presidente Figueiredo,Amazonas
+1596,188,,2025,2,,5,,SIVEP-Malaria,,Presidente Figueiredo,Amazonas
+1597,188,,2025,3,,3,,SIVEP-Malaria,,Presidente Figueiredo,Amazonas
+1598,188,,2025,4,,4,,SIVEP-Malaria,,Presidente Figueiredo,Amazonas
+1599,188,,2025,5,,11,,SIVEP-Malaria,,Presidente Figueiredo,Amazonas
+1600,188,,2025,6,,10,,SIVEP-Malaria,,Presidente Figueiredo,Amazonas
+1601,188,,2025,7,,7,,SIVEP-Malaria,,Presidente Figueiredo,Amazonas
+1602,188,,2025,8,,8,,SIVEP-Malaria,,Presidente Figueiredo,Amazonas
+1603,188,,2025,9,,19,,SIVEP-Malaria,,Presidente Figueiredo,Amazonas
+1604,188,,2025,10,,18,,SIVEP-Malaria,,Presidente Figueiredo,Amazonas
+1605,188,,2025,11,,15,,SIVEP-Malaria,,Presidente Figueiredo,Amazonas
+1606,188,,2025,12,,5,,SIVEP-Malaria,,Presidente Figueiredo,Amazonas
+1607,1281,,2025,9,,6,,SIVEP-Malaria,,Presidente Sarney,Maranhão
+1608,1281,,2025,10,,2,,SIVEP-Malaria,,Presidente Sarney,Maranhão
+1609,1281,,2025,11,,1,,SIVEP-Malaria,,Presidente Sarney,Maranhão
+1610,3314,,2025,4,,1,,SIVEP-Malaria,,Primavera,Pernambuco
+1611,5542,,2025,8,,1,,SIVEP-Malaria,,Riachinho,Tocantins
+1612,1453,,2024,12,,2,,SIVEP-Malaria,,Rio Branco,Mato Grosso
+1613,1453,,2025,1,,3,,SIVEP-Malaria,,Rio Branco,Mato Grosso
+1614,1453,,2025,2,,8,,SIVEP-Malaria,,Rio Branco,Mato Grosso
+1615,1453,,2025,3,,2,,SIVEP-Malaria,,Rio Branco,Mato Grosso
+1616,1453,,2025,4,,2,,SIVEP-Malaria,,Rio Branco,Mato Grosso
+1617,1453,,2025,5,,1,,SIVEP-Malaria,,Rio Branco,Mato Grosso
+1618,1453,,2025,6,,5,,SIVEP-Malaria,,Rio Branco,Mato Grosso
+1619,1453,,2025,8,,1,,SIVEP-Malaria,,Rio Branco,Mato Grosso
+1620,1453,,2025,9,,1,,SIVEP-Malaria,,Rio Branco,Mato Grosso
+1621,1453,,2025,12,,1,,SIVEP-Malaria,,Rio Branco,Mato Grosso
+1622,4391,,2025,1,,3,,SIVEP-Malaria,,Rio Crespo,Rondônia
+1623,4391,,2025,3,,1,,SIVEP-Malaria,,Rio Crespo,Rondônia
+1624,4391,,2025,4,,3,,SIVEP-Malaria,,Rio Crespo,Rondônia
+1625,4391,,2025,6,,2,,SIVEP-Malaria,,Rio Crespo,Rondônia
+1626,4391,,2025,7,,3,,SIVEP-Malaria,,Rio Crespo,Rondônia
+1627,4391,,2025,8,,5,,SIVEP-Malaria,,Rio Crespo,Rondônia
+1628,4391,,2025,9,,13,,SIVEP-Malaria,,Rio Crespo,Rondônia
+1629,4391,,2025,10,,3,,SIVEP-Malaria,,Rio Crespo,Rondônia
+1630,4391,,2025,11,,6,,SIVEP-Malaria,,Rio Crespo,Rondônia
+1631,4391,,2025,12,,2,,SIVEP-Malaria,,Rio Crespo,Rondônia
+1632,189,,2024,12,,9,,SIVEP-Malaria,,Rio Preto da Eva,Amazonas
+1633,189,,2025,1,,84,,SIVEP-Malaria,,Rio Preto da Eva,Amazonas
+1634,189,,2025,2,,80,,SIVEP-Malaria,,Rio Preto da Eva,Amazonas
+1635,189,,2025,3,,35,,SIVEP-Malaria,,Rio Preto da Eva,Amazonas
+1636,189,,2025,4,,36,,SIVEP-Malaria,,Rio Preto da Eva,Amazonas
+1637,189,,2025,5,,29,,SIVEP-Malaria,,Rio Preto da Eva,Amazonas
+1638,189,,2025,6,,30,,SIVEP-Malaria,,Rio Preto da Eva,Amazonas
+1639,189,,2025,7,,24,,SIVEP-Malaria,,Rio Preto da Eva,Amazonas
+1640,189,,2025,8,,17,,SIVEP-Malaria,,Rio Preto da Eva,Amazonas
+1641,189,,2025,9,,34,,SIVEP-Malaria,,Rio Preto da Eva,Amazonas
+1642,189,,2025,10,,17,,SIVEP-Malaria,,Rio Preto da Eva,Amazonas
+1643,189,,2025,11,,31,,SIVEP-Malaria,,Rio Preto da Eva,Amazonas
+1644,189,,2025,12,,16,,SIVEP-Malaria,,Rio Preto da Eva,Amazonas
+1645,3661,,2025,4,,1,,SIVEP-Malaria,,Rio de Janeiro,Rio de Janeiro
+1646,17,,2024,12,,3,,SIVEP-Malaria,,Rodrigues Alves,Acre
+1647,17,,2025,1,,34,,SIVEP-Malaria,,Rodrigues Alves,Acre
+1648,17,,2025,2,,24,,SIVEP-Malaria,,Rodrigues Alves,Acre
+1649,17,,2025,3,,18,,SIVEP-Malaria,,Rodrigues Alves,Acre
+1650,17,,2025,4,,11,,SIVEP-Malaria,,Rodrigues Alves,Acre
+1651,17,,2025,5,,11,,SIVEP-Malaria,,Rodrigues Alves,Acre
+1652,17,,2025,6,,3,,SIVEP-Malaria,,Rodrigues Alves,Acre
+1653,17,,2025,7,,8,,SIVEP-Malaria,,Rodrigues Alves,Acre
+1654,17,,2025,8,,7,,SIVEP-Malaria,,Rodrigues Alves,Acre
+1655,17,,2025,9,,7,,SIVEP-Malaria,,Rodrigues Alves,Acre
+1656,17,,2025,10,,6,,SIVEP-Malaria,,Rodrigues Alves,Acre
+1657,17,,2025,11,,6,,SIVEP-Malaria,,Rodrigues Alves,Acre
+1658,17,,2025,12,,2,,SIVEP-Malaria,,Rodrigues Alves,Acre
+1659,1454,,2025,2,,1,,SIVEP-Malaria,,Rondolândia,Mato Grosso
+1660,1454,,2025,3,,3,,SIVEP-Malaria,,Rondolândia,Mato Grosso
+1661,1454,,2025,4,,10,,SIVEP-Malaria,,Rondolândia,Mato Grosso
+1662,1454,,2025,5,,9,,SIVEP-Malaria,,Rondolândia,Mato Grosso
+1663,1454,,2025,6,,20,,SIVEP-Malaria,,Rondolândia,Mato Grosso
+1664,1454,,2025,7,,6,,SIVEP-Malaria,,Rondolândia,Mato Grosso
+1665,1454,,2025,8,,5,,SIVEP-Malaria,,Rondolândia,Mato Grosso
+1666,1454,,2025,9,,4,,SIVEP-Malaria,,Rondolândia,Mato Grosso
+1667,1454,,2025,10,,6,,SIVEP-Malaria,,Rondolândia,Mato Grosso
+1668,1454,,2025,11,,14,,SIVEP-Malaria,,Rondolândia,Mato Grosso
+1669,1454,,2025,12,,12,,SIVEP-Malaria,,Rondolândia,Mato Grosso
+1670,2521,,2025,7,,1,,SIVEP-Malaria,,Rondon do Pará,Pará
+1671,1287,,2025,1,,1,,SIVEP-Malaria,,Rosário,Maranhão
+1672,1287,,2025,2,,1,,SIVEP-Malaria,,Rosário,Maranhão
+1673,1287,,2025,3,,5,,SIVEP-Malaria,,Rosário,Maranhão
+1674,1287,,2025,4,,5,,SIVEP-Malaria,,Rosário,Maranhão
+1675,1287,,2025,5,,7,,SIVEP-Malaria,,Rosário,Maranhão
+1676,1287,,2025,6,,15,,SIVEP-Malaria,,Rosário,Maranhão
+1677,1287,,2025,7,,7,,SIVEP-Malaria,,Rosário,Maranhão
+1678,1287,,2025,8,,16,,SIVEP-Malaria,,Rosário,Maranhão
+1679,1287,,2025,9,,3,,SIVEP-Malaria,,Rosário,Maranhão
+1680,1287,,2025,10,,1,,SIVEP-Malaria,,Rosário,Maranhão
+1681,1287,,2025,11,,2,,SIVEP-Malaria,,Rosário,Maranhão
+1682,2524,,2025,4,,1,,SIVEP-Malaria,,Salvaterra,Pará
+1683,2524,,2025,12,,1,,SIVEP-Malaria,,Salvaterra,Pará
+1684,2525,,2025,1,,1,,SIVEP-Malaria,,Santa Bárbara do Pará,Pará
+1685,2525,,2025,3,,1,,SIVEP-Malaria,,Santa Bárbara do Pará,Pará
+1686,2525,,2025,9,,1,,SIVEP-Malaria,,Santa Bárbara do Pará,Pará
+1687,2526,,2025,1,,1,,SIVEP-Malaria,,Santa Cruz do Arari,Pará
+1688,2526,,2025,3,,1,,SIVEP-Malaria,,Santa Cruz do Arari,Pará
+1689,2526,,2025,12,,1,,SIVEP-Malaria,,Santa Cruz do Arari,Pará
+1690,4649,,2025,3,,3,,SIVEP-Malaria,,Santa Helena,Santa Catarina
+1691,4649,,2025,5,,1,,SIVEP-Malaria,,Santa Helena,Santa Catarina
+1692,4649,,2025,6,,1,,SIVEP-Malaria,,Santa Helena,Santa Catarina
+1693,4649,,2025,8,,1,,SIVEP-Malaria,,Santa Helena,Santa Catarina
+1694,190,,2024,12,,13,,SIVEP-Malaria,,Santa Isabel do Rio Negro,Amazonas
+1695,190,,2025,1,,408,,SIVEP-Malaria,,Santa Isabel do Rio Negro,Amazonas
+1696,190,,2025,2,,364,,SIVEP-Malaria,,Santa Isabel do Rio Negro,Amazonas
+1697,190,,2025,3,,292,,SIVEP-Malaria,,Santa Isabel do Rio Negro,Amazonas
+1698,190,,2025,4,,389,,SIVEP-Malaria,,Santa Isabel do Rio Negro,Amazonas
+1699,190,,2025,5,,374,,SIVEP-Malaria,,Santa Isabel do Rio Negro,Amazonas
+1700,190,,2025,6,,342,,SIVEP-Malaria,,Santa Isabel do Rio Negro,Amazonas
+1701,190,,2025,7,,141,,SIVEP-Malaria,,Santa Isabel do Rio Negro,Amazonas
+1702,190,,2025,8,,231,,SIVEP-Malaria,,Santa Isabel do Rio Negro,Amazonas
+1703,190,,2025,9,,247,,SIVEP-Malaria,,Santa Isabel do Rio Negro,Amazonas
+1704,190,,2025,10,,286,,SIVEP-Malaria,,Santa Isabel do Rio Negro,Amazonas
+1705,190,,2025,11,,234,,SIVEP-Malaria,,Santa Isabel do Rio Negro,Amazonas
+1706,190,,2025,12,,141,,SIVEP-Malaria,,Santa Isabel do Rio Negro,Amazonas
+1707,2527,,2025,2,,1,,SIVEP-Malaria,,Santa Izabel do Pará,Pará
+1708,2527,,2025,3,,1,,SIVEP-Malaria,,Santa Izabel do Pará,Pará
+1709,2527,,2025,10,,1,,SIVEP-Malaria,,Santa Izabel do Pará,Pará
+1710,2732,,2025,11,,1,,SIVEP-Malaria,,Santa Luzia,Paraíba
+1711,2732,,2025,12,,2,,SIVEP-Malaria,,Santa Luzia,Paraíba
+1712,1293,,2025,3,,1,,SIVEP-Malaria,,Santa Luzia do Paruá,Maranhão
+1713,2530,,2025,1,,2,,SIVEP-Malaria,,Santa Maria do Pará,Pará
+1714,2530,,2025,5,,1,,SIVEP-Malaria,,Santa Maria do Pará,Pará
+1715,2733,,2025,4,,1,,SIVEP-Malaria,,Santa Rita,Paraíba
+1716,2733,,2025,8,,1,,SIVEP-Malaria,,Santa Rita,Paraíba
+1717,1460,,2025,8,,1,,SIVEP-Malaria,,Santa Rita do Trivelato,Mato Grosso
+1718,549,,2024,12,,1,,SIVEP-Malaria,,Santana,Bahia
+1719,549,,2025,1,,1,,SIVEP-Malaria,,Santana,Bahia
+1720,549,,2025,2,,2,,SIVEP-Malaria,,Santana,Bahia
+1721,549,,2025,4,,1,,SIVEP-Malaria,,Santana,Bahia
+1722,549,,2025,5,,1,,SIVEP-Malaria,,Santana,Bahia
+1723,549,,2025,7,,2,,SIVEP-Malaria,,Santana,Bahia
+1724,549,,2025,8,,1,,SIVEP-Malaria,,Santana,Bahia
+1725,549,,2025,9,,4,,SIVEP-Malaria,,Santana,Bahia
+1726,549,,2025,10,,4,,SIVEP-Malaria,,Santana,Bahia
+1727,549,,2025,11,,3,,SIVEP-Malaria,,Santana,Bahia
+1728,549,,2025,12,,7,,SIVEP-Malaria,,Santana,Bahia
+1729,2531,,2025,8,,1,,SIVEP-Malaria,,Santana do Araguaia,Pará
+1730,1323,,2024,2,,1,,SIVEP-Malaria,,Satubinha,Maranhão
+1731,1323,,2025,3,,7,,SIVEP-Malaria,,Satubinha,Maranhão
+1732,1323,,2025,4,,14,,SIVEP-Malaria,,Satubinha,Maranhão
+1733,1323,,2025,5,,9,,SIVEP-Malaria,,Satubinha,Maranhão
+1734,1323,,2025,6,,12,,SIVEP-Malaria,,Satubinha,Maranhão
+1735,1323,,2025,7,,8,,SIVEP-Malaria,,Satubinha,Maranhão
+1736,1323,,2025,8,,6,,SIVEP-Malaria,,Satubinha,Maranhão
+1737,1323,,2025,9,,6,,SIVEP-Malaria,,Satubinha,Maranhão
+1738,1323,,2025,10,,3,,SIVEP-Malaria,,Satubinha,Maranhão
+1739,1323,,2025,11,,11,,SIVEP-Malaria,,Satubinha,Maranhão
+1740,1323,,2025,12,,7,,SIVEP-Malaria,,Satubinha,Maranhão
+1741,20,,2024,12,,1,,SIVEP-Malaria,,Senador Guiomard,Acre
+1742,20,,2025,1,,8,,SIVEP-Malaria,,Senador Guiomard,Acre
+1743,20,,2025,2,,13,,SIVEP-Malaria,,Senador Guiomard,Acre
+1744,20,,2025,3,,8,,SIVEP-Malaria,,Senador Guiomard,Acre
+1745,20,,2025,4,,19,,SIVEP-Malaria,,Senador Guiomard,Acre
+1746,20,,2025,5,,26,,SIVEP-Malaria,,Senador Guiomard,Acre
+1747,20,,2025,6,,18,,SIVEP-Malaria,,Senador Guiomard,Acre
+1748,20,,2025,7,,15,,SIVEP-Malaria,,Senador Guiomard,Acre
+1749,20,,2025,8,,21,,SIVEP-Malaria,,Senador Guiomard,Acre
+1750,20,,2025,9,,11,,SIVEP-Malaria,,Senador Guiomard,Acre
+1751,20,,2025,10,,11,,SIVEP-Malaria,,Senador Guiomard,Acre
+1752,20,,2025,11,,5,,SIVEP-Malaria,,Senador Guiomard,Acre
+1753,20,,2025,12,,1,,SIVEP-Malaria,,Senador Guiomard,Acre
+1754,4397,,2025,8,,1,,SIVEP-Malaria,,Seringueiras,Rondônia
+1755,4397,,2025,9,,1,,SIVEP-Malaria,,Seringueiras,Rondônia
+1756,138,,2024,12,,1,,SIVEP-Malaria,,Serra do Navio,Amapá
+1757,138,,2025,1,,6,,SIVEP-Malaria,,Serra do Navio,Amapá
+1758,138,,2025,2,,8,,SIVEP-Malaria,,Serra do Navio,Amapá
+1759,138,,2025,3,,5,,SIVEP-Malaria,,Serra do Navio,Amapá
+1760,138,,2025,4,,6,,SIVEP-Malaria,,Serra do Navio,Amapá
+1761,138,,2025,5,,8,,SIVEP-Malaria,,Serra do Navio,Amapá
+1762,138,,2025,6,,15,,SIVEP-Malaria,,Serra do Navio,Amapá
+1763,138,,2025,7,,12,,SIVEP-Malaria,,Serra do Navio,Amapá
+1764,138,,2025,8,,16,,SIVEP-Malaria,,Serra do Navio,Amapá
+1765,138,,2025,9,,15,,SIVEP-Malaria,,Serra do Navio,Amapá
+1766,138,,2025,10,,16,,SIVEP-Malaria,,Serra do Navio,Amapá
+1767,138,,2025,11,,26,,SIVEP-Malaria,,Serra do Navio,Amapá
+1768,138,,2025,12,,40,,SIVEP-Malaria,,Serra do Navio,Amapá
+1769,195,,2025,9,,2,,SIVEP-Malaria,,Silves,Amazonas
+1770,195,,2025,11,,1,,SIVEP-Malaria,,Silves,Amazonas
+1771,195,,2025,12,,1,,SIVEP-Malaria,,Silves,Amazonas
+1772,1473,,2025,11,,1,,SIVEP-Malaria,,Sinop,Mato Grosso
+1773,1474,,2025,3,,1,,SIVEP-Malaria,,Sorriso,Mato Grosso
+1774,2548,,2025,5,,2,,SIVEP-Malaria,,Soure,Pará
+1775,2548,,2025,6,,9,,SIVEP-Malaria,,Soure,Pará
+1776,2739,,2025,4,,1,,SIVEP-Malaria,,São Bento,Paraíba
+1777,2739,,2025,11,,1,,SIVEP-Malaria,,São Bento,Paraíba
+1778,2535,,2024,12,,1,,SIVEP-Malaria,,São Caetano de Odivelas,Pará
+1779,2535,,2025,3,,1,,SIVEP-Malaria,,São Caetano de Odivelas,Pará
+1780,2535,,2025,5,,1,,SIVEP-Malaria,,São Caetano de Odivelas,Pará
+1781,2537,,2025,5,,1,,SIVEP-Malaria,,São Domingos do Capim,Pará
+1782,192,,2024,1,,2,,SIVEP-Malaria,,São Gabriel da Cachoeira,Amazonas
+1783,192,,2024,3,,1,,SIVEP-Malaria,,São Gabriel da Cachoeira,Amazonas
+1784,192,,2024,10,,1,,SIVEP-Malaria,,São Gabriel da Cachoeira,Amazonas
+1785,192,,2024,11,,1,,SIVEP-Malaria,,São Gabriel da Cachoeira,Amazonas
+1786,192,,2024,12,,92,,SIVEP-Malaria,,São Gabriel da Cachoeira,Amazonas
+1787,192,,2025,1,,1267,,SIVEP-Malaria,,São Gabriel da Cachoeira,Amazonas
+1788,192,,2025,2,,1038,,SIVEP-Malaria,,São Gabriel da Cachoeira,Amazonas
+1789,192,,2025,3,,901,,SIVEP-Malaria,,São Gabriel da Cachoeira,Amazonas
+1790,192,,2025,4,,732,,SIVEP-Malaria,,São Gabriel da Cachoeira,Amazonas
+1791,192,,2025,5,,788,,SIVEP-Malaria,,São Gabriel da Cachoeira,Amazonas
+1792,192,,2025,6,,803,,SIVEP-Malaria,,São Gabriel da Cachoeira,Amazonas
+1793,192,,2025,7,,809,,SIVEP-Malaria,,São Gabriel da Cachoeira,Amazonas
+1794,192,,2025,8,,983,,SIVEP-Malaria,,São Gabriel da Cachoeira,Amazonas
+1795,192,,2025,9,,797,,SIVEP-Malaria,,São Gabriel da Cachoeira,Amazonas
+1796,192,,2025,10,,913,,SIVEP-Malaria,,São Gabriel da Cachoeira,Amazonas
+1797,192,,2025,11,,626,,SIVEP-Malaria,,São Gabriel da Cachoeira,Amazonas
+1798,192,,2025,12,,415,,SIVEP-Malaria,,São Gabriel da Cachoeira,Amazonas
+1799,2540,,2025,3,,1,,SIVEP-Malaria,,São Geraldo do Araguaia,Pará
+1800,2540,,2025,7,,2,,SIVEP-Malaria,,São Geraldo do Araguaia,Pará
+1801,4663,,2025,4,,1,,SIVEP-Malaria,,São João Batista,Santa Catarina
+1802,4416,,2024,12,,3,,SIVEP-Malaria,,São João da Baliza,Roraima
+1803,4416,,2025,1,,26,,SIVEP-Malaria,,São João da Baliza,Roraima
+1804,4416,,2025,2,,12,,SIVEP-Malaria,,São João da Baliza,Roraima
+1805,4416,,2025,3,,4,,SIVEP-Malaria,,São João da Baliza,Roraima
+1806,4416,,2025,4,,4,,SIVEP-Malaria,,São João da Baliza,Roraima
+1807,4416,,2025,5,,4,,SIVEP-Malaria,,São João da Baliza,Roraima
+1808,4416,,2025,6,,1,,SIVEP-Malaria,,São João da Baliza,Roraima
+1809,4416,,2025,7,,4,,SIVEP-Malaria,,São João da Baliza,Roraima
+1810,4416,,2025,8,,1,,SIVEP-Malaria,,São João da Baliza,Roraima
+1811,4416,,2025,9,,1,,SIVEP-Malaria,,São João da Baliza,Roraima
+1812,4416,,2025,10,,2,,SIVEP-Malaria,,São João da Baliza,Roraima
+1813,4416,,2025,11,,6,,SIVEP-Malaria,,São João da Baliza,Roraima
+1814,4416,,2025,12,,6,,SIVEP-Malaria,,São João da Baliza,Roraima
+1815,2542,,2025,1,,1,,SIVEP-Malaria,,São João de Pirabas,Pará
+1816,1316,,2025,4,,1,,SIVEP-Malaria,,São Mateus do Maranhão,Maranhão
+1817,1317,,2025,2,,1,,SIVEP-Malaria,,São Pedro da Água Branca,Maranhão
+1818,2545,,2025,1,,3,,SIVEP-Malaria,,São Sebastião da Boa Vista,Pará
+1819,2545,,2025,2,,2,,SIVEP-Malaria,,São Sebastião da Boa Vista,Pará
+1820,2545,,2025,3,,2,,SIVEP-Malaria,,São Sebastião da Boa Vista,Pará
+1821,2545,,2025,6,,2,,SIVEP-Malaria,,São Sebastião da Boa Vista,Pará
+1822,2545,,2025,7,,1,,SIVEP-Malaria,,São Sebastião da Boa Vista,Pará
+1823,2545,,2025,8,,3,,SIVEP-Malaria,,São Sebastião da Boa Vista,Pará
+1824,2545,,2025,9,,3,,SIVEP-Malaria,,São Sebastião da Boa Vista,Pará
+1825,2545,,2025,10,,1,,SIVEP-Malaria,,São Sebastião da Boa Vista,Pará
+1826,2545,,2025,11,,2,,SIVEP-Malaria,,São Sebastião da Boa Vista,Pará
+1827,2545,,2025,12,,4,,SIVEP-Malaria,,São Sebastião da Boa Vista,Pará
+1828,194,,2025,1,,1,,SIVEP-Malaria,,São Sebastião do Uatumã,Amazonas
+1829,194,,2025,6,,1,,SIVEP-Malaria,,São Sebastião do Uatumã,Amazonas
+1830,194,,2025,10,,2,,SIVEP-Malaria,,São Sebastião do Uatumã,Amazonas
+1831,5303,,2024,12,,4,,SIVEP-Malaria,,Tabatinga,São Paulo
+1832,5303,,2025,1,,36,,SIVEP-Malaria,,Tabatinga,São Paulo
+1833,5303,,2025,2,,47,,SIVEP-Malaria,,Tabatinga,São Paulo
+1834,5303,,2025,3,,45,,SIVEP-Malaria,,Tabatinga,São Paulo
+1835,5303,,2025,4,,29,,SIVEP-Malaria,,Tabatinga,São Paulo
+1836,5303,,2025,5,,51,,SIVEP-Malaria,,Tabatinga,São Paulo
+1837,5303,,2025,6,,43,,SIVEP-Malaria,,Tabatinga,São Paulo
+1838,5303,,2025,7,,36,,SIVEP-Malaria,,Tabatinga,São Paulo
+1839,5303,,2025,8,,26,,SIVEP-Malaria,,Tabatinga,São Paulo
+1840,5303,,2025,9,,14,,SIVEP-Malaria,,Tabatinga,São Paulo
+1841,5303,,2025,10,,17,,SIVEP-Malaria,,Tabatinga,São Paulo
+1842,5303,,2025,11,,8,,SIVEP-Malaria,,Tabatinga,São Paulo
+1843,5303,,2025,12,,9,,SIVEP-Malaria,,Tabatinga,São Paulo
+1844,2549,,2025,6,,2,,SIVEP-Malaria,,Tailândia,Pará
+1845,2549,,2025,8,,1,,SIVEP-Malaria,,Tailândia,Pará
+1846,197,,2024,12,,8,,SIVEP-Malaria,,Tapauá,Amazonas
+1847,197,,2025,1,,118,,SIVEP-Malaria,,Tapauá,Amazonas
+1848,197,,2025,2,,84,,SIVEP-Malaria,,Tapauá,Amazonas
+1849,197,,2025,3,,155,,SIVEP-Malaria,,Tapauá,Amazonas
+1850,197,,2025,4,,93,,SIVEP-Malaria,,Tapauá,Amazonas
+1851,197,,2025,5,,140,,SIVEP-Malaria,,Tapauá,Amazonas
+1852,197,,2025,6,,149,,SIVEP-Malaria,,Tapauá,Amazonas
+1853,197,,2025,7,,195,,SIVEP-Malaria,,Tapauá,Amazonas
+1854,197,,2025,8,,206,,SIVEP-Malaria,,Tapauá,Amazonas
+1855,197,,2025,9,,137,,SIVEP-Malaria,,Tapauá,Amazonas
+1856,197,,2025,10,,91,,SIVEP-Malaria,,Tapauá,Amazonas
+1857,197,,2025,11,,57,,SIVEP-Malaria,,Tapauá,Amazonas
+1858,197,,2025,12,,22,,SIVEP-Malaria,,Tapauá,Amazonas
+1859,21,,2024,12,,1,,SIVEP-Malaria,,Tarauacá,Acre
+1860,21,,2025,1,,18,,SIVEP-Malaria,,Tarauacá,Acre
+1861,21,,2025,2,,8,,SIVEP-Malaria,,Tarauacá,Acre
+1862,21,,2025,3,,6,,SIVEP-Malaria,,Tarauacá,Acre
+1863,21,,2025,4,,3,,SIVEP-Malaria,,Tarauacá,Acre
+1864,21,,2025,5,,7,,SIVEP-Malaria,,Tarauacá,Acre
+1865,21,,2025,6,,3,,SIVEP-Malaria,,Tarauacá,Acre
+1866,21,,2025,7,,9,,SIVEP-Malaria,,Tarauacá,Acre
+1867,21,,2025,8,,5,,SIVEP-Malaria,,Tarauacá,Acre
+1868,21,,2025,10,,1,,SIVEP-Malaria,,Tarauacá,Acre
+1869,139,,2025,1,,4,,SIVEP-Malaria,,Tartarugalzinho,Amapá
+1870,139,,2025,2,,3,,SIVEP-Malaria,,Tartarugalzinho,Amapá
+1871,139,,2025,3,,2,,SIVEP-Malaria,,Tartarugalzinho,Amapá
+1872,139,,2025,4,,10,,SIVEP-Malaria,,Tartarugalzinho,Amapá
+1873,139,,2025,5,,2,,SIVEP-Malaria,,Tartarugalzinho,Amapá
+1874,139,,2025,6,,2,,SIVEP-Malaria,,Tartarugalzinho,Amapá
+1875,139,,2025,7,,3,,SIVEP-Malaria,,Tartarugalzinho,Amapá
+1876,139,,2025,8,,1,,SIVEP-Malaria,,Tartarugalzinho,Amapá
+1877,139,,2025,9,,2,,SIVEP-Malaria,,Tartarugalzinho,Amapá
+1878,139,,2025,10,,2,,SIVEP-Malaria,,Tartarugalzinho,Amapá
+1879,139,,2025,11,,5,,SIVEP-Malaria,,Tartarugalzinho,Amapá
+1880,139,,2025,12,,6,,SIVEP-Malaria,,Tartarugalzinho,Amapá
+1881,2550,,2025,9,,1,,SIVEP-Malaria,,Terra Alta,Pará
+1882,2550,,2025,11,,1,,SIVEP-Malaria,,Terra Alta,Pará
+1883,2550,,2025,12,,1,,SIVEP-Malaria,,Terra Alta,Pará
+1884,1478,,2025,7,,2,,SIVEP-Malaria,,Terra Nova do Norte,Mato Grosso
+1885,1478,,2025,8,,1,,SIVEP-Malaria,,Terra Nova do Norte,Mato Grosso
+1886,1478,,2025,9,,1,,SIVEP-Malaria,,Terra Nova do Norte,Mato Grosso
+1887,1478,,2025,10,,1,,SIVEP-Malaria,,Terra Nova do Norte,Mato Grosso
+1888,2551,,2025,10,,1,,SIVEP-Malaria,,Terra Santa,Pará
+1889,4399,,2025,9,,1,,SIVEP-Malaria,,Theobroma,Rondônia
+1890,4399,,2025,10,,3,,SIVEP-Malaria,,Theobroma,Rondônia
+1891,199,,2024,12,,6,,SIVEP-Malaria,,Tonantins,Amazonas
+1892,199,,2025,1,,100,,SIVEP-Malaria,,Tonantins,Amazonas
+1893,199,,2025,2,,188,,SIVEP-Malaria,,Tonantins,Amazonas
+1894,199,,2025,3,,79,,SIVEP-Malaria,,Tonantins,Amazonas
+1895,199,,2025,4,,118,,SIVEP-Malaria,,Tonantins,Amazonas
+1896,199,,2025,5,,110,,SIVEP-Malaria,,Tonantins,Amazonas
+1897,199,,2025,6,,130,,SIVEP-Malaria,,Tonantins,Amazonas
+1898,199,,2025,7,,93,,SIVEP-Malaria,,Tonantins,Amazonas
+1899,199,,2025,8,,158,,SIVEP-Malaria,,Tonantins,Amazonas
+1900,199,,2025,9,,106,,SIVEP-Malaria,,Tonantins,Amazonas
+1901,199,,2025,10,,189,,SIVEP-Malaria,,Tonantins,Amazonas
+1902,199,,2025,11,,72,,SIVEP-Malaria,,Tonantins,Amazonas
+1903,199,,2025,12,,91,,SIVEP-Malaria,,Tonantins,Amazonas
+1904,2554,,2025,1,,2,,SIVEP-Malaria,,Trairão,Pará
+1905,2554,,2025,2,,4,,SIVEP-Malaria,,Trairão,Pará
+1906,2554,,2025,3,,2,,SIVEP-Malaria,,Trairão,Pará
+1907,2554,,2025,4,,1,,SIVEP-Malaria,,Trairão,Pará
+1908,2554,,2025,5,,2,,SIVEP-Malaria,,Trairão,Pará
+1909,2554,,2025,7,,2,,SIVEP-Malaria,,Trairão,Pará
+1910,2554,,2025,9,,1,,SIVEP-Malaria,,Trairão,Pará
+1911,2554,,2025,10,,2,,SIVEP-Malaria,,Trairão,Pará
+1912,2554,,2025,11,,2,,SIVEP-Malaria,,Trairão,Pará
+1913,2554,,2025,12,,6,,SIVEP-Malaria,,Trairão,Pará
+1914,1333,,2025,2,,1,,SIVEP-Malaria,,Trizidela do Vale,Maranhão
+1915,2555,,2025,1,,2,,SIVEP-Malaria,,Tucumã,Pará
+1916,2555,,2025,3,,1,,SIVEP-Malaria,,Tucumã,Pará
+1917,2555,,2025,4,,1,,SIVEP-Malaria,,Tucumã,Pará
+1918,2555,,2025,6,,2,,SIVEP-Malaria,,Tucumã,Pará
+1919,2555,,2025,10,,1,,SIVEP-Malaria,,Tucumã,Pará
+1920,2555,,2025,12,,1,,SIVEP-Malaria,,Tucumã,Pará
+1921,1337,,2025,1,,1,,SIVEP-Malaria,,Turilândia,Maranhão
+1922,1337,,2025,6,,1,,SIVEP-Malaria,,Turilândia,Maranhão
+1923,1337,,2025,7,,1,,SIVEP-Malaria,,Turilândia,Maranhão
+1924,1337,,2025,9,,1,,SIVEP-Malaria,,Turilândia,Maranhão
+1925,200,,2024,11,,1,,SIVEP-Malaria,,Uarini,Amazonas
+1926,200,,2024,12,,3,,SIVEP-Malaria,,Uarini,Amazonas
+1927,200,,2025,1,,83,,SIVEP-Malaria,,Uarini,Amazonas
+1928,200,,2025,2,,48,,SIVEP-Malaria,,Uarini,Amazonas
+1929,200,,2025,3,,52,,SIVEP-Malaria,,Uarini,Amazonas
+1930,200,,2025,4,,47,,SIVEP-Malaria,,Uarini,Amazonas
+1931,200,,2025,5,,60,,SIVEP-Malaria,,Uarini,Amazonas
+1932,200,,2025,6,,56,,SIVEP-Malaria,,Uarini,Amazonas
+1933,200,,2025,7,,110,,SIVEP-Malaria,,Uarini,Amazonas
+1934,200,,2025,8,,102,,SIVEP-Malaria,,Uarini,Amazonas
+1935,200,,2025,9,,85,,SIVEP-Malaria,,Uarini,Amazonas
+1936,200,,2025,10,,109,,SIVEP-Malaria,,Uarini,Amazonas
+1937,200,,2025,11,,77,,SIVEP-Malaria,,Uarini,Amazonas
+1938,200,,2025,12,,46,,SIVEP-Malaria,,Uarini,Amazonas
+1939,4418,,2024,12,,9,,SIVEP-Malaria,,Uiramutã,Roraima
+1940,4418,,2025,1,,126,,SIVEP-Malaria,,Uiramutã,Roraima
+1941,4418,,2025,2,,51,,SIVEP-Malaria,,Uiramutã,Roraima
+1942,4418,,2025,3,,39,,SIVEP-Malaria,,Uiramutã,Roraima
+1943,4418,,2025,4,,29,,SIVEP-Malaria,,Uiramutã,Roraima
+1944,4418,,2025,5,,64,,SIVEP-Malaria,,Uiramutã,Roraima
+1945,4418,,2025,6,,83,,SIVEP-Malaria,,Uiramutã,Roraima
+1946,4418,,2025,7,,46,,SIVEP-Malaria,,Uiramutã,Roraima
+1947,4418,,2025,8,,40,,SIVEP-Malaria,,Uiramutã,Roraima
+1948,4418,,2025,9,,19,,SIVEP-Malaria,,Uiramutã,Roraima
+1949,4418,,2025,10,,15,,SIVEP-Malaria,,Uiramutã,Roraima
+1950,4418,,2025,11,,20,,SIVEP-Malaria,,Uiramutã,Roraima
+1951,4418,,2025,12,,12,,SIVEP-Malaria,,Uiramutã,Roraima
+1952,1481,,2025,11,,1,,SIVEP-Malaria,,União do Sul,Mato Grosso
+1953,2558,,2025,5,,1,,SIVEP-Malaria,,Uruará,Pará
+1954,2558,,2025,8,,1,,SIVEP-Malaria,,Uruará,Pará
+1955,2558,,2025,11,,1,,SIVEP-Malaria,,Uruará,Pará
+1956,201,,2025,4,,1,,SIVEP-Malaria,,Urucará,Amazonas
+1957,202,,2025,10,,1,,SIVEP-Malaria,,Urucurituba,Amazonas
+1958,4400,,2025,10,,1,,SIVEP-Malaria,,Urupá,Rondônia
+1959,4401,,2025,8,,1,,SIVEP-Malaria,,Vale do Anari,Rondônia
+1960,4401,,2025,9,,1,,SIVEP-Malaria,,Vale do Anari,Rondônia
+1961,4401,,2025,10,,1,,SIVEP-Malaria,,Vale do Anari,Rondônia
+1962,4401,,2025,11,,1,,SIVEP-Malaria,,Vale do Anari,Rondônia
+1963,4401,,2025,12,,1,,SIVEP-Malaria,,Vale do Anari,Rondônia
+1964,2559,,2025,3,,2,,SIVEP-Malaria,,Vigia,Pará
+1965,4403,,2025,6,,2,,SIVEP-Malaria,,Vilhena,Rondônia
+1966,4403,,2025,11,,1,,SIVEP-Malaria,,Vilhena,Rondônia
+1967,2560,,2025,1,,1,,SIVEP-Malaria,,Viseu,Pará
+1968,2560,,2025,7,,1,,SIVEP-Malaria,,Viseu,Pará
+1969,1344,,2025,9,,1,,SIVEP-Malaria,,Vitorino Freire,Maranhão
+1970,5571,,2025,6,,1,,SIVEP-Malaria,,Wanderlândia,Tocantins
+1971,5572,,2025,1,,1,,SIVEP-Malaria,,Xambioá,Tocantins
+1972,5572,,2025,8,,1,,SIVEP-Malaria,,Xambioá,Tocantins

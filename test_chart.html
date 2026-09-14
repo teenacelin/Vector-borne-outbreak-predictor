@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+<canvas id="c"></canvas>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+const ctx = document.getElementById('c').getContext('2d');
+new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: ['A', 'B'],
+        datasets: [{ label: 'test', data: [100, 200] }]
+    },
+    options: { indexAxis: 'y' }
+});
+</script>
+</body>
+</html>
